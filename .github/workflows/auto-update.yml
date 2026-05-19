@@ -2,8 +2,20 @@ name: auto-update
 
 on:
   workflow_dispatch:
+    inputs:
+      phase:
+        description: "Run phase: auto selects by current UTC hour; morning=09:00 KST prediction; close=16:00 KST close analysis"
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - morning
+          - close
   schedule:
-    # 16:00 KST on Korean market weekdays, after the 15:30 close.
+    # 09:00 KST weekday prediction before/near market open.
+    - cron: '0 0 * * 1-5'
+    # 16:00 KST weekday same-day close analysis after the 15:30 close.
     - cron: '0 7 * * 1-5'
 
 permissions:
@@ -17,22 +29,42 @@ jobs:
         with:
           fetch-depth: 0
       - uses: astral-sh/setup-uv@v5
+      - name: Resolve update phase
+        id: phase
+        run: |
+          PHASE="${{ github.event.inputs.phase || 'auto' }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "${{ github.event.schedule }}" = "0 0 * * 1-5" ]; then
+              PHASE="morning"
+            else
+              PHASE="close"
+            fi
+          elif [ "$PHASE" = "auto" ]; then
+            HOUR_UTC=$(date -u +%H)
+            if [ "$HOUR_UTC" = "00" ]; then
+              PHASE="morning"
+            else
+              PHASE="close"
+            fi
+          fi
+          echo "phase=$PHASE" >> "$GITHUB_OUTPUT"
+          echo "Resolved phase: $PHASE"
       - name: Verify unit tests before update
         run: PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Collect public data and rebuild dashboard
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: PYTHONPATH=src uv run python scripts/update.py --dashboard-url https://domineyh.github.io/korea-market-dashboard/
+        run: PYTHONPATH=src uv run python scripts/update.py --phase ${{ steps.phase.outputs.phase }} --dashboard-url https://domineyh.github.io/korea-market-dashboard/
       - name: Verify unit tests after update
         run: PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Commit refreshed dashboard outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/backtest.json reports/latest.md reports/backtest.md docs/index.html
+          git add data/latest.json data/backtest.json data/morning.json data/close-analysis.json reports/latest.md reports/backtest.md reports/morning-prediction.md reports/close-analysis.md docs/index.html
           if git diff --cached --quiet; then
             echo "No dashboard changes to commit."
           else
-            git commit -m "Update Korea market dashboard [skip ci]"
+            git commit -m "Update Korea market dashboard (${{ steps.phase.outputs.phase }}) [skip ci]"
             git push
           fi

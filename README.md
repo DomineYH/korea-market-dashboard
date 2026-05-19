@@ -6,27 +6,43 @@
 
 - Dashboard: https://domineyh.github.io/korea-market-dashboard/
 - Latest report: [`reports/latest.md`](reports/latest.md)
+- 09:00 prediction report: [`reports/morning-prediction.md`](reports/morning-prediction.md)
+- 16:00 close analysis report: [`reports/close-analysis.md`](reports/close-analysis.md)
 - Backtest report: [`reports/backtest.md`](reports/backtest.md)
 - Machine-readable payload: [`data/latest.json`](data/latest.json)
 
+## Daily Schedule
+
+| KST | UTC cron | Phase | Output |
+|---:|---|---|---|
+| 09:00 | `0 0 * * 1-5` | Morning prediction | `reports/morning-prediction.md`, `data/morning.json`, latest dashboard |
+| 16:00 | `0 7 * * 1-5` | Same-day close analysis + correction | `reports/close-analysis.md`, `data/close-analysis.json`, latest dashboard |
+
+The 16:00 run loads the saved 09:00 prediction, compares it with the same-day KOSPI/KOSDAQ movement, records hit/miss, and applies the close data by recalculating `latest` report/dashboard artifacts.
+
 ## Current Features
 
-1. **Daily auto-update**
+1. **Twice-daily auto-update**
    - GitHub Actions workflow: [`.github/workflows/auto-update.yml`](.github/workflows/auto-update.yml)
-   - Schedule: `0 7 * * 1-5` = 16:00 KST on weekdays, after the 15:30 Korean market close
-   - Collects public data, rebuilds `docs/index.html`, `reports/*.md`, `data/*.json`, commits, and pushes.
+   - 09:00 KST: public data collection + opening prediction.
+   - 16:00 KST: same-day close analysis, prediction-vs-actual review, and latest dashboard correction.
+   - Workflow dispatch supports `phase=auto|morning|close`.
 
 2. **Prediction model table**
    - Signals are scored from `-2.0` to `+2.0`.
    - Inputs include foreign/retail/institution flows, USD/KRW, SOX, U.S. rates, VIX, WTI, sectors, BOK base rate, and news headlines.
    - Produces aggregate short-term and medium-term verdicts.
 
-3. **Backtest**
+3. **Intraday review**
+   - `src/korea_market_dashboard/intraday.py` compares the 09:00 prediction with the 16:00 market state.
+   - It records KOSPI/KOSDAQ intraday changes, primary hit/miss, and the correction action.
+
+4. **Backtest**
    - Uses historical Yahoo Finance KOSPI/KOSDAQ price series.
    - Current baseline is a transparent 20-session momentum rule with 5-session forward horizon.
    - Outputs hit rate, average forward return, and suggested model weight.
 
-4. **Alerts**
+5. **Alerts**
    - `scripts/update.py` compares the previous and current short-term verdict.
    - If the verdict bias changes and `DISCORD_WEBHOOK_URL` exists as a GitHub Actions secret, it posts a Discord webhook alert.
    - Configure secret:
@@ -34,7 +50,7 @@
      gh secret set DISCORD_WEBHOOK_URL --repo DomineYH/korea-market-dashboard --body 'https://discord.com/api/webhooks/...'
      ```
 
-5. **Enhanced dashboard**
+6. **Enhanced dashboard**
    - Canvas price chart for KOSPI/KOSDAQ.
    - Separate KOSPI and KOSDAQ model cards.
    - Sector signal table.
@@ -56,16 +72,22 @@
 PYTHONPATH=src uv run python scripts/generate.py
 ```
 
+### Generate a 09:00 prediction phase artifact
+
+```bash
+PYTHONPATH=src uv run python scripts/update.py --phase morning --no-alert
+```
+
+### Generate a 16:00 close analysis phase artifact
+
+```bash
+PYTHONPATH=src uv run python scripts/update.py --phase close --no-alert
+```
+
 ### Generate from a saved snapshot
 
 ```bash
-PYTHONPATH=src uv run python scripts/generate.py --input /path/to/snapshot.json
-```
-
-### Full auto-update path locally
-
-```bash
-PYTHONPATH=src uv run python scripts/update.py --no-alert
+PYTHONPATH=src uv run python scripts/generate.py --input /path/to/snapshot.json --phase manual
 ```
 
 ## Tests
@@ -77,10 +99,14 @@ PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
 ## Outputs
 
 - `docs/index.html` — GitHub Pages dashboard
-- `reports/latest.md` — Markdown market report
-- `reports/backtest.md` — Backtest report
-- `data/latest.json` — Snapshot + prediction payload
-- `data/backtest.json` — Backtest metrics
+- `reports/latest.md` — latest Markdown market report
+- `reports/morning-prediction.md` — 09:00 prediction report
+- `reports/close-analysis.md` — 16:00 same-day analysis and correction report
+- `reports/backtest.md` — backtest report
+- `data/latest.json` — snapshot + prediction payload
+- `data/morning.json` — saved 09:00 prediction payload
+- `data/close-analysis.json` — same-day prediction-vs-actual analysis
+- `data/backtest.json` — backtest metrics
 
 ## Disclaimer
 

@@ -1,0 +1,27 @@
+{
+  "phase": "close",
+  "morning_generated_kst": "2026-05-19T10:49:44+09:00",
+  "close_generated_kst": "2026-05-19T10:52:01+09:00",
+  "morning_prediction_label": "하락/조정 우세",
+  "morning_prediction_bias": "bearish",
+  "close_prediction_label": "하락/조정 우세",
+  "primary_market": "KOSPI",
+  "primary_hit": true,
+  "markets": {
+    "KOSPI": {
+      "morning": 7227.95,
+      "close": 7211.93,
+      "change_pct": -0.22
+    },
+    "KOSDAQ": {
+      "morning": 1072.83,
+      "close": 1071.83,
+      "change_pct": -0.09
+    }
+  },
+  "adjustment": {
+    "action": "가중치 유지",
+    "reason": "오전 9시 예측이 KOSPI 당일 방향과 일치했습니다. 오후 4시 데이터로 최신 리포트와 대시보드를 갱신했습니다.",
+    "applied": true
+  }
+}

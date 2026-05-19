@@ -16,6 +16,7 @@ from korea_market_dashboard.site import build_site  # noqa: E402
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build the Korea market dashboard from a snapshot JSON file or live public data.")
     parser.add_argument("--input", default="", help="Path to collected market snapshot JSON. If omitted, live public data is collected.")
+    parser.add_argument("--phase", choices=["manual", "morning", "close"], default="manual", help="Output phase label and phase-specific artifacts")
     parser.add_argument("--root", default=str(ROOT), help="Project root where docs/reports/data are written")
     args = parser.parse_args()
 
@@ -26,7 +27,7 @@ def main() -> int:
         snapshot = json.loads(input_path.read_text(encoding="utf-8"))
     else:
         snapshot = collect_snapshot()
-    written = build_site(snapshot, Path(args.root))
+    written = build_site(snapshot, Path(args.root), phase=args.phase)
     print(json.dumps(written, ensure_ascii=False, indent=2))
     return 0
 
