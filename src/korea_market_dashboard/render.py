@@ -27,6 +27,23 @@ def _top_news(snapshot: dict[str, Any], limit: int = 8) -> list[dict[str, Any]]:
     return items
 
 
+def _market_models(prediction: dict[str, Any]) -> dict[str, Any]:
+    return prediction.get("market_models") or {}
+
+
+def _backtest(prediction: dict[str, Any]) -> dict[str, Any]:
+    return prediction.get("backtest") or {}
+
+
+def _sector_rows(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
+    sectors = snapshot.get("sectors") or {}
+    rows: list[dict[str, Any]] = []
+    for group, direction in [("top", "상승"), ("bottom", "하락")]:
+        for row in sectors.get(group, []) or []:
+            rows.append({**row, "direction": direction})
+    return rows
+
+
 def render_report_markdown(snapshot: dict[str, Any], prediction: dict[str, Any]) -> str:
     generated = snapshot.get("generated_kst") or datetime.now(timezone.utc).isoformat(timespec="seconds")
     short = prediction.get("short_term", {})
@@ -57,16 +74,43 @@ def render_report_markdown(snapshot: dict[str, Any], prediction: dict[str, Any])
         f"| VIX | {_fmt(vix.get('latest'))} | 위험선호/공포 지표 |",
         f"| WTI | {_fmt(oil.get('latest'))} | 1M {_fmt(oil.get('1m_change_pct'), '%')} |",
         "",
+        "## KOSPI/KOSDAQ 분리 모델",
+        "",
+        "| 시장 | 단기 판정 | 중기 판정 | 총점 | 상승점수 | 하락점수 |",
+        "|---|---|---|---:|---:|---:|",
+    ]
+    for market, model in _market_models(prediction).items():
+        lines.append(
+            f"| {market} | {model.get('short_term', {}).get('label', 'N/A')} | {model.get('medium_term', {}).get('label', 'N/A')} | "
+            f"{model.get('total_score', 'N/A')} | {model.get('positive_score', 'N/A')} | {model.get('negative_score', 'N/A')} |"
+        )
+    lines.extend([
+        "",
         "## 예측 모델표",
         "",
         "| 분류 | 신호 | 관측값 | 방향 | 점수 | 가중 | 해석 |",
         "|---|---|---|---|---:|---|---|",
-    ]
+    ])
     for row in prediction.get("signals", []) or []:
         lines.append(
             f"| {row.get('category','')} | {row.get('factor','')} | {row.get('observed','')} | "
             f"{row.get('direction','')} | {row.get('score','')} | {row.get('weight','')} | {row.get('rationale','')} |"
         )
+
+    backtest = _backtest(prediction)
+    if backtest.get("markets"):
+        lines.extend([
+            "",
+            "## 백테스트 요약",
+            "",
+            "| 시장 | 표본 | 승률 | 평균 선행수익률 | 제안 가중치 | 우수 신호 |",
+            "|---|---:|---:|---:|---:|---|",
+        ])
+        for market, row in backtest.get("markets", {}).items():
+            lines.append(
+                f"| {market} | {row.get('samples', 0)} | {float(row.get('hit_rate', 0)):.2%} | "
+                f"{float(row.get('avg_forward_return', 0)):.2f}% | {float(row.get('suggested_weight', 0)):.2f} | {row.get('best_signal_label', '')} |"
+            )
 
     lines.extend([
         "",
@@ -88,7 +132,7 @@ def render_report_markdown(snapshot: dict[str, Any], prediction: dict[str, Any])
         "",
         "## 방법론",
         "",
-        "각 신호를 -2.0~+2.0 범위로 점수화했습니다. 점수는 예측 모델의 투명성을 위한 휴리스틱이며, 향후 백테스트로 보정할 수 있습니다.",
+        "각 신호를 -2.0~+2.0 범위로 점수화했습니다. 점수는 예측 모델의 투명성을 위한 휴리스틱이며, 백테스트 결과로 가중치를 보정할 수 있습니다.",
     ])
     return "\n".join(lines) + "\n"
 
@@ -101,6 +145,18 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
         f"<td>{_safe(row.get('observed'))}</td><td class='dir'>{_safe(row.get('direction'))}</td>"
         f"<td class='score'>{_safe(row.get('score'))}</td><td>{_safe(row.get('weight'))}</td><td>{_safe(row.get('rationale'))}</td></tr>"
         for row in prediction.get("signals", []) or []
+    )
+    market_cards = "\n".join(
+        f"<div class='mini-card'><div class='muted'>{_safe(market)} 모델</div><div class='metric small'>{_safe(model.get('short_term', {}).get('label'))}</div><p>총점 {_safe(model.get('total_score'))} · 중기 {_safe(model.get('medium_term', {}).get('label'))}</p></div>"
+        for market, model in _market_models(prediction).items()
+    )
+    sector_rows = "\n".join(
+        f"<tr><td>{_safe(row.get('direction'))}</td><td>{_safe(row.get('sector'))}</td><td class='score'>{_safe(row.get('change_pct'))}%</td><td>{_safe(row.get('up'))}</td><td>{_safe(row.get('down'))}</td></tr>"
+        for row in _sector_rows(snapshot)
+    )
+    backtest_rows = "\n".join(
+        f"<tr><td>{_safe(market)}</td><td>{_safe(row.get('samples'))}</td><td>{float(row.get('hit_rate', 0)):.2%}</td><td>{float(row.get('suggested_weight', 0)):.2f}</td><td>{_safe(row.get('best_signal_label'))}</td></tr>"
+        for market, row in (_backtest(prediction).get("markets") or {}).items()
     )
     news_items = "\n".join(
         f"<li><a href='{_safe(item.get('link'))}' target='_blank' rel='noreferrer'>{_safe(item.get('title'))}</a><span>{_safe(item.get('source'))}</span></li>"
@@ -126,9 +182,9 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
     .grid {{ display:grid; gap:18px; grid-template-columns:repeat(12,1fr); }}
     .card {{ grid-column:span 4; background:rgba(16,24,39,.88); border:1px solid rgba(255,255,255,.08); border-radius:22px; padding:22px; box-shadow:0 18px 48px rgba(0,0,0,.25); }}
     .wide {{ grid-column:span 12; }} .half {{ grid-column:span 6; }}
-    .metric {{ font-size:34px; font-weight:800; margin:.2rem 0; }}
+    .metric {{ font-size:34px; font-weight:800; margin:.2rem 0; }} .metric.small {{ font-size:22px; }}
     .muted {{ color:var(--muted); }}
-    .verdict.bearish {{ color:var(--red); }} .verdict.bullish {{ color:var(--green); }} .verdict.conditional_bullish {{ color:var(--yellow); }}
+    .verdict.bearish {{ color:var(--red); }} .verdict.bullish {{ color:var(--green); }} .verdict.conditional_bullish,.verdict.mild_bullish,.verdict.mild_bearish {{ color:var(--yellow); }}
     table {{ width:100%; border-collapse:collapse; font-size:14px; }}
     th,td {{ padding:12px 10px; border-bottom:1px solid rgba(255,255,255,.08); vertical-align:top; }}
     th {{ color:#b9c7da; text-align:left; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }}
@@ -137,13 +193,15 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
     .pos {{ background:linear-gradient(90deg,#1d8f5a,var(--green)); }} .neg {{ background:linear-gradient(90deg,var(--red),#9f1239); }}
     .news li {{ margin:12px 0; }} .news span {{ display:block; color:var(--muted); font-size:12px; margin-top:2px; }}
     .pill {{ display:inline-flex; padding:6px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.14); color:#c8d6ea; margin:4px 6px 4px 0; font-size:12px; }}
+    .mini-grid {{ display:grid; gap:12px; grid-template-columns:repeat(2,minmax(0,1fr)); }} .mini-card {{ border:1px solid rgba(255,255,255,.1); border-radius:16px; padding:16px; background:rgba(255,255,255,.03); }}
+    canvas {{ width:100%; height:260px; background:#0b1220; border-radius:16px; border:1px solid rgba(255,255,255,.08); }}
     footer {{ color:var(--muted); padding:24px min(6vw,72px) 50px; border-top:1px solid rgba(255,255,255,.08); }}
-    @media (max-width:900px) {{ .card,.half {{ grid-column:span 12; }} table {{ font-size:12px; }} th,td {{ padding:9px 6px; }} }}
+    @media (max-width:900px) {{ .card,.half {{ grid-column:span 12; }} .mini-grid {{ grid-template-columns:1fr; }} table {{ font-size:12px; }} th,td {{ padding:9px 6px; }} }}
   </style>
 </head>
 <body>
 <header>
-  <div class="eyebrow">Public data · heuristic model · GitHub Pages</div>
+  <div class="eyebrow">Public data · heuristic model · GitHub Pages · Auto update</div>
   <h1>{title}</h1>
   <p class="subtitle">외국인 수급, 환율, 반도체 사이클, 글로벌 금리/리스크, 업종 흐름을 투명한 점수표로 합산해 KOSPI/KOSDAQ의 단기·중기 방향성을 추정합니다.</p>
 </header>
@@ -169,12 +227,24 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
     <p class="muted">생성 시각: {_safe(snapshot.get('generated_kst'))}</p>
   </section>
   <section class="card half">
-    <h2>해석</h2>
-    <p>현재 모델은 단기적으로 외국인 매도·원화 약세·SOX 조정·유가/금리 부담을 더 크게 반영합니다. 중기적으로는 반도체/HBM 및 수출 사이클이 유지될 경우 상승 추세 복귀 가능성을 열어둡니다.</p>
+    <h2>KOSPI/KOSDAQ 분리 모델</h2>
+    <div class="mini-grid">{market_cards}</div>
+  </section>
+  <section class="card wide">
+    <h2>가격 차트</h2>
+    <canvas id="marketChart" width="1200" height="320" aria-label="KOSPI and KOSDAQ line chart"></canvas>
   </section>
   <section class="card wide">
     <h2>예측 모델표</h2>
     <table><thead><tr><th>분류</th><th>신호</th><th>관측값</th><th>방향</th><th>점수</th><th>가중</th><th>해석</th></tr></thead><tbody>{signal_rows}</tbody></table>
+  </section>
+  <section class="card half">
+    <h2>섹터 신호표</h2>
+    <table><thead><tr><th>방향</th><th>섹터</th><th>등락</th><th>상승</th><th>하락</th></tr></thead><tbody>{sector_rows}</tbody></table>
+  </section>
+  <section class="card half">
+    <h2>백테스트</h2>
+    <table><thead><tr><th>시장</th><th>표본</th><th>승률</th><th>제안가중</th><th>우수신호</th></tr></thead><tbody>{backtest_rows}</tbody></table>
   </section>
   <section class="card wide">
     <h2>주요 뉴스</h2>
@@ -195,8 +265,30 @@ window.MARKET_DATA = {payload};
   const bias = p.short_term && p.short_term.bias;
   if (bias) short.classList.add(bias);
   document.querySelectorAll('td.score').forEach(td => {{
-    const n = Number(td.textContent);
+    const n = Number(String(td.textContent).replace('%',''));
     td.style.color = n > 0 ? 'var(--green)' : n < 0 ? 'var(--red)' : 'var(--muted)';
+  }});
+  const canvas = document.getElementById('marketChart');
+  const ctx = canvas.getContext('2d');
+  const series = [
+    ['KOSPI', (window.MARKET_DATA.snapshot.yahoo_market.KOSPI || {{}}).history || [], '#68a7ff'],
+    ['KOSDAQ', (window.MARKET_DATA.snapshot.yahoo_market.KOSDAQ || {{}}).history || [], '#47d18c']
+  ];
+  const points = series.flatMap(s => s[1].slice(-90).map(p => Number(p.close))).filter(Number.isFinite);
+  const min = Math.min(...points), max = Math.max(...points);
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.strokeStyle = 'rgba(255,255,255,.15)'; ctx.lineWidth = 1;
+  for (let i=0;i<5;i++) {{ const y = 30 + i*(canvas.height-60)/4; ctx.beginPath(); ctx.moveTo(40,y); ctx.lineTo(canvas.width-20,y); ctx.stroke(); }}
+  series.forEach(([name, raw, color], idx) => {{
+    const data = raw.slice(-90);
+    if (data.length < 2 || !Number.isFinite(min) || !Number.isFinite(max) || max === min) return;
+    ctx.strokeStyle = color; ctx.lineWidth = 3; ctx.beginPath();
+    data.forEach((row, i) => {{
+      const x = 40 + i * (canvas.width-70) / (data.length-1);
+      const y = canvas.height - 30 - ((Number(row.close)-min)/(max-min)) * (canvas.height-60);
+      if (i === 0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+    }});
+    ctx.stroke(); ctx.fillStyle = color; ctx.fillText(name, 48, 28 + idx*18);
   }});
 }})();
 </script>

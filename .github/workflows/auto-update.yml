@@ -1,0 +1,38 @@
+name: auto-update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 16:00 KST on Korean market weekdays, after the 15:30 close.
+    - cron: '0 7 * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v5
+      - name: Verify unit tests before update
+        run: PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Collect public data and rebuild dashboard
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: PYTHONPATH=src uv run python scripts/update.py --dashboard-url https://domineyh.github.io/korea-market-dashboard/
+      - name: Verify unit tests after update
+        run: PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Commit refreshed dashboard outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/backtest.json reports/latest.md reports/backtest.md docs/index.html
+          if git diff --cached --quiet; then
+            echo "No dashboard changes to commit."
+          else
+            git commit -m "Update Korea market dashboard [skip ci]"
+            git push
+          fi
