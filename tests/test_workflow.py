@@ -15,6 +15,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("DISCORD_WEBHOOK_URL", text)
         self.assertIn("reports/morning-prediction.md", text)
         self.assertIn("reports/close-analysis.md", text)
+        self.assertIn("data/feedback.json", text)
         self.assertIn("git push", text)
 
 

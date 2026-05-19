@@ -35,6 +35,10 @@ def _backtest(prediction: dict[str, Any]) -> dict[str, Any]:
     return prediction.get("backtest") or {}
 
 
+def _feedback(prediction: dict[str, Any]) -> dict[str, Any]:
+    return prediction.get("feedback") or {}
+
+
 def _sector_rows(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
     sectors = snapshot.get("sectors") or {}
     rows: list[dict[str, Any]] = []
@@ -112,6 +116,19 @@ def render_report_markdown(snapshot: dict[str, Any], prediction: dict[str, Any])
                 f"{float(row.get('avg_forward_return', 0)):.2f}% | {float(row.get('suggested_weight', 0)):.2f} | {row.get('best_signal_label', '')} |"
             )
 
+    feedback = _feedback(prediction)
+    if feedback:
+        lines.extend([
+            "",
+            "## 피드백 반영",
+            "",
+            f"- 적용 여부: {'적용' if feedback.get('applied') else '미적용'}",
+            f"- 점수 보정: **{float(feedback.get('score_adjustment', 0)):+.2f}**",
+            f"- 누적 표본: {feedback.get('samples', 0)}",
+            f"- 누적 적중률: {float(feedback.get('hit_rate', 0)):.2%}",
+            f"- 최근 피드백: {feedback.get('summary', 'N/A')}",
+        ])
+
     lines.extend([
         "",
         "## 결론",
@@ -158,6 +175,17 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
         f"<tr><td>{_safe(market)}</td><td>{_safe(row.get('samples'))}</td><td>{float(row.get('hit_rate', 0)):.2%}</td><td>{float(row.get('suggested_weight', 0)):.2f}</td><td>{_safe(row.get('best_signal_label'))}</td></tr>"
         for market, row in (_backtest(prediction).get("markets") or {}).items()
     )
+    feedback = _feedback(prediction)
+    feedback_card = ""
+    if feedback:
+        feedback_card = (
+            "<section class='card wide'><h2>피드백 반영</h2>"
+            f"<p><span class='pill'>적용 {'예' if feedback.get('applied') else '아니오'}</span>"
+            f"<span class='pill'>점수 보정 {float(feedback.get('score_adjustment', 0)):+.2f}</span>"
+            f"<span class='pill'>표본 {feedback.get('samples', 0)}</span>"
+            f"<span class='pill'>적중률 {float(feedback.get('hit_rate', 0)):.2%}</span></p>"
+            f"<p class='muted'>{_safe(feedback.get('summary', 'N/A'))}</p></section>"
+        )
     news_items = "\n".join(
         f"<li><a href='{_safe(item.get('link'))}' target='_blank' rel='noreferrer'>{_safe(item.get('title'))}</a><span>{_safe(item.get('source'))}</span></li>"
         for item in _top_news(snapshot, 10)
@@ -234,6 +262,7 @@ def render_dashboard_html(snapshot: dict[str, Any], prediction: dict[str, Any]) 
     <h2>가격 차트</h2>
     <canvas id="marketChart" width="1200" height="320" aria-label="KOSPI and KOSDAQ line chart"></canvas>
   </section>
+  {feedback_card}
   <section class="card wide">
     <h2>예측 모델표</h2>
     <table><thead><tr><th>분류</th><th>신호</th><th>관측값</th><th>방향</th><th>점수</th><th>가중</th><th>해석</th></tr></thead><tbody>{signal_rows}</tbody></table>

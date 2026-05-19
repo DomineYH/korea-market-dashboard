@@ -56,7 +56,7 @@ class SiteBuildTests(unittest.TestCase):
             payload = json.loads((root / "data" / "morning.json").read_text(encoding="utf-8"))
             self.assertEqual(payload["snapshot"]["run_phase"], "morning")
 
-    def test_build_site_close_phase_writes_close_analysis_using_morning_payload(self):
+    def test_build_site_close_phase_writes_close_analysis_and_feedback_state(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
             morning_written = build_site(snapshot(kospi="100.00", kosdaq="200.00", generated="2026-05-19T09:00:00+09:00"), root, phase="morning")
@@ -64,10 +64,51 @@ class SiteBuildTests(unittest.TestCase):
             written = build_site(snapshot(kospi="98.00", kosdaq="201.00", generated="2026-05-19T16:00:00+09:00"), root, phase="close", morning_payload=morning_payload)
             self.assertTrue((root / "reports" / "close-analysis.md").exists())
             self.assertTrue((root / "data" / "close-analysis.json").exists())
-            self.assertIn("close_analysis_report", written)
+            self.assertTrue((root / "data" / "feedback.json").exists())
+            self.assertIn("feedback_data", written)
             analysis = json.loads((root / "data" / "close-analysis.json").read_text(encoding="utf-8"))
             self.assertEqual(analysis["phase"], "close")
+            self.assertTrue(analysis["feedback_eligible"])
             self.assertIn("primary_hit", analysis)
+            feedback = json.loads((root / "data" / "feedback.json").read_text(encoding="utf-8"))
+            self.assertEqual(feedback["samples"], 1)
+            self.assertIn("next_session_score_adjustment", feedback)
+
+    def test_build_site_close_phase_does_not_count_stale_or_duplicate_feedback(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            stale_morning_payload = {
+                "snapshot": {"generated_kst": "2026-05-18T09:00:00+09:00", "naver_indices": {"KOSPI": {"now_value": "100.00"}, "KOSDAQ": {"now_value": "200.00"}}},
+                "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -3.0},
+            }
+            build_site(snapshot(kospi="98.00", kosdaq="201.00", generated="2026-05-19T16:00:00+09:00"), root, phase="close", morning_payload=stale_morning_payload)
+            feedback = json.loads((root / "data" / "feedback.json").read_text(encoding="utf-8"))
+            self.assertEqual(feedback["samples"], 0)
+            self.assertIn("last_skipped_feedback", feedback)
+
+            morning_payload = {
+                "snapshot": {"generated_kst": "2026-05-19T09:00:00+09:00", "naver_indices": {"KOSPI": {"now_value": "100.00"}, "KOSDAQ": {"now_value": "200.00"}}},
+                "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -3.0},
+            }
+            build_site(snapshot(kospi="98.00", kosdaq="201.00", generated="2026-05-19T16:00:00+09:00"), root, phase="close", morning_payload=morning_payload)
+            build_site(snapshot(kospi="97.00", kosdaq="202.00", generated="2026-05-19T16:30:00+09:00"), root, phase="close", morning_payload=morning_payload)
+            feedback = json.loads((root / "data" / "feedback.json").read_text(encoding="utf-8"))
+            self.assertEqual(feedback["samples"], 1)
+
+    def test_next_morning_applies_feedback_from_previous_close(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            # Create a missed bearish prediction, so feedback should push the next session score upward.
+            morning_payload = {
+                "snapshot": {"generated_kst": "2026-05-19T09:00:00+09:00", "naver_indices": {"KOSPI": {"now_value": "100.00"}, "KOSDAQ": {"now_value": "200.00"}}},
+                "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -3.0},
+            }
+            build_site(snapshot(kospi="102.00", kosdaq="202.00", generated="2026-05-19T16:00:00+09:00"), root, phase="close", morning_payload=morning_payload)
+            written = build_site(snapshot(generated="2026-05-20T09:00:00+09:00"), root, phase="morning")
+            payload = json.loads(Path(written["morning_data"]).read_text(encoding="utf-8"))
+            self.assertTrue(payload["prediction"]["feedback"]["applied"])
+            self.assertGreater(payload["prediction"]["feedback"]["score_adjustment"], 0)
+            self.assertTrue(any(row["id"] == "feedback_next_session_adjustment" for row in payload["prediction"]["signals"]))
 
 
 if __name__ == "__main__":

@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/backtest.json data/morning.json data/close-analysis.json reports/latest.md reports/backtest.md reports/morning-prediction.md reports/close-analysis.md docs/index.html
+          git add data/latest.json data/backtest.json data/morning.json data/close-analysis.json data/feedback.json reports/latest.md reports/backtest.md reports/morning-prediction.md reports/close-analysis.md docs/index.html
           if git diff --cached --quiet; then
             echo "No dashboard changes to commit."
           else

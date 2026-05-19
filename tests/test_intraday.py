@@ -25,10 +25,49 @@ class IntradayAnalysisTests(unittest.TestCase):
         self.assertEqual(analysis["phase"], "close")
         self.assertEqual(analysis["morning_prediction_label"], "하락/조정 우세")
         self.assertEqual(analysis["primary_market"], "KOSPI")
+        self.assertTrue(analysis["feedback_eligible"])
+        self.assertEqual(analysis["trading_date"], "2026-05-19")
         self.assertTrue(analysis["primary_hit"])
         self.assertEqual(analysis["markets"]["KOSPI"]["change_pct"], -2.0)
         self.assertEqual(analysis["markets"]["KOSDAQ"]["change_pct"], 0.5)
         self.assertIn("유지", analysis["adjustment"]["action"])
+
+    def test_build_close_analysis_marks_missing_morning_payload_ineligible(self):
+        close = {
+            "snapshot": {
+                "generated_kst": "2026-05-19T16:00:00+09:00",
+                "naver_indices": {"KOSPI": {"now_value": "98.00"}, "KOSDAQ": {"now_value": "201.00"}},
+            },
+            "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -2.0},
+        }
+
+        analysis = build_close_analysis(None, close)
+
+        self.assertFalse(analysis["feedback_eligible"])
+        self.assertFalse(analysis["adjustment"]["applied"])
+        self.assertIn("payload", analysis["feedback_reason"])
+
+    def test_build_close_analysis_marks_stale_morning_payload_ineligible(self):
+        morning = {
+            "snapshot": {
+                "generated_kst": "2026-05-18T09:00:00+09:00",
+                "naver_indices": {"KOSPI": {"now_value": "100.00"}, "KOSDAQ": {"now_value": "200.00"}},
+            },
+            "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -3.0},
+        }
+        close = {
+            "snapshot": {
+                "generated_kst": "2026-05-19T16:00:00+09:00",
+                "naver_indices": {"KOSPI": {"now_value": "98.00"}, "KOSDAQ": {"now_value": "201.00"}},
+            },
+            "prediction": {"short_term": {"label": "하락/조정 우세", "bias": "bearish"}, "total_score": -2.0},
+        }
+
+        analysis = build_close_analysis(morning, close)
+
+        self.assertFalse(analysis["feedback_eligible"])
+        self.assertFalse(analysis["adjustment"]["applied"])
+        self.assertIn("달라", analysis["feedback_reason"])
 
     def test_render_close_analysis_markdown_contains_prediction_and_result(self):
         analysis = {
@@ -38,6 +77,8 @@ class IntradayAnalysisTests(unittest.TestCase):
             "morning_prediction_label": "하락/조정 우세",
             "primary_market": "KOSPI",
             "primary_hit": True,
+            "feedback_eligible": True,
+            "feedback_reason": "동일 거래일 오전 예측과 마감 데이터를 비교했습니다.",
             "markets": {"KOSPI": {"morning": 100.0, "close": 98.0, "change_pct": -2.0}},
             "adjustment": {"action": "가중치 유지", "reason": "예측 적중"},
         }
@@ -47,6 +88,7 @@ class IntradayAnalysisTests(unittest.TestCase):
         self.assertIn("# 오후 4시 당일 장세 분석", md)
         self.assertIn("오전 9시 예측", md)
         self.assertIn("적중", md)
+        self.assertIn("피드백 반영 가능 여부", md)
         self.assertIn("가중치 유지", md)
 
 

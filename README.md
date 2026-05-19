@@ -37,12 +37,18 @@ The 16:00 run loads the saved 09:00 prediction, compares it with the same-day KO
    - `src/korea_market_dashboard/intraday.py` compares the 09:00 prediction with the 16:00 market state.
    - It records KOSPI/KOSDAQ intraday changes, primary hit/miss, and the correction action.
 
-4. **Backtest**
+4. **Close-analysis feedback loop**
+   - `src/korea_market_dashboard/feedback.py` persists the 16:00 prediction-vs-actual result to `data/feedback.json`.
+   - The next 09:00/manual run loads that state, adds a dynamic feedback signal, and slightly adjusts the short-term score.
+   - Stale, missing, or duplicate same-day close analyses are skipped so the persistent sample count is not polluted by retries.
+   - Reports and dashboard cards show whether feedback was applied, the adjustment size, sample count, hit rate, and latest feedback summary.
+
+5. **Backtest**
    - Uses historical Yahoo Finance KOSPI/KOSDAQ price series.
    - Current baseline is a transparent 20-session momentum rule with 5-session forward horizon.
    - Outputs hit rate, average forward return, and suggested model weight.
 
-5. **Alerts**
+6. **Alerts**
    - `scripts/update.py` compares the previous and current short-term verdict.
    - If the verdict bias changes and `DISCORD_WEBHOOK_URL` exists as a GitHub Actions secret, it posts a Discord webhook alert.
    - Configure secret:
@@ -50,7 +56,7 @@ The 16:00 run loads the saved 09:00 prediction, compares it with the same-day KO
      gh secret set DISCORD_WEBHOOK_URL --repo DomineYH/korea-market-dashboard --body 'https://discord.com/api/webhooks/...'
      ```
 
-6. **Enhanced dashboard**
+7. **Enhanced dashboard**
    - Canvas price chart for KOSPI/KOSDAQ.
    - Separate KOSPI and KOSDAQ model cards.
    - Sector signal table.
@@ -106,6 +112,7 @@ PYTHONPATH=src uv run python -m unittest discover -s tests -p 'test_*.py' -v
 - `data/latest.json` — snapshot + prediction payload
 - `data/morning.json` — saved 09:00 prediction payload
 - `data/close-analysis.json` — same-day prediction-vs-actual analysis
+- `data/feedback.json` — persistent close-analysis feedback used by the next prediction run
 - `data/backtest.json` — backtest metrics
 
 ## Disclaimer
