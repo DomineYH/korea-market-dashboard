@@ -1,25 +1,25 @@
 {
   "phase": "close",
-  "morning_generated_kst": "2026-06-11T10:00:45+09:00",
-  "close_generated_kst": "2026-06-11T17:36:19+09:00",
-  "trading_date": "2026-06-11",
-  "morning_prediction_label": "하락/조정 우세",
-  "morning_prediction_bias": "bearish",
-  "close_prediction_label": "하락/조정 우세",
+  "morning_generated_kst": "2026-06-12T10:03:56+09:00",
+  "close_generated_kst": "2026-06-12T17:34:04+09:00",
+  "trading_date": "2026-06-12",
+  "morning_prediction_label": "중립",
+  "morning_prediction_bias": "neutral",
+  "close_prediction_label": "상승 우세",
   "primary_market": "KOSPI",
   "primary_hit": false,
   "feedback_eligible": true,
   "feedback_reason": "동일 거래일 오전 예측과 마감 데이터를 비교했습니다.",
   "markets": {
     "KOSPI": {
-      "morning": 7641.19,
-      "close": 7763.95,
-      "change_pct": 1.61
+      "morning": 8353.09,
+      "close": 8123.62,
+      "change_pct": -2.75
     },
     "KOSDAQ": {
-      "morning": 965.2,
-      "close": 996.93,
-      "change_pct": 3.29
+      "morning": 1034.56,
+      "close": 1029.05,
+      "change_pct": -0.53
     }
   },
   "adjustment": {
