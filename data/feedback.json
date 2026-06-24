@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "samples": 26,
-  "hits": 11,
+  "samples": 27,
+  "hits": 12,
   "misses": 15,
-  "hit_rate": 0.4231,
-  "next_session_score_adjustment": -0.62,
+  "hit_rate": 0.4444,
+  "next_session_score_adjustment": -0.46,
   "last_actual_bias": "bearish",
   "last_feedback": {
-    "summary": "전일 09시 예측 불일치: 예측=mild_bullish, 실제=bearish(-8.69%)",
-    "hit": false,
-    "predicted_bias": "mild_bullish",
+    "summary": "전일 09시 예측 적중: 예측=mild_bearish, 실제=bearish(-0.73%)",
+    "hit": true,
+    "predicted_bias": "mild_bearish",
     "actual_bias": "bearish",
-    "kospi_change_pct": -8.69,
-    "close_generated_kst": "2026-06-23T17:15:14+09:00",
-    "trading_date": "2026-06-23"
+    "kospi_change_pct": -0.73,
+    "close_generated_kst": "2026-06-24T17:12:18+09:00",
+    "trading_date": "2026-06-24"
   }
 }
