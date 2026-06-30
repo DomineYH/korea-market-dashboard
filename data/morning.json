@@ -1,47 +1,60 @@
 {
   "snapshot": {
-    "generated_utc": "2026-06-29T00:59:47Z",
-    "generated_kst": "2026-06-29T09:59:47+09:00",
+    "generated_utc": "2026-06-30T00:56:16Z",
+    "generated_kst": "2026-06-30T09:56:16+09:00",
     "naver_indices": {
       "KOSPI": {
         "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI",
-        "now_value": "8,320.14",
-        "change_value_and_rate": "91.07",
-        "quant": "133,883",
-        "amount": "13,229,542",
-        "high_value": "8,334.28",
-        "low_value": "8,127.99",
+        "now_value": "8,316.92",
+        "change_value_and_rate": "77.73",
+        "quant": "130,263",
+        "amount": "10,866,058",
+        "high_value": "8,513.94",
+        "low_value": "8,220.80",
         "direction_class": "dn",
-        "timestamp_text": "2026-06-29 09:46"
+        "timestamp_text": "2026-06-30 09:44"
       },
       "KOSDAQ": {
         "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ",
-        "now_value": "902.60",
-        "change_value_and_rate": "51.23",
-        "quant": "196,846",
-        "amount": "3,075,508",
-        "high_value": "907.69",
-        "low_value": "859.33",
-        "direction_class": "up",
-        "timestamp_text": "2026-06-29 09:53"
+        "now_value": "917.46",
+        "change_value_and_rate": "3.11",
+        "quant": "233,995",
+        "amount": "2,639,406",
+        "high_value": "935.27",
+        "low_value": "912.04",
+        "direction_class": "dn",
+        "timestamp_text": "2026-06-30 09:43"
       }
     },
     "investor_flows_억원": {
       "KOSPI": {
-        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260629&sosok=01",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260630&sosok=01",
         "rows": [
           {
+            "date": "26.06.30",
+            "individual": 6648.0,
+            "foreign": -12211.0,
+            "institution_total": 5374.0,
+            "financial_investment": 4541.0,
+            "insurance": 132.0,
+            "investment_trust_private": 1766.0,
+            "bank": -69.0,
+            "other_financial": 13.0,
+            "pension": -1009.0,
+            "other_corporations": 189.0
+          },
+          {
             "date": "26.06.29",
-            "individual": 16170.0,
-            "foreign": -25459.0,
-            "institution_total": 8542.0,
-            "financial_investment": 6197.0,
-            "insurance": -39.0,
-            "investment_trust_private": 210.0,
-            "bank": -52.0,
-            "other_financial": 9.0,
-            "pension": 2217.0,
-            "other_corporations": 747.0
+            "individual": 45975.0,
+            "foreign": -77332.0,
+            "institution_total": 29327.0,
+            "financial_investment": 30270.0,
+            "insurance": 40.0,
+            "investment_trust_private": -1419.0,
+            "bank": -112.0,
+            "other_financial": -33.0,
+            "pension": 581.0,
+            "other_corporations": 2030.0
           },
           {
             "date": "26.06.26",
@@ -146,55 +159,55 @@
             "other_financial": 73.0,
             "pension": -1676.0,
             "other_corporations": -1259.0
-          },
-          {
-            "date": "26.06.16",
-            "individual": -21841.0,
-            "foreign": 15353.0,
-            "institution_total": 7076.0,
-            "financial_investment": 2129.0,
-            "insurance": -335.0,
-            "investment_trust_private": 5928.0,
-            "bank": 47.0,
-            "other_financial": -355.0,
-            "pension": -338.0,
-            "other_corporations": -588.0
           }
         ],
         "sums_억원": {
           "5d": {
-            "individual": 186175.0,
-            "foreign": -165712.0,
-            "institution_total": -25103.0,
-            "financial_investment": 6857.0,
-            "pension": -1096.0,
-            "other_corporations": 4640.0
+            "individual": 136718.0,
+            "foreign": -187749.0,
+            "institution_total": 45816.0,
+            "financial_investment": 56379.0,
+            "pension": -804.0,
+            "other_corporations": 5214.0
           },
           "10d": {
-            "individual": 203416.0,
-            "foreign": -176556.0,
-            "institution_total": -28962.0,
-            "financial_investment": 18622.0,
-            "pension": -14132.0,
-            "other_corporations": 2102.0
+            "individual": 261710.0,
+            "foreign": -255993.0,
+            "institution_total": -9879.0,
+            "financial_investment": 45107.0,
+            "pension": -16439.0,
+            "other_corporations": 4162.0
           }
         }
       },
       "KOSDAQ": {
-        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260629&sosok=02",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260630&sosok=02",
         "rows": [
           {
+            "date": "26.06.30",
+            "individual": 1823.0,
+            "foreign": -2261.0,
+            "institution_total": 460.0,
+            "financial_investment": 267.0,
+            "insurance": 15.0,
+            "investment_trust_private": 202.0,
+            "bank": -9.0,
+            "other_financial": -32.0,
+            "pension": 18.0,
+            "other_corporations": -22.0
+          },
+          {
             "date": "26.06.29",
-            "individual": -2673.0,
-            "foreign": 191.0,
-            "institution_total": 2548.0,
-            "financial_investment": 1841.0,
-            "insurance": 26.0,
-            "investment_trust_private": 570.0,
+            "individual": -5272.0,
+            "foreign": 266.0,
+            "institution_total": 5043.0,
+            "financial_investment": 5305.0,
+            "insurance": 52.0,
+            "investment_trust_private": -861.0,
             "bank": -2.0,
-            "other_financial": -2.0,
-            "pension": 116.0,
-            "other_corporations": -65.0
+            "other_financial": -13.0,
+            "pension": 562.0,
+            "other_corporations": -37.0
           },
           {
             "date": "26.06.26",
@@ -299,37 +312,24 @@
             "other_financial": -36.0,
             "pension": 311.0,
             "other_corporations": 36.0
-          },
-          {
-            "date": "26.06.16",
-            "individual": 7907.0,
-            "foreign": -3095.0,
-            "institution_total": -4630.0,
-            "financial_investment": -2087.0,
-            "insurance": -41.0,
-            "investment_trust_private": -2353.0,
-            "bank": 1.0,
-            "other_financial": -40.0,
-            "pension": -110.0,
-            "other_corporations": -183.0
           }
         ],
         "sums_억원": {
           "5d": {
-            "individual": -15072.0,
-            "foreign": 6339.0,
-            "institution_total": 8617.0,
-            "financial_investment": 9377.0,
-            "pension": 770.0,
-            "other_corporations": 118.0
+            "individual": -11869.0,
+            "foreign": 1407.0,
+            "institution_total": 10243.0,
+            "financial_investment": 9685.0,
+            "pension": 1341.0,
+            "other_corporations": 220.0
           },
           "10d": {
-            "individual": -7542.0,
-            "foreign": 10538.0,
-            "institution_total": -3155.0,
-            "financial_investment": 5115.0,
-            "pension": 1210.0,
-            "other_corporations": 161.0
+            "individual": -16225.0,
+            "foreign": 11447.0,
+            "institution_total": 4430.0,
+            "financial_investment": 10933.0,
+            "pension": 1784.0,
+            "other_corporations": 350.0
           }
         }
       }
@@ -338,186 +338,186 @@
       "source": "https://finance.naver.com/sise/sise_group.naver?type=upjong",
       "top": [
         {
-          "sector": "생명과학도구및서비스",
-          "change_pct": 13.15,
-          "stocks": 41.0,
-          "up": 31.0,
-          "flat": 6.0,
-          "down": 4.0,
-          "lead_pct": 100.0
-        },
-        {
-          "sector": "건강관리기술",
-          "change_pct": 12.19,
-          "stocks": 12.0,
-          "up": 12.0,
-          "flat": 0.0,
-          "down": 0.0,
-          "lead_pct": 92.0
-        },
-        {
-          "sector": "생물공학",
-          "change_pct": 11.41,
-          "stocks": 58.0,
-          "up": 52.0,
-          "flat": 3.0,
-          "down": 3.0,
-          "lead_pct": 86.0
-        },
-        {
           "sector": "레저용장비와제품",
-          "change_pct": 10.79,
+          "change_pct": 5.67,
           "stocks": 13.0,
-          "up": 10.0,
+          "up": 5.0,
           "flat": 1.0,
-          "down": 2.0,
-          "lead_pct": 82.0
+          "down": 7.0,
+          "lead_pct": 95.0
         },
         {
-          "sector": "에너지장비및서비스",
-          "change_pct": 8.84,
-          "stocks": 34.0,
-          "up": 29.0,
-          "flat": 0.0,
-          "down": 5.0,
-          "lead_pct": 67.0
-        },
-        {
-          "sector": "전기제품",
-          "change_pct": 8.3,
-          "stocks": 70.0,
-          "up": 60.0,
-          "flat": 5.0,
-          "down": 5.0,
-          "lead_pct": 63.0
-        },
-        {
-          "sector": "호텔,레스토랑,레저",
-          "change_pct": 7.71,
-          "stocks": 20.0,
-          "up": 19.0,
-          "flat": 0.0,
-          "down": 1.0,
-          "lead_pct": 58.0
-        },
-        {
-          "sector": "화장품",
-          "change_pct": 7.55,
-          "stocks": 65.0,
-          "up": 56.0,
-          "flat": 4.0,
-          "down": 5.0,
-          "lead_pct": 57.0
-        },
-        {
-          "sector": "건강관리업체및서비스",
-          "change_pct": 7.37,
-          "stocks": 29.0,
-          "up": 22.0,
-          "flat": 1.0,
-          "down": 6.0,
+          "sector": "전자장비와기기",
+          "change_pct": 3.34,
+          "stocks": 107.0,
+          "up": 38.0,
+          "flat": 8.0,
+          "down": 61.0,
           "lead_pct": 56.0
         },
         {
-          "sector": "건강관리장비와용품",
-          "change_pct": 7.18,
-          "stocks": 104.0,
-          "up": 79.0,
-          "flat": 12.0,
-          "down": 13.0,
-          "lead_pct": 54.0
-        }
-      ],
-      "bottom": [
-        {
-          "sector": "기타",
-          "change_pct": -0.23,
-          "stocks": 1521.0,
-          "up": 862.0,
-          "flat": 130.0,
-          "down": 529.0,
-          "lead_pct": 1.0
-        },
-        {
-          "sector": "항공사",
-          "change_pct": -0.31,
-          "stocks": 9.0,
-          "up": 5.0,
-          "flat": 0.0,
-          "down": 4.0,
-          "lead_pct": 2.0
-        },
-        {
-          "sector": "문구류",
-          "change_pct": -0.44,
-          "stocks": 1.0,
-          "up": 0.0,
-          "flat": 0.0,
-          "down": 1.0,
-          "lead_pct": 3.0
-        },
-        {
-          "sector": "운송인프라",
-          "change_pct": -1.03,
-          "stocks": 8.0,
-          "up": 4.0,
-          "flat": 0.0,
-          "down": 4.0,
-          "lead_pct": 7.0
-        },
-        {
-          "sector": "무선통신서비스",
-          "change_pct": -1.03,
-          "stocks": 4.0,
-          "up": 2.0,
-          "flat": 1.0,
-          "down": 1.0,
-          "lead_pct": 7.0
-        },
-        {
-          "sector": "석유와가스",
-          "change_pct": -1.21,
-          "stocks": 19.0,
-          "up": 14.0,
-          "flat": 1.0,
-          "down": 4.0,
-          "lead_pct": 9.0
-        },
-        {
-          "sector": "복합기업",
-          "change_pct": -1.83,
-          "stocks": 22.0,
-          "up": 18.0,
-          "flat": 0.0,
-          "down": 4.0,
-          "lead_pct": 13.0
+          "sector": "게임엔터테인먼트",
+          "change_pct": 3.04,
+          "stocks": 34.0,
+          "up": 22.0,
+          "flat": 3.0,
+          "down": 9.0,
+          "lead_pct": 51.0
         },
         {
           "sector": "전자제품",
-          "change_pct": -2.77,
+          "change_pct": 2.46,
           "stocks": 16.0,
           "up": 11.0,
           "flat": 0.0,
           "down": 5.0,
-          "lead_pct": 21.0
+          "lead_pct": 41.0
         },
         {
-          "sector": "반도체와반도체장비",
-          "change_pct": -3.1,
-          "stocks": 172.0,
-          "up": 139.0,
-          "flat": 2.0,
-          "down": 31.0,
+          "sector": "카드",
+          "change_pct": 2.25,
+          "stocks": 1.0,
+          "up": 1.0,
+          "flat": 0.0,
+          "down": 0.0,
+          "lead_pct": 37.0
+        },
+        {
+          "sector": "전기장비",
+          "change_pct": 2.22,
+          "stocks": 35.0,
+          "up": 16.0,
+          "flat": 4.0,
+          "down": 15.0,
+          "lead_pct": 37.0
+        },
+        {
+          "sector": "다각화된통신서비스",
+          "change_pct": 1.72,
+          "stocks": 3.0,
+          "up": 3.0,
+          "flat": 0.0,
+          "down": 0.0,
+          "lead_pct": 29.0
+        },
+        {
+          "sector": "백화점과일반상점",
+          "change_pct": 1.39,
+          "stocks": 14.0,
+          "up": 6.0,
+          "flat": 1.0,
+          "down": 7.0,
           "lead_pct": 23.0
         },
         {
-          "sector": "생명보험",
-          "change_pct": -4.03,
-          "stocks": 4.0,
-          "up": 1.0,
+          "sector": "건강관리기술",
+          "change_pct": 1.33,
+          "stocks": 12.0,
+          "up": 5.0,
+          "flat": 1.0,
+          "down": 6.0,
+          "lead_pct": 22.0
+        },
+        {
+          "sector": "건축제품",
+          "change_pct": 1.21,
+          "stocks": 11.0,
+          "up": 6.0,
           "flat": 0.0,
-          "down": 3.0,
-          "lead_pct": 30.0
+          "down": 5.0,
+          "lead_pct": 20.0
+        }
+      ],
+      "bottom": [
+        {
+          "sector": "생물공학",
+          "change_pct": -2.62,
+          "stocks": 58.0,
+          "up": 17.0,
+          "flat": 10.0,
+          "down": 31.0,
+          "lead_pct": 44.0
+        },
+        {
+          "sector": "제약",
+          "change_pct": -2.73,
+          "stocks": 174.0,
+          "up": 35.0,
+          "flat": 15.0,
+          "down": 124.0,
+          "lead_pct": 46.0
+        },
+        {
+          "sector": "디스플레이패널",
+          "change_pct": -2.74,
+          "stocks": 6.0,
+          "up": 1.0,
+          "flat": 3.0,
+          "down": 2.0,
+          "lead_pct": 46.0
+        },
+        {
+          "sector": "비철금속",
+          "change_pct": -2.76,
+          "stocks": 40.0,
+          "up": 14.0,
+          "flat": 5.0,
+          "down": 21.0,
+          "lead_pct": 46.0
+        },
+        {
+          "sector": "복합기업",
+          "change_pct": -3.04,
+          "stocks": 22.0,
+          "up": 6.0,
+          "flat": 0.0,
+          "down": 16.0,
+          "lead_pct": 51.0
+        },
+        {
+          "sector": "생명보험",
+          "change_pct": -3.41,
+          "stocks": 4.0,
+          "up": 2.0,
+          "flat": 0.0,
+          "down": 2.0,
+          "lead_pct": 57.0
+        },
+        {
+          "sector": "철강",
+          "change_pct": -3.54,
+          "stocks": 55.0,
+          "up": 18.0,
+          "flat": 1.0,
+          "down": 36.0,
+          "lead_pct": 59.0
+        },
+        {
+          "sector": "우주항공과국방",
+          "change_pct": -3.69,
+          "stocks": 33.0,
+          "up": 9.0,
+          "flat": 1.0,
+          "down": 23.0,
+          "lead_pct": 62.0
+        },
+        {
+          "sector": "화학",
+          "change_pct": -3.7,
+          "stocks": 122.0,
+          "up": 40.0,
+          "flat": 7.0,
+          "down": 75.0,
+          "lead_pct": 62.0
+        },
+        {
+          "sector": "전기제품",
+          "change_pct": -5.32,
+          "stocks": 70.0,
+          "up": 21.0,
+          "flat": 7.0,
+          "down": 42.0,
+          "lead_pct": 89.0
         }
       ],
       "count": 79
@@ -526,7 +526,7 @@
       "KOSPI": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 8177.38,
+        "regularMarketPrice": 8325.99,
         "history": [
           {
             "date": "2025-06-30",
@@ -1502,23 +1502,27 @@
           },
           {
             "date": "2026-06-29",
-            "close": 8177.3799
+            "close": 8394.6504
+          },
+          {
+            "date": "2026-06-30",
+            "close": 8325.9902
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 8177.3799,
-        "1d_change_pct": -2.78,
-        "1w_change_pct": -10.28,
-        "1m_change_pct": -0.1,
-        "3m_change_pct": 49.76,
-        "6m_change_pct": 104.72,
+        "latest_date": "2026-06-30",
+        "latest": 8325.9902,
+        "1d_change_pct": -0.82,
+        "1w_change_pct": 1.49,
+        "1m_change_pct": -1.77,
+        "3m_change_pct": 53.08,
+        "6m_change_pct": 107.09,
         "symbol": "^KS11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=1y&interval=1d"
       },
       "KOSDAQ": {
         "currency": "KRW",
         "exchange": "KOE",
-        "regularMarketPrice": 898.88,
+        "regularMarketPrice": 922.23,
         "history": [
           {
             "date": "2025-06-30",
@@ -2493,24 +2497,24 @@
             "close": 851.37
           },
           {
-            "date": "2026-06-29",
-            "close": 898.88
+            "date": "2026-06-30",
+            "close": 922.23
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 898.88,
-        "1d_change_pct": 5.58,
-        "1w_change_pct": -7.18,
-        "1m_change_pct": -18.61,
-        "3m_change_pct": -20.92,
-        "6m_change_pct": -0.27,
+        "latest_date": "2026-06-30",
+        "latest": 922.23,
+        "1d_change_pct": 8.32,
+        "1w_change_pct": -4.77,
+        "1m_change_pct": -16.49,
+        "3m_change_pct": -18.86,
+        "6m_change_pct": 2.32,
         "symbol": "^KQ11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKQ11?range=1y&interval=1d"
       },
       "KOSPI200": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 1320.63,
+        "regularMarketPrice": 1343.69,
         "history": [
           {
             "date": "2025-06-30",
@@ -3485,24 +3489,24 @@
             "close": 1366.49
           },
           {
-            "date": "2026-06-29",
-            "close": 1320.63
+            "date": "2026-06-30",
+            "close": 1343.6899
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 1320.63,
-        "1d_change_pct": -3.36,
-        "1w_change_pct": -10.6,
-        "1m_change_pct": 2.17,
-        "3m_change_pct": 63.26,
-        "6m_change_pct": 133.47,
+        "latest_date": "2026-06-30",
+        "latest": 1343.6899,
+        "1d_change_pct": -1.67,
+        "1w_change_pct": -9.04,
+        "1m_change_pct": 3.95,
+        "3m_change_pct": 66.12,
+        "6m_change_pct": 137.55,
         "symbol": "^KS200",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS200?range=1y&interval=1d"
       },
       "Samsung Electronics": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 322000.0,
+        "regularMarketPrice": 325500.0,
         "history": [
           {
             "date": "2025-06-30",
@@ -4474,23 +4478,27 @@
           },
           {
             "date": "2026-06-29",
-            "close": 322000.0
+            "close": 323000.0
+          },
+          {
+            "date": "2026-06-30",
+            "close": 325500.0
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 322000.0,
-        "1d_change_pct": -5.15,
-        "1w_change_pct": -8.91,
-        "1m_change_pct": 7.51,
-        "3m_change_pct": 78.79,
-        "6m_change_pct": 199.26,
+        "latest_date": "2026-06-30",
+        "latest": 325500.0,
+        "1d_change_pct": 0.77,
+        "1w_change_pct": 5.0,
+        "1m_change_pct": 2.68,
+        "3m_change_pct": 80.73,
+        "6m_change_pct": 206.21,
         "symbol": "005930.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=1y&interval=1d"
       },
       "SK Hynix": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 2549000.0,
+        "regularMarketPrice": 2588000.0,
         "history": [
           {
             "date": "2025-06-30",
@@ -5462,23 +5470,27 @@
           },
           {
             "date": "2026-06-29",
-            "close": 2549000.0
+            "close": 2628000.0
+          },
+          {
+            "date": "2026-06-30",
+            "close": 2588000.0
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 2549000.0,
-        "1d_change_pct": -4.64,
-        "1w_change_pct": -12.68,
-        "1m_change_pct": 11.36,
-        "3m_change_pct": 173.2,
-        "6m_change_pct": 361.78,
+        "latest_date": "2026-06-30",
+        "latest": 2588000.0,
+        "1d_change_pct": -1.52,
+        "1w_change_pct": 1.29,
+        "1m_change_pct": 10.93,
+        "3m_change_pct": 177.38,
+        "6m_change_pct": 373.13,
         "symbol": "000660.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=1y&interval=1d"
       },
       "Hyundai Motor": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 473500.0,
+        "regularMarketPrice": 490500.0,
         "history": [
           {
             "date": "2025-06-30",
@@ -6450,23 +6462,27 @@
           },
           {
             "date": "2026-06-29",
-            "close": 473500.0
+            "close": 497000.0
+          },
+          {
+            "date": "2026-06-30",
+            "close": 490500.0
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 473500.0,
-        "1d_change_pct": -1.46,
-        "1w_change_pct": -18.5,
-        "1m_change_pct": -30.06,
-        "3m_change_pct": -3.37,
-        "6m_change_pct": 67.61,
+        "latest_date": "2026-06-30",
+        "latest": 490500.0,
+        "1d_change_pct": -1.31,
+        "1w_change_pct": -4.01,
+        "1m_change_pct": -32.16,
+        "3m_change_pct": -0.91,
+        "6m_change_pct": 70.02,
         "symbol": "005380.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005380.KS?range=1y&interval=1d"
       },
       "NAVER": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 198900.0,
+        "regularMarketPrice": 200500.0,
         "history": [
           {
             "date": "2025-06-30",
@@ -7438,23 +7454,27 @@
           },
           {
             "date": "2026-06-29",
-            "close": 198900.0
+            "close": 204000.0
+          },
+          {
+            "date": "2026-06-30",
+            "close": 200500.0
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 198900.0,
-        "1d_change_pct": 1.27,
-        "1w_change_pct": -10.41,
-        "1m_change_pct": -2.98,
-        "3m_change_pct": -5.96,
-        "6m_change_pct": -13.71,
+        "latest_date": "2026-06-30",
+        "latest": 200500.0,
+        "1d_change_pct": -1.72,
+        "1w_change_pct": -0.99,
+        "1m_change_pct": -14.32,
+        "3m_change_pct": -5.2,
+        "6m_change_pct": -14.86,
         "symbol": "035420.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/035420.KS?range=1y&interval=1d"
       },
       "KRW per USD": {
         "currency": "KRW",
         "exchange": "CCY",
-        "regularMarketPrice": 1539.39,
+        "regularMarketPrice": 1543.18,
         "history": [
           {
             "date": "2025-06-29",
@@ -8489,25 +8509,29 @@
             "close": 1546.48
           },
           {
-            "date": "2026-06-29",
-            "close": 1539.39
+            "date": "2026-06-28",
+            "close": 1535.24
+          },
+          {
+            "date": "2026-06-30",
+            "close": 1543.1801
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 1539.39,
-        "1d_change_pct": -0.46,
-        "1w_change_pct": 0.53,
-        "1m_change_pct": 2.95,
-        "3m_change_pct": 2.4,
-        "6m_change_pct": 6.63,
-        "1y_change_pct": 11.98,
+        "latest_date": "2026-06-30",
+        "latest": 1543.1801,
+        "1d_change_pct": 0.52,
+        "1w_change_pct": 0.27,
+        "1m_change_pct": 2.41,
+        "3m_change_pct": 2.06,
+        "6m_change_pct": 7.13,
+        "1y_change_pct": 12.62,
         "symbol": "KRW=X",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=1y&interval=1d"
       },
       "US Dollar Index": {
         "currency": "USD",
         "exchange": "NYB",
-        "regularMarketPrice": 101.372,
+        "regularMarketPrice": 101.188,
         "history": [
           {
             "date": "2025-06-30",
@@ -9511,28 +9535,28 @@
           },
           {
             "date": "2026-06-29",
-            "close": 101.372
+            "close": 101.11
+          },
+          {
+            "date": "2026-06-30",
+            "close": 101.188
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 101.372,
-        "1d_change_pct": 0.01,
-        "1w_change_pct": 0.35,
-        "1m_change_pct": 2.38,
-        "3m_change_pct": 1.22,
-        "6m_change_pct": 3.46,
+        "latest_date": "2026-06-30",
+        "latest": 101.188,
+        "1d_change_pct": 0.08,
+        "1w_change_pct": -0.22,
+        "1m_change_pct": 2.3,
+        "3m_change_pct": 0.67,
+        "6m_change_pct": 3.23,
         "symbol": "DX-Y.NYB",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1y&interval=1d"
       },
       "S&P500": {
         "currency": "USD",
         "exchange": "SNP",
-        "regularMarketPrice": 7354.02,
+        "regularMarketPrice": 7440.43,
         "history": [
-          {
-            "date": "2025-06-27",
-            "close": 6173.0698
-          },
           {
             "date": "2025-06-30",
             "close": 6204.9502
@@ -10532,27 +10556,27 @@
           {
             "date": "2026-06-26",
             "close": 7354.02
+          },
+          {
+            "date": "2026-06-29",
+            "close": 7440.4302
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 7354.02,
-        "1d_change_pct": -0.05,
-        "1w_change_pct": -1.95,
-        "1m_change_pct": -2.21,
-        "3m_change_pct": 13.54,
-        "6m_change_pct": 6.43,
+        "latest_date": "2026-06-29",
+        "latest": 7440.4302,
+        "1d_change_pct": 1.18,
+        "1w_change_pct": -0.43,
+        "1m_change_pct": -1.63,
+        "3m_change_pct": 16.83,
+        "6m_change_pct": 7.33,
         "symbol": "^GSPC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1y&interval=1d"
       },
       "Nasdaq": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 25297.617,
+        "regularMarketPrice": 25820.145,
         "history": [
-          {
-            "date": "2025-06-27",
-            "close": 20273.4609
-          },
           {
             "date": "2025-06-30",
             "close": 20369.7305
@@ -11552,27 +11576,27 @@
           {
             "date": "2026-06-26",
             "close": 25297.6191
+          },
+          {
+            "date": "2026-06-29",
+            "close": 25820.1445
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 25297.6191,
-        "1d_change_pct": -0.24,
-        "1w_change_pct": -4.6,
-        "1m_change_pct": -5.16,
-        "3m_change_pct": 18.17,
-        "6m_change_pct": 7.37,
+        "latest_date": "2026-06-29",
+        "latest": 25820.1445,
+        "1d_change_pct": 2.07,
+        "1w_change_pct": -1.32,
+        "1m_change_pct": -4.08,
+        "3m_change_pct": 23.26,
+        "6m_change_pct": 9.35,
         "symbol": "^IXIC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=1y&interval=1d"
       },
       "Philadelphia SOX": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 13203.569,
+        "regularMarketPrice": 13709.66,
         "history": [
-          {
-            "date": "2025-06-27",
-            "close": 5544.9902
-          },
           {
             "date": "2025-06-30",
             "close": 5546.54
@@ -12572,31 +12596,27 @@
           {
             "date": "2026-06-26",
             "close": 13203.5703
+          },
+          {
+            "date": "2026-06-29",
+            "close": 13709.6602
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 13203.5703,
-        "1d_change_pct": -5.29,
-        "1w_change_pct": -7.94,
-        "1m_change_pct": 3.95,
-        "3m_change_pct": 74.05,
-        "6m_change_pct": 83.78,
+        "latest_date": "2026-06-29",
+        "latest": 13709.6602,
+        "1d_change_pct": 3.83,
+        "1w_change_pct": -6.32,
+        "1m_change_pct": 6.86,
+        "3m_change_pct": 83.83,
+        "6m_change_pct": 90.3,
         "symbol": "^SOX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d"
       },
       "VIX": {
         "currency": "USD",
         "exchange": "CXI",
-        "regularMarketPrice": 18.41,
+        "regularMarketPrice": 17.65,
         "history": [
-          {
-            "date": "2025-06-26",
-            "close": 16.59
-          },
-          {
-            "date": "2025-06-27",
-            "close": 16.32
-          },
           {
             "date": "2025-06-30",
             "close": 16.73
@@ -13600,32 +13620,27 @@
           {
             "date": "2026-06-26",
             "close": 18.41
+          },
+          {
+            "date": "2026-06-29",
+            "close": 17.65
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 18.41,
-        "1d_change_pct": -2.54,
-        "1w_change_pct": 12.26,
-        "1m_change_pct": 13.01,
-        "3m_change_pct": -40.71,
-        "6m_change_pct": 36.67,
-        "1y_change_pct": 10.97,
+        "latest_date": "2026-06-29",
+        "latest": 17.65,
+        "1d_change_pct": -4.13,
+        "1w_change_pct": 2.14,
+        "1m_change_pct": 12.13,
+        "3m_change_pct": -42.34,
+        "6m_change_pct": 29.78,
         "symbol": "^VIX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1y&interval=1d"
       },
       "US 10Y yield": {
         "currency": "USD",
         "exchange": "CGI",
-        "regularMarketPrice": 4.372,
+        "regularMarketPrice": 4.374,
         "history": [
-          {
-            "date": "2025-06-26",
-            "close": 4.253
-          },
-          {
-            "date": "2025-06-27",
-            "close": 4.283
-          },
           {
             "date": "2025-06-30",
             "close": 4.23
@@ -14625,22 +14640,26 @@
           {
             "date": "2026-06-26",
             "close": 4.372
+          },
+          {
+            "date": "2026-06-29",
+            "close": 4.374
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 4.372,
-        "1d_change_pct": -0.46,
-        "1w_change_pct": -1.77,
-        "1m_change_pct": -2.43,
-        "3m_change_pct": -1.0,
-        "6m_change_pct": 4.87,
+        "latest_date": "2026-06-29",
+        "latest": 4.374,
+        "1d_change_pct": 0.05,
+        "1w_change_pct": -2.99,
+        "1m_change_pct": -1.82,
+        "3m_change_pct": -1.49,
+        "6m_change_pct": 5.75,
         "symbol": "^TNX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d"
       },
       "WTI crude": {
         "currency": "USD",
         "exchange": "NYM",
-        "regularMarketPrice": 70.02,
+        "regularMarketPrice": 70.22,
         "history": [
           {
             "date": "2025-06-30",
@@ -15647,24 +15666,24 @@
             "close": 69.23
           },
           {
-            "date": "2026-06-29",
-            "close": 70.02
+            "date": "2026-06-30",
+            "close": 70.22
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 70.02,
-        "1d_change_pct": 1.14,
-        "1w_change_pct": -6.42,
-        "1m_change_pct": -21.24,
-        "3m_change_pct": -29.73,
-        "6m_change_pct": 20.0,
+        "latest_date": "2026-06-30",
+        "latest": 70.22,
+        "1d_change_pct": 1.43,
+        "1w_change_pct": -6.15,
+        "1m_change_pct": -21.01,
+        "3m_change_pct": -29.53,
+        "6m_change_pct": 20.34,
         "symbol": "CL=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=1y&interval=1d"
       },
       "Gold": {
         "currency": "USD",
         "exchange": "CMX",
-        "regularMarketPrice": 4079.0,
+        "regularMarketPrice": 4004.9,
         "history": [
           {
             "date": "2025-06-30",
@@ -16671,29 +16690,25 @@
             "close": 4078.7
           },
           {
-            "date": "2026-06-29",
-            "close": 4079.0
+            "date": "2026-06-30",
+            "close": 4004.8999
           }
         ],
-        "latest_date": "2026-06-29",
-        "latest": 4079.0,
-        "1d_change_pct": 0.01,
-        "1w_change_pct": -2.46,
-        "1m_change_pct": -9.34,
-        "3m_change_pct": -9.19,
-        "6m_change_pct": -8.96,
+        "latest_date": "2026-06-30",
+        "latest": 4004.8999,
+        "1d_change_pct": -1.81,
+        "1w_change_pct": -4.23,
+        "1m_change_pct": -10.99,
+        "3m_change_pct": -10.84,
+        "6m_change_pct": -10.62,
         "symbol": "GC=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=1y&interval=1d"
       },
       "iShares MSCI Korea ETF": {
         "currency": "USD",
         "exchange": "PCX",
-        "regularMarketPrice": 197.28,
+        "regularMarketPrice": 197.5,
         "history": [
-          {
-            "date": "2025-06-27",
-            "close": 70.74
-          },
           {
             "date": "2025-06-30",
             "close": 71.78
@@ -17693,15 +17708,19 @@
           {
             "date": "2026-06-26",
             "close": 197.28
+          },
+          {
+            "date": "2026-06-29",
+            "close": 197.5
           }
         ],
-        "latest_date": "2026-06-26",
-        "latest": 197.28,
-        "1d_change_pct": -3.77,
-        "1w_change_pct": -10.0,
-        "1m_change_pct": -0.51,
-        "3m_change_pct": 64.41,
-        "6m_change_pct": 112.82,
+        "latest_date": "2026-06-29",
+        "latest": 197.5,
+        "1d_change_pct": 0.11,
+        "1w_change_pct": -9.83,
+        "1m_change_pct": -4.32,
+        "3m_change_pct": 63.25,
+        "6m_change_pct": 108.77,
         "symbol": "EWY",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=1y&interval=1d"
       }
@@ -17822,16 +17841,16 @@
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Cc056NXd2Q1NQZ0hJOFFXcVVMNlJqaXl2MUNwZGx0X1BzUXNzbnk1c2Z1ckJSN0lTUjdJbzV4eE1SQnBmNnc0QWFrVmlySnVIdVZSWFRfbkZ2ejlEbnlKRVJBZlgyS2JHaG04dw?oc=5"
           },
           {
+            "title": "\"삼전·하닉 사도 원화는 안 사\"…치솟는 환율, 무슨 일이 [빈난새의 빈틈없이월가] - 한국경제",
+            "source": "한국경제",
+            "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4ydEc3WXlKaHNLcDRESnEzeGI0Tm9Fd0dBY2VlN29aNEZGOFZRR2REcXFqemVOdHhrWHprMEtnWHRBM3phWVJLWm5HSVItWUpwUkFLZzVXX25FQdIBVEFVX3lxTE1jZGpwVXdyTWhFbjVUZHpZMjJsVmpnRlZTSGszTW5tWEh3WmJkbWp5VTJSbjJUM2w2OE5RWHJCcjUya056Y0dfSlRXaXMzVlpjYURveg?oc=5"
+          },
+          {
             "title": "코스피 장중 급락, 삼성전자·SK하이닉스 지금 팔아야 할까? - 네이버 프리미엄콘텐츠",
             "source": "네이버 프리미엄콘텐츠",
             "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PV2dfOWFTOWV4RFl4WmotU202dHRnVWwxQTQ3N0Q0bThFSFRodmE0Q3JtUml1NnJNbzFNbVJ0SXdvME1ZSlpBdTM0SHhLQUg3WXVFZFJqNV8tNFVyaEdaeXRGTm1PTXZIQTVsczlabk01RklsVXRVSENsOXFPQQ?oc=5"
-          },
-          {
-            "title": "[주간증시] 유가·환율·반도체 ‘삼각 변수’…박스권 내 ‘조건부 장세’ - 에너지경제신문",
-            "source": "에너지경제신문",
-            "pubDate": "Sun, 22 Mar 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ELURYY1NNRnUxN2tPMnRrdzRRZFdSd3V4bU9QR3BnNDNObHpUV3lKM0JhOU8tWm1MRDIxQzRUWWI0SFJ6MHh5MHhoTngtcGo2WkhiRkpFWm9pQlU?oc=5"
           }
         ]
       },
@@ -17846,10 +17865,10 @@
             "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBET1gwT3drSk9NQXMtaU1jR092ZmpUQXdodWdvZV9XNFJXcWNaYTNNS1d5MURhY2RkQzdDQXJkRUxYNmpyakFDMXVPNldiWDRKS0tmTk94SVVESjBSamJPUmVjR2lVTDNkM1E?oc=5"
           },
           {
-            "title": "Just Two Companies Now Account for Half of Korea’s Stock Market Value… And That Could End in Disaster - 최보식의언론",
-            "source": "최보식의언론",
-            "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oNXFiQWM5Vm9FWFNJRmJyYVFuZ2hDbWZlOGhrSkVmRDBHbm5VM0ROZDRjY19RRERZVlJlTEdIYXFuTmVIbHZUc1pEOUl6T1RzR21reUh1cFNMYmxRUzZlZGRwcDXSAWhBVV95cUxPb29VZ0R2b2UwZ2RWX3NWWGxaTVZKclNsZzR3YThqZFRPaEtjNGhOU1p0eHFxQ0dZcnpWaTc1NmZKYzAtUlFlZTdxTTdCcGxYUU5zcFlENEFVLVpkcDNWVEV0c0Q0WjJ6ZQ?oc=5"
+            "title": "[Market Insight] Korea Stocks Face Middle East Shock, but Brokers See Volatility as an Entry Point - 한국면세뉴스",
+            "source": "한국면세뉴스",
+            "pubDate": "Wed, 04 Mar 2026 08:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vUnphSi1TMGh2LW16VlRFZV9tZGVGOUhaOVgzZHo1WXZmbEJ4Q0RaY3FiOHZBWmhnWTdlTEZFZmhIR2JESjhPeGIwR0k5T3JnaFk3QU5MelFrODFCOXRTUmdkTDNHZV8zNlE?oc=5"
           },
           {
             "title": "KOSPI Surges 3.7% to Close at 8788.38 Amid AI Stock Rally and Jensen Huang's Visit - Aju Press",
@@ -17906,16 +17925,16 @@
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5M3lJV0kxWTBYY2x5a05QOEt0RktiLUtyeUU3emYtT0pUd2NOdmNOYTRWd3pWU1dpeUpzNmN5TnA3NzdYUWJnZ1NoMDV0TjBPcnAtUXVnWkdHN3hkRmJDYjlWdF94X01sbWNmbtIBcEFVX3lxTE5EZ1I5YUlONjdsb2Y1d1hNeUJjSFNoSUR2Tm0ySUFkQndxa0ZRR3N6cUtob29ZYnFHXzZWNW9xMEpmcXdzRTRIajZCV0RKbHZqbS14VkVMaWRoTmI0UlFoN2hHMVBxa0pFcE5fYUhtd1E?oc=5"
           },
           {
+            "title": "반도체 ‘두 배 폭증’…1월 수출 658억달러, AI 사이클 본격화 신호 - mstoday.co.kr",
+            "source": "mstoday.co.kr",
+            "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5od09KZ2Z5UVd2UFF0REkyT0lJV3RHbnBiWUxtZmZwZDQ5dThOTXRUd1I1LU9LVkpLV2l2ejBycmhRSWNEeUFsSlBBWnpMcjJfaEdycTRmU2VGdFdZMkFaNkpybkZucVJVcTRRMA?oc=5"
+          },
+          {
             "title": "5월 수출 877억 달러로 역대 최대, 반도체 수출 지난해 대비 169% 상승 - 비즈니스포스트",
             "source": "비즈니스포스트",
             "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00M3F5anpzTlpVOUstdUdOcmFkdW9tMzBnNFVEcmVOdHYzaWszNlBYRVE0V2JrM2pNSkVKZjItU2xvbjhkQXg5WTJra0RfcXNiVHFvMmswY3VoSUZZdXlDUjVrbjNhZFdTNDZHRlJrUlFsVG8?oc=5"
-          },
-          {
-            "title": "5월 한국 수출액 '877억5000만달러'...월 기준 역대 최대 실적 - 이세종경제",
-            "source": "이세종경제",
-            "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeFo4cng1NmFOWVhlRk40RlppdVA1ZkpYaUNTZXRRem9WMENqLWZkSGhPaGhQWVJCZ2JHMXdlR3FOY1pjOHJKNy13cEsxNlhZakVzNExRWUNjRWlwWlE0U3RYZFNGNnRMdWlCZw?oc=5"
           },
           {
             "title": "5월 한국 수출 견인한 반도체…비중 42% 돌파 - 서울경제TV",
@@ -17924,10 +17943,10 @@
             "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hWDJraWJIb25qQ0FROTZNeWh5M1NXV1cwVVUwOV9rMlUwVWthX1g5MGVnYUtZazN1cVpFdWZnR0F2cHhXVl9sRTJYUzUwU2xlSk9OaThRUUtBQi1wcWRrWGxwSjQ?oc=5"
           },
           {
-            "title": "반도체 ‘두 배 폭증’…1월 수출 658억달러, AI 사이클 본격화 신호 - mstoday.co.kr",
-            "source": "mstoday.co.kr",
-            "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5od09KZ2Z5UVd2UFF0REkyT0lJV3RHbnBiWUxtZmZwZDQ5dThOTXRUd1I1LU9LVkpLV2l2ejBycmhRSWNEeUFsSlBBWnpMcjJfaEdycTRmU2VGdFdZMkFaNkpybkZucVJVcTRRMA?oc=5"
+            "title": "5월 한국 수출액 '877억5000만달러'...월 기준 역대 최대 실적 - 이세종경제",
+            "source": "이세종경제",
+            "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZeFo4cng1NmFOWVhlRk40RlppdVA1ZkpYaUNTZXRRem9WMENqLWZkSGhPaGhQWVJCZ2JHMXdlR3FOY1pjOHJKNy13cEsxNlhZakVzNExRWUNjRWlwWlE0U3RYZFNGNnRMdWlCZw?oc=5"
           },
           {
             "title": "“일본, 눈치껏 비켜줘”…1분기 수출 2199억 달러 ‘역대 최고’ - 매일경제",
@@ -17950,26 +17969,8 @@
           {
             "title": "미·이란 종전 합의에 금리 전망 변화?…한은 7월 인상론 여전 - 스트레이트뉴스",
             "source": "스트레이트뉴스",
-            "pubDate": "Tue, 16 Jun 2026 01:18:18 GMT",
+            "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCMWo2YXNZMEh0aUhtSDk2czAteEZBVVM4MFVGSmNlREM2bEdPX3NaNFMyMDhNWXp1bllqd1NEbkE5elZZYlhRRnRTNm1OdFFmVmlmQ2o2LTdLZXE3TUw5Mm5uU014MFN5ZFkxXzBPbWxCS3fSAXdBVV95cUxQR1pwdFp0SFJzTkVyR3RtbjVBVm03aGxUS2JURUN6eE1iVDlKazYwZmh5bUxRdU1hQXc3dUIxWXFYRG1XZlA1cHB1S3NVR0pYUExPbEtQMFBxeWp0NnFweW5hM0xOMUNmM2o1cENPdjFqb0Q4SWJkaw?oc=5"
-          },
-          {
-            "title": "‘매파 워시’ 첫 시험대…코스피 9천선 안착이냐, 환율 압박이냐 - mstoday.co.kr",
-            "source": "mstoday.co.kr",
-            "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FMDFKWDVTNWIxRnpfOHJvbjJfNER4U0RuV1JEakF3YmY1ZGtTRGwyeDlpMWxKbHpBRmo1b3lMcmprQXlpYVhHcWRaZWdJNy1rOHVxRnJPN0oyWlVYREZ5SVVwZk82Z3lrVjhFRQ?oc=5"
-          },
-          {
-            "title": "“기준금리, 금년 3%, 내년 하반기 3.5%까지 인상” - 애플경제",
-            "source": "애플경제",
-            "pubDate": "Sat, 06 Jun 2026 14:43:14 GMT",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wVGdTVklwYk5DNlBmLWZDMUtVckppdlRpSFZHXzl5RWFiZm8tc25zNWFoejRTWUhVa1NtbkdJSWs3enlCSEI0MnFzeHpIRU5JdXhFVWVydUx4WThxR3JEVjhoNTg5WUo0Zy1LY0VYdHY?oc=5"
-          },
-          {
-            "title": "우리금융硏 “한은 최종금리 3.5%…환율 1500원 안팎 높은 박스권 전망” - 글로벌경제신문",
-            "source": "글로벌경제신문",
-            "pubDate": "Thu, 04 Jun 2026 05:00:09 GMT",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iRFdwYnB5V0NsVTcyNWQ0eWFFeHVuaHR5QUxkWjFlblZWbDFWN2ljTHZNOGp0bS1vbW1fczJuWkN4QlBsM3NEb1FIaklrMXpiYndlS2JPOU1GNFoyalowbjZvMl9jOW5id2N3StIBcEFVX3lxTE1vSHZoZTQwWFhlZ19udVVFcU9UZ2ZlaVhxbUtsaVNrX3JXcjRxQnlaMEF1dU1NTUlOT0pFSzNxLWdjWjJiWWVkMUlFZzQ2ZC0wZHBnQU9IUnJrb1VCS2hpOWJwOFJ5a3RndHpXcFIycmU?oc=5"
           },
           {
             "title": "NH證, 환율 전망 '상고하저'로 변경…\"한은 연내 2회 금리인상\" - 연합인포맥스",
@@ -17990,10 +17991,28 @@
             "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pWGlBRzlEYTBSLW1Nc1R5SldTUHJWaFI0YWpQcjFjVXZEdHFPOTZCSTlVYmViRVlDWEw3Z0Q5QmU5c2hTTHNqTktFY2pYY0Y4VlgyYTFrQnhmOTTSAWBBVV95cUxNdXVkQndmNFNZU0JYSGpYTmdTRi1ja21nOE11d0tBb0EzT3lQSWlOQ1ZRYmNMSlVFbjRqYTRWeFhIZEctZ0U4bFJjdHVROFpPcVpVV3hpZXQ0VlpyUmpyb28?oc=5"
           },
           {
-            "title": "노무라증권 “원·달러 환율, 3분기까지 1500원대…연말엔 1470원 전망” - 이데일리",
-            "source": "이데일리",
-            "pubDate": "Fri, 12 Jun 2026 06:11:40 GMT",
-            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUS00QkJSbnF2RVNMSlpVVHlFVFRPamtFTjhyTVd1WXVfR2JkM2gtSU5ZWjlEMHR5WlV0djVUR1AwZHY4dVhNNng5REpRTjJMT0J4S0N1dWU4bTVXWU9EX3JET1lKTTBaWHpqdExLSFNHel9KWGs1SXNFZExHUVR4MA?oc=5"
+            "title": "물가·성장·환율, 금리 인상 여건은 갖춰져…신현송 첫 금통위 선택은? - 조선일보",
+            "source": "조선일보",
+            "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSEcyd3RySjdPelJIanpZNlF1N2xBM3h6VFFaRnloZm9Zai1DQUhQVE9yWHJXNlRkVDd6bnlJbGlLcHhkN0ZZeHRyRFBZRklZWlZwVmVQdTVHR3UtdWtPMk04bUhKeVU5WDdqN2tDZHZDc3R2VndtQUxBcWRMQjgzVlVyNXZGSEdNLS1ma3FR?oc=5"
+          },
+          {
+            "title": "‘매파 워시’ 첫 시험대…코스피 9천선 안착이냐, 환율 압박이냐 - mstoday.co.kr",
+            "source": "mstoday.co.kr",
+            "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FMDFKWDVTNWIxRnpfOHJvbjJfNER4U0RuV1JEakF3YmY1ZGtTRGwyeDlpMWxKbHpBRmo1b3lMcmprQXlpYVhHcWRaZWdJNy1rOHVxRnJPN0oyWlVYREZ5SVVwZk82Z3lrVjhFRQ?oc=5"
+          },
+          {
+            "title": "물가·환율·성장 모두 기준금리 인상 가리켜…“하반기 2회 올릴 듯” - 한겨레",
+            "source": "한겨레",
+            "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoNjJXYUZvdmVka19LcUx1Qk9fTnpFdDIzcUZobm1WYnBZTTJlQWJIM2txMlMzZUZYck5wc2Z5MXhmQ0J2MmhuMWVrWU9hLWU5Mk5UZjdFNkZrdDhkeVBuUXJIRHYxcDV4N1Z2QUlXSUNHZw?oc=5"
+          },
+          {
+            "title": "한투증권 \"5월 금통위, 금리 동결하되 인상 소수의견 있을 듯\" - 매일경제 마켓",
+            "source": "매일경제 마켓",
+            "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PTWVFTFZnODNQMlA2bkVWR0dGX0cwVk9tOF9qWDVsM0lZa0xyT2YwOFNLOHFJYW00U3dRWVNtMFZJVkNCVWtWYVhwdGhKczZPNEE?oc=5"
           }
         ]
       },
@@ -18001,12 +18020,6 @@
         "query": "삼성전자 SK하이닉스 HBM 반도체 주가 전망",
         "source": "https://news.google.com/rss/search?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+HBM+%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%A3%BC%EA%B0%80+%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako",
         "items": [
-          {
-            "title": "마이크론 매출 4.5배 ‘괴력’…삼성·SK하이닉스 실적 눈높이도 높아진다(분석) - 세종의소리",
-            "source": "세종의소리",
-            "pubDate": "Wed, 24 Jun 2026 23:16:59 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oY2xCd3RVZjZ3NU1MUDJ0MHRDZHRQc1NPQVViaFNtVmtONnpiVjNPUGVSZV82V18ydmhkNWY1XzRhZmItbG5SSkQ4M1hUNnc0WDE0WS15Tk8teU1NakowZHZ2YTdhNG8?oc=5"
-          },
           {
             "title": "삼성전자·SK하이닉스 주가 전망…증권가 \"두 배 더 오른다\"전망 나오는 이유 - economicsignal.co.kr",
             "source": "economicsignal.co.kr",
@@ -18020,24 +18033,6 @@
             "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83Mkc3X1Fmd0ZBUDdBTi1rbWZTN1Ezcks4RWIwdzRSdENNMUV6aHpEVVlFdTJ5R3FPWDNqeVRBWXp3bUtaUE1ET2IxSWhLdm1KZUhweXlNZGh0Q2FtdXQwaDdyeVp2SEnSAWtBVV95cUxPNUVNYXEyZk5fdjhLdmdFSGFleXRsQkNpTGtXRXF0VXhuX3Fhbko4LVFVY3B4TzNTcndnbHR5UlhwX0ZRLVk2OXRHdUI2dnlUT05DZWdWS00wT0tGS2dHU3BxS09VNzVHb3ZYUQ?oc=5"
           },
           {
-            "title": "수요보다 생산 많은 HBM? #삼성전자 #SK하이닉스 #코스피 #레버리지etf #종전 #트럼프 #호르무즈해협 #유가 #강관우 #류순열 - KPI뉴스",
-            "source": "KPI뉴스",
-            "pubDate": "Fri, 26 Jun 2026 04:00:37 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MVVp5OVR3Tk5HT1pHYXJmNVAxMVRaQjZNNlhXNDVQY2xERThudGZ1MzFlYkxnTWdub0kxWGlaaDZWVTl0QUhrSXNvLVl2eEhaM2U4Z3NacU5jWHPSAVJBVV95cUxNcWdNaDBiQ0tCZURSRXZuT0h1d245bDFHUDl0SlhHZWQyVEVqZDdqSjJoYXNNWWtLNzl6RVN0MXkxdURyaUs0Q0VSRHBlRkhxYkZB?oc=5"
-          },
-          {
-            "title": "[시총 1위 역전] SK하이닉스, 삼전보다 2배 오른 이유는…센터장 진단 - KB Think",
-            "source": "KB Think",
-            "pubDate": "Mon, 22 Jun 2026 23:10:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yYXF3YkJYNWdORE9aUUVLenJCUkkwRk8tUWIyc25Jd1ZsUFFoRHhhUE00MHRHTUF1VXJ4OW5ZdEV0eGpsb3FXQ1IxaGVzenhIWUxpaGZsRkt0d3Zkb2Q4U1hIbldnTklLZ1FXMzRFM0tQQQ?oc=5"
-          },
-          {
-            "title": "삼성전자 SK하이닉스 주가 반등에 모간스탠리 낙관 전망, \"약세장 신호 아냐\" - 비즈니스포스트",
-            "source": "비즈니스포스트",
-            "pubDate": "Wed, 24 Jun 2026 00:02:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tajFLNnU2dHdXUkxsTjZaZ050eW44N1BkLXRqajdMWWt0cjRXVWNTOVl5bkVMY1BlTGVPdzFrVWk5ckZKTjNzZEhwYl9mdFlkM3hXQW9YcUw0ZzJSQ2RaaVBfOFN5Mi1kUGNCcVNvTlRCLXM?oc=5"
-          },
-          {
             "title": "삼성전자, SK하이닉스, 언제부터 하락할까? - 네이버 프리미엄콘텐츠",
             "source": "네이버 프리미엄콘텐츠",
             "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
@@ -18048,6 +18043,30 @@
             "source": "연합인포맥스",
             "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ncDNmcUJjVE9JdUwtQmUweXVlYnc3cnVYVmRsNk54QXQ0UTJXZGJsTWhQZFFtLWxKa1huZFNoSWVXMkU3Zi04NUptWGt4bHpEb1ZHTlVpdWhJOHlvakVFUFNYdmJPUjF6c2Q1aWprQWY?oc=5"
+          },
+          {
+            "title": "\"HBM 왕좌 앉는 자가 시총 1위\"…반도체 공룡들 진검승부 온다 - 네이트",
+            "source": "네이트",
+            "pubDate": "Mon, 29 Jun 2026 12:36:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iamN1QWZUTEZjY1dTUk9BTFMyREJlSnBaWGI5UDdvNENCMnBJLV9GR2xVanBROFR5NlEwdG5jR0JWckt6Y0NRVUMwNEgzc3E3NklhTkVMMEltdVkzSF9uUHo5RDE3WUxoTWhqY09HWG9RaVJzZzZ2UA?oc=5"
+          },
+          {
+            "title": "외국인 '팔자' 전환… 삼성전자·SK하이닉스 왜 흔들리나 - 세종의소리",
+            "source": "세종의소리",
+            "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5URnZIVDZHblFaV1A4R05LOEpNTXlwb3Y0RGpJWFFvR3k5NV92elpNNUZXQnkyUzktbHE2RFhFLXg2RWNzT1lGQXJzcWI1eEM0cEZiMUJLUjQxVzlUNGFSOUVGZTdnQUE?oc=5"
+          },
+          {
+            "title": "삼성·SK하이닉스 영업익 150조 시대 열리나···HBM 넘어 D램까지 호황 - 시사저널e",
+            "source": "시사저널e",
+            "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uR0ZYOU1sUVVDQnkwWmhpN0NlZGk2UkRMVGVlMTBZdmxBNFo0Qy1YVUdhV0h3MURxaG5pLWlKU2dUZlo3RU1nekVEZVZCWFJsRHRxVW1TU2tzOGNMV0Fvdnp2SEJtQTRBZDY0NXI1Ynlxd9IBdkFVX3lxTE1rWmlkTVlBaGFiUjFsaS13d1VqYjZ4MlRnUU1PZ0xyYkJ4bnZKaTdYMlAxVEFqWVF1UGQwQmdibVpNX3BuZGk5WFF2aTlrYjlybkQxRzR1Wk5pVHQtejdWaGlHNlN6SlV2VVZaTjJDMmUyYWlUdVE?oc=5"
+          },
+          {
+            "title": "삼성전자 SK하이닉스 주가 반등에 모간스탠리 낙관 전망, \"약세장 신호 아냐\" - 비즈니스포스트",
+            "source": "비즈니스포스트",
+            "pubDate": "Wed, 24 Jun 2026 00:02:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tajFLNnU2dHdXUkxsTjZaZ050eW44N1BkLXRqajdMWWt0cjRXVWNTOVl5bkVMY1BlTGVPdzFrVWk5ckZKTjNzZEhwYl9mdFlkM3hXQW9YcUw0ZzJSQ2RaaVBfOFN5Mi1kUGNCcVNvTlRCLXM?oc=5"
           }
         ]
       }
@@ -18057,14 +18076,14 @@
   },
   "prediction": {
     "market": "KOSPI",
-    "generated_at_utc": "2026-06-29T01:01:59+00:00",
-    "total_score": -3.42,
-    "positive_score": 3.5,
-    "negative_score": -6.92,
+    "generated_at_utc": "2026-06-30T00:58:28+00:00",
+    "total_score": -1.38,
+    "positive_score": 4.12,
+    "negative_score": -5.5,
     "short_term": {
-      "label": "하락/조정 우세",
-      "confidence": "중간~높음",
-      "bias": "bearish"
+      "label": "중립/하락 경계",
+      "confidence": "중간",
+      "bias": "mild_bearish"
     },
     "medium_term": {
       "label": "조건부 상승",
@@ -18076,7 +18095,7 @@
         "id": "trend_kospi",
         "category": "가격/추세",
         "factor": "KOSPI 중기 모멘텀",
-        "observed": "1M -0.10%, 3M +49.76%, 6M +104.72%",
+        "observed": "1M -1.77%, 3M +53.08%, 6M +107.09%",
         "direction": "상승",
         "score": 0.5,
         "weight": "높음",
@@ -18086,7 +18105,7 @@
         "id": "foreign_kospi_flow",
         "category": "수급",
         "factor": "KOSPI 외국인 순매수",
-        "observed": "5D -165,712억, 10D -176,556억",
+        "observed": "5D -187,749억, 10D -255,993억",
         "direction": "하락",
         "score": -2.0,
         "weight": "매우 높음",
@@ -18096,7 +18115,7 @@
         "id": "retail_kospi_absorption",
         "category": "수급",
         "factor": "KOSPI 개인 순매수 방어",
-        "observed": "개인 5D 186,175억, 기관 5D -25,103억",
+        "observed": "개인 5D 136,718억, 기관 5D 45,816억",
         "direction": "하락",
         "score": -1.0,
         "weight": "중간",
@@ -18106,7 +18125,7 @@
         "id": "fx_krw",
         "category": "환율",
         "factor": "USD/KRW",
-        "observed": "1,539.39, 1M +2.95%",
+        "observed": "1,543.18, 1M +2.41%",
         "direction": "하락",
         "score": -1.5,
         "weight": "높음",
@@ -18116,7 +18135,7 @@
         "id": "sox_short_term",
         "category": "글로벌/반도체",
         "factor": "Philadelphia SOX 단기 흐름",
-        "observed": "1W -7.94%, 1M +3.95%",
+        "observed": "1W -6.32%, 1M +6.86%",
         "direction": "하락",
         "score": -1.0,
         "weight": "높음",
@@ -18136,7 +18155,7 @@
         "id": "us_rates",
         "category": "금리",
         "factor": "미국 10년물",
-        "observed": "4.372%, 1M -2.43%",
+        "observed": "4.374%, 1M -1.82%",
         "direction": "하락",
         "score": 0.0,
         "weight": "중간~높음",
@@ -18146,7 +18165,7 @@
         "id": "risk_vix",
         "category": "리스크",
         "factor": "VIX",
-        "observed": "18.41",
+        "observed": "17.65",
         "direction": "상승",
         "score": 1.0,
         "weight": "중간",
@@ -18156,7 +18175,7 @@
         "id": "oil",
         "category": "원자재",
         "factor": "WTI 유가",
-        "observed": "70.02달러, 1M -21.24%",
+        "observed": "70.22달러, 1M -21.01%",
         "direction": "하락",
         "score": 0.0,
         "weight": "중간",
@@ -18166,9 +18185,9 @@
         "id": "domestic_lead_sectors",
         "category": "업종",
         "factor": "반도체/자동차 장중 흐름",
-        "observed": "반도체 -3.10%, 자동차 +0.00%",
-        "direction": "하락",
-        "score": -1.0,
+        "observed": "반도체 +0.00%, 자동차 +0.00%",
+        "direction": "상승",
+        "score": 0.5,
         "weight": "높음",
         "rationale": "KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다."
       },
@@ -18186,9 +18205,9 @@
         "id": "feedback_next_session_adjustment",
         "category": "피드백",
         "factor": "전일 09시 예측 vs 마감 장세",
-        "observed": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-        "direction": "하락",
-        "score": -0.42,
+        "observed": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+        "direction": "상승",
+        "score": 0.12,
         "weight": "동적",
         "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
       }
@@ -18200,23 +18219,23 @@
     },
     "feedback": {
       "applied": true,
-      "score_adjustment": -0.42,
-      "summary": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-      "samples": 29,
-      "hit_rate": 0.4483,
-      "last_actual_bias": "bearish"
+      "score_adjustment": 0.12,
+      "summary": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+      "samples": 30,
+      "hit_rate": 0.4333,
+      "last_actual_bias": "bullish"
     },
     "market_models": {
       "KOSPI": {
         "market": "KOSPI",
-        "generated_at_utc": "2026-06-29T01:01:59+00:00",
-        "total_score": -3.42,
-        "positive_score": 3.5,
-        "negative_score": -6.92,
+        "generated_at_utc": "2026-06-30T00:58:28+00:00",
+        "total_score": -1.38,
+        "positive_score": 4.12,
+        "negative_score": -5.5,
         "short_term": {
-          "label": "하락/조정 우세",
-          "confidence": "중간~높음",
-          "bias": "bearish"
+          "label": "중립/하락 경계",
+          "confidence": "중간",
+          "bias": "mild_bearish"
         },
         "medium_term": {
           "label": "조건부 상승",
@@ -18228,7 +18247,7 @@
             "id": "trend_kospi",
             "category": "가격/추세",
             "factor": "KOSPI 중기 모멘텀",
-            "observed": "1M -0.10%, 3M +49.76%, 6M +104.72%",
+            "observed": "1M -1.77%, 3M +53.08%, 6M +107.09%",
             "direction": "상승",
             "score": 0.5,
             "weight": "높음",
@@ -18238,7 +18257,7 @@
             "id": "foreign_kospi_flow",
             "category": "수급",
             "factor": "KOSPI 외국인 순매수",
-            "observed": "5D -165,712억, 10D -176,556억",
+            "observed": "5D -187,749억, 10D -255,993억",
             "direction": "하락",
             "score": -2.0,
             "weight": "매우 높음",
@@ -18248,7 +18267,7 @@
             "id": "retail_kospi_absorption",
             "category": "수급",
             "factor": "KOSPI 개인 순매수 방어",
-            "observed": "개인 5D 186,175억, 기관 5D -25,103억",
+            "observed": "개인 5D 136,718억, 기관 5D 45,816억",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간",
@@ -18258,7 +18277,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,539.39, 1M +2.95%",
+            "observed": "1,543.18, 1M +2.41%",
             "direction": "하락",
             "score": -1.5,
             "weight": "높음",
@@ -18268,7 +18287,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W -7.94%, 1M +3.95%",
+            "observed": "1W -6.32%, 1M +6.86%",
             "direction": "하락",
             "score": -1.0,
             "weight": "높음",
@@ -18288,7 +18307,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.372%, 1M -2.43%",
+            "observed": "4.374%, 1M -1.82%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간~높음",
@@ -18298,7 +18317,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "18.41",
+            "observed": "17.65",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -18308,7 +18327,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "70.02달러, 1M -21.24%",
+            "observed": "70.22달러, 1M -21.01%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간",
@@ -18318,9 +18337,9 @@
             "id": "domestic_lead_sectors",
             "category": "업종",
             "factor": "반도체/자동차 장중 흐름",
-            "observed": "반도체 -3.10%, 자동차 +0.00%",
-            "direction": "하락",
-            "score": -1.0,
+            "observed": "반도체 +0.00%, 자동차 +0.00%",
+            "direction": "상승",
+            "score": 0.5,
             "weight": "높음",
             "rationale": "KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다."
           },
@@ -18338,9 +18357,9 @@
             "id": "feedback_next_session_adjustment",
             "category": "피드백",
             "factor": "전일 09시 예측 vs 마감 장세",
-            "observed": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-            "direction": "하락",
-            "score": -0.42,
+            "observed": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+            "direction": "상승",
+            "score": 0.12,
             "weight": "동적",
             "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
           }
@@ -18352,23 +18371,23 @@
         },
         "feedback": {
           "applied": true,
-          "score_adjustment": -0.42,
-          "summary": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-          "samples": 29,
-          "hit_rate": 0.4483,
-          "last_actual_bias": "bearish"
+          "score_adjustment": 0.12,
+          "summary": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+          "samples": 30,
+          "hit_rate": 0.4333,
+          "last_actual_bias": "bullish"
         }
       },
       "KOSDAQ": {
         "market": "KOSDAQ",
-        "generated_at_utc": "2026-06-29T01:01:59+00:00",
-        "total_score": -0.42,
-        "positive_score": 4.0,
-        "negative_score": -4.42,
+        "generated_at_utc": "2026-06-30T00:58:28+00:00",
+        "total_score": 2.62,
+        "positive_score": 5.12,
+        "negative_score": -2.5,
         "short_term": {
-          "label": "중립",
-          "confidence": "낮음~중간",
-          "bias": "neutral"
+          "label": "상승 우세",
+          "confidence": "중간~높음",
+          "bias": "bullish"
         },
         "medium_term": {
           "label": "상승 우세",
@@ -18380,9 +18399,9 @@
             "id": "trend_kosdaq",
             "category": "가격/추세",
             "factor": "KOSDAQ 중기 모멘텀",
-            "observed": "1M -18.61%, 3M -20.92%, 6M -0.27%",
-            "direction": "하락",
-            "score": -0.5,
+            "observed": "1M -16.49%, 3M -18.86%, 6M +2.32%",
+            "direction": "상승",
+            "score": 0.5,
             "weight": "높음",
             "rationale": "지수 자체의 중기 추세가 강하면 급락보다 눌림 후 재상승 확률이 커진다."
           },
@@ -18390,7 +18409,7 @@
             "id": "foreign_kosdaq_flow",
             "category": "수급",
             "factor": "KOSDAQ 외국인 순매수",
-            "observed": "5D 6,339억, 10D 10,538억",
+            "observed": "5D 1,407억, 10D 11,447억",
             "direction": "상승",
             "score": 1.0,
             "weight": "매우 높음",
@@ -18400,7 +18419,7 @@
             "id": "retail_kosdaq_absorption",
             "category": "수급",
             "factor": "KOSDAQ 개인 순매수 방어",
-            "observed": "개인 5D -15,072억, 기관 5D 8,617억",
+            "observed": "개인 5D -11,869억, 기관 5D 10,243억",
             "direction": "중립",
             "score": 0.0,
             "weight": "중간",
@@ -18410,7 +18429,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,539.39, 1M +2.95%",
+            "observed": "1,543.18, 1M +2.41%",
             "direction": "하락",
             "score": -1.5,
             "weight": "높음",
@@ -18420,7 +18439,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W -7.94%, 1M +3.95%",
+            "observed": "1W -6.32%, 1M +6.86%",
             "direction": "하락",
             "score": -1.0,
             "weight": "높음",
@@ -18440,7 +18459,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.372%, 1M -2.43%",
+            "observed": "4.374%, 1M -1.82%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간~높음",
@@ -18450,7 +18469,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "18.41",
+            "observed": "17.65",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -18460,7 +18479,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "70.02달러, 1M -21.24%",
+            "observed": "70.22달러, 1M -21.01%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간",
@@ -18470,9 +18489,9 @@
             "id": "domestic_lead_sectors",
             "category": "업종",
             "factor": "반도체/자동차 장중 흐름",
-            "observed": "반도체 -3.10%, 자동차 +0.00%",
-            "direction": "하락",
-            "score": -1.0,
+            "observed": "반도체 +0.00%, 자동차 +0.00%",
+            "direction": "상승",
+            "score": 0.5,
             "weight": "높음",
             "rationale": "KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다."
           },
@@ -18490,9 +18509,9 @@
             "id": "feedback_next_session_adjustment",
             "category": "피드백",
             "factor": "전일 09시 예측 vs 마감 장세",
-            "observed": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-            "direction": "하락",
-            "score": -0.42,
+            "observed": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+            "direction": "상승",
+            "score": 0.12,
             "weight": "동적",
             "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
           }
@@ -18504,11 +18523,11 @@
         },
         "feedback": {
           "applied": true,
-          "score_adjustment": -0.42,
-          "summary": "전일 09시 예측 불일치: 예측=neutral, 실제=bearish(-2.34%)",
-          "samples": 29,
-          "hit_rate": 0.4483,
-          "last_actual_bias": "bearish"
+          "score_adjustment": 0.12,
+          "summary": "전일 09시 예측 불일치: 예측=bearish, 실제=bullish(+0.90%)",
+          "samples": 30,
+          "hit_rate": 0.4333,
+          "last_actual_bias": "bullish"
         }
       }
     },
@@ -18517,10 +18536,10 @@
       "horizon_days": 5,
       "markets": {
         "KOSPI": {
-          "samples": 219,
-          "hit_rate": 0.5936,
-          "avg_forward_return": 2.3807,
-          "suggested_weight": 0.1872,
+          "samples": 220,
+          "hit_rate": 0.5955,
+          "avg_forward_return": 2.3874,
+          "suggested_weight": 0.1909,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
           "horizon_days": 5
@@ -18528,7 +18547,7 @@
         "KOSDAQ": {
           "samples": 219,
           "hit_rate": 0.5616,
-          "avg_forward_return": 0.3733,
+          "avg_forward_return": 0.3843,
           "suggested_weight": 0.1233,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
