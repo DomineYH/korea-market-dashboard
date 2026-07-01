@@ -1,30 +1,30 @@
 {
   "phase": "close",
-  "morning_generated_kst": "2026-06-30T09:56:16+09:00",
-  "close_generated_kst": "2026-06-30T17:15:52+09:00",
-  "trading_date": "2026-06-30",
+  "morning_generated_kst": "2026-07-01T09:59:51+09:00",
+  "close_generated_kst": "2026-07-01T17:28:42+09:00",
+  "trading_date": "2026-07-01",
   "morning_prediction_label": "중립/하락 경계",
   "morning_prediction_bias": "mild_bearish",
   "close_prediction_label": "중립/하락 경계",
   "primary_market": "KOSPI",
-  "primary_hit": false,
+  "primary_hit": true,
   "feedback_eligible": true,
   "feedback_reason": "동일 거래일 오전 예측과 마감 데이터를 비교했습니다.",
   "markets": {
     "KOSPI": {
-      "morning": 8316.92,
-      "close": 8476.48,
-      "change_pct": 1.92
+      "morning": 8370.33,
+      "close": 8303.41,
+      "change_pct": -0.8
     },
     "KOSDAQ": {
-      "morning": 917.46,
-      "close": 916.18,
-      "change_pct": -0.14
+      "morning": 950.85,
+      "close": 929.35,
+      "change_pct": -2.26
     }
   },
   "adjustment": {
-    "action": "수정 적용: 수급·환율·업종 가중치 재검토 플래그",
-    "reason": "오전 9시 예측과 KOSPI 당일 방향이 어긋났습니다. 오후 4시 데이터로 latest 모델을 재계산하고 다음 자동 갱신의 검토 플래그로 남깁니다.",
+    "action": "가중치 유지",
+    "reason": "오전 9시 예측이 KOSPI 당일 방향과 일치했습니다. 오후 4시 데이터로 최신 리포트와 대시보드를 갱신했습니다.",
     "applied": true
   }
 }
