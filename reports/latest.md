@@ -1,59 +1,59 @@
 # 한국 주식시장 방향성 리포트
 
-- 생성 시각: `2026-08-13T17:22:18+09:00`
+- 생성 시각: `2026-08-14T10:59:31+09:00`
 - 단기 판정: **상승 우세** / 신뢰도: 중간~높음
 - 중기 판정: **조건부 상승** / 신뢰도: 중간
-- 총점: **4.65** = 상승 6.15 + 하락 -1.5
+- 총점: **4.23** = 상승 6.0 + 하락 -1.77
 
 ## 핵심 시장 지표
 
 | 항목 | 값 | 비고 |
 |---|---:|---|
-| KOSPI | 6,813.34 | 2026-08-13 17:04 |
-| KOSDAQ | 861.37 | 2026-08-13 15:47 |
-| USD/KRW | 1,423.34 | 1M -4.34% |
-| SOX | 1W 3.25% | 1M -2.07% |
-| VIX | 14.68 | 위험선호/공포 지표 |
-| WTI | 82.21 | 1M 3.28% |
+| KOSPI | 6,874.75 | 2026-08-14 10:13 |
+| KOSDAQ | 853.23 | 2026-08-14 10:06 |
+| USD/KRW | 1,412.98 | 1M -4.93% |
+| SOX | 1W 3.38% | 1M 0.46% |
+| VIX | 14.63 | 위험선호/공포 지표 |
+| WTI | 80.91 | 1M 1.65% |
 
 ## KOSPI/KOSDAQ 분리 모델
 
 | 시장 | 단기 판정 | 중기 판정 | 총점 | 상승점수 | 하락점수 |
 |---|---|---|---:|---:|---:|
-| KOSPI | 상승 우세 | 조건부 상승 | 4.65 | 6.15 | -1.5 |
-| KOSDAQ | 중립 | 중립/상승 경계 | -0.35 | 4.65 | -5.0 |
+| KOSPI | 상승 우세 | 조건부 상승 | 4.23 | 6.0 | -1.77 |
+| KOSDAQ | 중립/하락 경계 | 중립/상승 경계 | -0.77 | 4.5 | -5.27 |
 
 ## 예측 모델표
 
 | 분류 | 신호 | 관측값 | 방향 | 점수 | 가중 | 해석 |
 |---|---|---|---|---:|---|---|
-| 가격/추세 | KOSPI 중기 모멘텀 | 1M -0.63%, 3M -13.14%, 6M +31.95% | 상승 | 0.5 | 높음 | 지수 자체의 중기 추세가 강하면 급락보다 눌림 후 재상승 확률이 커진다. |
-| 수급 | KOSPI 외국인 순매수 | 5D 26,396억, 10D 48,441억 | 상승 | 1.0 | 매우 높음 | 한국 시장은 외국인 매매가 단기 방향을 지배하는 경우가 많다. |
-| 수급 | KOSPI 개인 순매수 방어 | 개인 5D -48,301억, 기관 5D 23,857억 | 중립 | 0.0 | 중간 | 외국인 매도를 개인이 받아내는 구조는 단기 과열/분산 매물 신호가 될 수 있다. |
-| 환율 | USD/KRW | 1,423.34, 1M -4.34% | 하락 | -0.5 | 높음 | 원화 약세는 외국인 환차손 우려와 할인율 부담을 높인다. |
-| 글로벌/반도체 | Philadelphia SOX 단기 흐름 | 1W +3.25%, 1M -2.07% | 하락 | 1.0 | 높음 | 한국 반도체 대형주는 미국 반도체 지수와 단기 연동성이 높다. |
+| 가격/추세 | KOSPI 중기 모멘텀 | 1M -5.76%, 3M -13.99%, 6M +34.89% | 상승 | 0.5 | 높음 | 지수 자체의 중기 추세가 강하면 급락보다 눌림 후 재상승 확률이 커진다. |
+| 수급 | KOSPI 외국인 순매수 | 5D 44,218억, 10D -14,798억 | 상승 | 1.0 | 매우 높음 | 한국 시장은 외국인 매매가 단기 방향을 지배하는 경우가 많다. |
+| 수급 | KOSPI 개인 순매수 방어 | 개인 5D -57,067억, 기관 5D 15,191억 | 중립 | 0.0 | 중간 | 외국인 매도를 개인이 받아내는 구조는 단기 과열/분산 매물 신호가 될 수 있다. |
+| 환율 | USD/KRW | 1,412.98, 1M -4.93% | 하락 | -0.5 | 높음 | 원화 약세는 외국인 환차손 우려와 할인율 부담을 높인다. |
+| 글로벌/반도체 | Philadelphia SOX 단기 흐름 | 1W +3.38%, 1M +0.46% | 하락 | 1.0 | 높음 | 한국 반도체 대형주는 미국 반도체 지수와 단기 연동성이 높다. |
 | 펀더멘털 | 반도체/HBM·수출 뉴스 | 수출·반도체·HBM 긍정 키워드 확인 | 상승 | 1.5 | 높음 | 한국 지수의 이익 개선은 반도체 수출 사이클에 크게 의존한다. |
-| 금리 | 미국 10년물 | 4.682%, 1M +2.12% | 하락 | -1.0 | 중간~높음 | 미 장기금리 상승은 성장주와 고PER 반도체 밸류에이션을 압박한다. |
-| 리스크 | VIX | 14.68 | 상승 | 1.0 | 중간 | VIX 20 이하에서는 위기성 급락보다 일반 조정일 가능성이 커진다. |
-| 원자재 | WTI 유가 | 82.21달러, 1M +3.28% | 하락 | 0.0 | 중간 | 고유가는 한국의 비용·무역수지·물가 부담을 키운다. |
-| 업종 | 반도체/자동차 장중 흐름 | 반도체 +5.15%, 자동차 +0.00% | 상승 | 0.5 | 높음 | KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다. |
+| 금리 | 미국 10년물 | 4.641%, 1M +2.11% | 하락 | -1.0 | 중간~높음 | 미 장기금리 상승은 성장주와 고PER 반도체 밸류에이션을 압박한다. |
+| 리스크 | VIX | 14.63 | 상승 | 1.0 | 중간 | VIX 20 이하에서는 위기성 급락보다 일반 조정일 가능성이 커진다. |
+| 원자재 | WTI 유가 | 80.91달러, 1M +1.65% | 하락 | 0.0 | 중간 | 고유가는 한국의 비용·무역수지·물가 부담을 키운다. |
+| 업종 | 반도체/자동차 장중 흐름 | 반도체 +0.00%, 자동차 +4.26% | 상승 | 0.5 | 높음 | KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다. |
 | 국내금리 | 한국은행 기준금리 | 2.50% | 상승 | 0.5 | 중간 | 국내 기준금리 안정은 밸류에이션 하방을 일부 완충한다. |
-| 피드백 | 전일 09시 예측 vs 마감 장세 | 전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.16%) | 상승 | 0.15 | 동적 | 전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다. |
+| 피드백 | 전일 09시 예측 vs 마감 장세 | 전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.59%) | 하락 | -0.27 | 동적 | 전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다. |
 
 ## 백테스트 요약
 
 | 시장 | 표본 | 승률 | 평균 선행수익률 | 제안 가중치 | 우수 신호 |
 |---|---:|---:|---:|---:|---|
-| KOSPI | 219 | 63.47% | 1.70% | 0.27 | 모멘텀 롱 |
-| KOSDAQ | 219 | 57.08% | 0.19% | 0.14 | 모멘텀 롱 |
+| KOSPI | 219 | 63.01% | 1.73% | 0.26 | 모멘텀 롱 |
+| KOSDAQ | 218 | 56.88% | 0.18% | 0.14 | 모멘텀 롱 |
 
 ## 피드백 반영
 
 - 적용 여부: 적용
-- 점수 보정: **+0.15**
-- 누적 표본: 62
-- 누적 적중률: 40.32%
-- 최근 피드백: 전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.16%)
+- 점수 보정: **-0.27**
+- 누적 표본: 63
+- 누적 적중률: 39.68%
+- 최근 피드백: 전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.59%)
 
 ## 결론
 
@@ -69,8 +69,8 @@
 - [외국인 20일째 "팔자"… 코스피 한때 8000선까지 급락 - 조선일보](https://news.google.com/rss/articles/CBMigAFBVV95cUxPbWpfWFdxa242eEg2ZUNhUXpZWlE5TTBDaVBWTE1Jam9Mc0gzYWdCbDFsSUVYNmdvQW9MS29hUmNBX1lOTlJHU3BYUFJjblp1WngyZzdFN2tuVGd0UWdQOFZzcDVqdnhrNkpfUkZCYi1vemloOVc3d0lvMVdkQkNIdg?oc=5) — 조선일보
 - [코스피 전망은 밝다지만…개인투자자가 한국 주식 살 때 봐야 할 변수 - christiandaily.co.kr](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TZTVYNUF2QWdSTzlzRkVtN3V3dzZERE1mRnNkZDN1R040X3ZjSzlSUkxITFN4NDlpMnNDYklRMV91cnFNR3dEVERZcXUyNkVBWVhXUDcwb9IBXEFVX3lxTE9NMGJVVjdrVXJ3OVhTSTk2UC1rSHNDdkhCYXdSNVc4RENVLXpvSW9ueWl2azBMUU1zN2VOOFY5c3Zudnp5cUxjcHJBMEFHWnRKa2UtYUpCVlRrSW5o?oc=5) — christiandaily.co.kr
 - [코스피 장중 급락, 삼성전자·SK하이닉스 지금 팔아야 할까? - 네이버 프리미엄콘텐츠](https://news.google.com/rss/articles/CBMifkFVX3lxTE5PV2dfOWFTOWV4RFl4WmotU202dHRnVWwxQTQ3N0Q0bThFSFRodmE0Q3JtUml1NnJNbzFNbVJ0SXdvME1ZSlpBdTM0SHhLQUg3WXVFZFJqNV8tNFVyaEdaeXRGTm1PTXZIQTVsczlabk01RklsVXRVSENsOXFPQQ?oc=5) — 네이버 프리미엄콘텐츠
-- [외국인 20일째 매도 폭탄에 코스피 5%대 급락…반도체 쇼크와 고환율 직격탄 - 2news.co.kr](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhSFplenl5VnZGRFJ6c25TOWExM1RuN1lJSGlKMlFHYmpDLVZHOUZRQ2xBcWZRR3VsanhIcUt5akpPUFRuYi05cVZOOFBJUzV5WXJyaFFXbWk1VHRIREd5RFNYRzZIWVE?oc=5) — 2news.co.kr
 - ["코스피 7500 간다"... KB증권, 반도체 힘입어 외국인 자금 유입 기대 - 인포스탁데일리](https://news.google.com/rss/articles/CBMidkFVX3lxTFBkRHR4anpGQm1MRjN0YzFiUnROR3NxcFg1bk5jY1R5Sy1SRGJ4aXBTVldyRHd1VVFQeFN6Yml2SlNZOVk4YzJSQ1ZodGNFcEtwb25rS202YUJfVHVnVVlTbHB2WXdETWlieE0wMUNQV3BMb2xoZlE?oc=5) — 인포스탁데일리
+- [외국인 20일째 매도 폭탄에 코스피 5%대 급락…반도체 쇼크와 고환율 직격탄 - 2news.co.kr](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhSFplenl5VnZGRFJ6c25TOWExM1RuN1lJSGlKMlFHYmpDLVZHOUZRQ2xBcWZRR3VsanhIcUt5akpPUFRuYi05cVZOOFBJUzV5WXJyaFFXbWk1VHRIREd5RFNYRzZIWVE?oc=5) — 2news.co.kr
 
 ## 방법론
 
