@@ -1,30 +1,30 @@
 {
   "phase": "close",
-  "morning_generated_kst": "2026-08-26T10:19:29+09:00",
-  "close_generated_kst": "2026-08-26T16:48:39+09:00",
-  "trading_date": "2026-08-26",
+  "morning_generated_kst": "2026-08-27T16:56:46+09:00",
+  "close_generated_kst": "2026-08-28T03:08:12+09:00",
+  "trading_date": "2026-08-28",
   "morning_prediction_label": "중립",
   "morning_prediction_bias": "neutral",
   "close_prediction_label": "중립",
   "primary_market": "KOSPI",
   "primary_hit": false,
-  "feedback_eligible": true,
-  "feedback_reason": "동일 거래일 오전 예측과 마감 데이터를 비교했습니다.",
+  "feedback_eligible": false,
+  "feedback_reason": "오전 예측일(2026-08-27)과 마감 분석일(2026-08-28)이 달라 피드백 표본에 반영하지 않았습니다.",
   "markets": {
     "KOSPI": {
-      "morning": 6770.67,
-      "close": 6808.21,
-      "change_pct": 0.55
+      "morning": 6912.37,
+      "close": 6912.37,
+      "change_pct": 0.0
     },
     "KOSDAQ": {
-      "morning": 819.65,
-      "close": 826.87,
-      "change_pct": 0.88
+      "morning": 837.65,
+      "close": 837.65,
+      "change_pct": 0.0
     }
   },
   "adjustment": {
-    "action": "수정 적용: 수급·환율·업종 가중치 재검토 플래그",
-    "reason": "오전 9시 예측과 KOSPI 당일 방향이 어긋났습니다. 오후 4시 데이터로 latest 모델을 재계산하고 다음 자동 갱신의 검토 플래그로 남깁니다.",
-    "applied": true
+    "action": "피드백 보류",
+    "reason": "오전 예측일(2026-08-27)과 마감 분석일(2026-08-28)이 달라 피드백 표본에 반영하지 않았습니다.",
+    "applied": false
   }
 }
