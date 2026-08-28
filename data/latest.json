@@ -1,7 +1,7 @@
 {
   "snapshot": {
-    "generated_utc": "2026-08-28T10:00:32Z",
-    "generated_kst": "2026-08-28T19:00:32+09:00",
+    "generated_utc": "2026-08-28T19:18:23Z",
+    "generated_kst": "2026-08-29T04:18:23+09:00",
     "naver_indices": {
       "KOSPI": {
         "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI",
@@ -28,7 +28,7 @@
     },
     "investor_flows_억원": {
       "KOSPI": {
-        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260828&sosok=01",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260829&sosok=01",
         "rows": [
           {
             "date": "26.08.28",
@@ -181,7 +181,7 @@
         }
       },
       "KOSDAQ": {
-        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260828&sosok=02",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260829&sosok=02",
         "rows": [
           {
             "date": "26.08.28",
@@ -1499,19 +1499,15 @@
           {
             "date": "2026-08-27",
             "close": 6912.3701
-          },
-          {
-            "date": "2026-08-28",
-            "close": 6788.8799
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 6788.8799,
-        "1d_change_pct": -1.79,
-        "1w_change_pct": -1.79,
-        "1m_change_pct": 19.88,
-        "3m_change_pct": -17.06,
-        "6m_change_pct": 13.72,
+        "latest_date": "2026-08-27",
+        "latest": 6912.3701,
+        "1d_change_pct": 1.53,
+        "1w_change_pct": 0.87,
+        "1m_change_pct": 14.75,
+        "3m_change_pct": -16.0,
+        "6m_change_pct": 18.24,
         "symbol": "^KS11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=1y&interval=1d"
       },
@@ -2491,34 +2487,891 @@
           {
             "date": "2026-08-27",
             "close": 837.65
-          },
-          {
-            "date": "2026-08-28",
-            "close": 838.41
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 838.41,
-        "1d_change_pct": 0.09,
-        "1w_change_pct": 4.55,
-        "1m_change_pct": 26.52,
-        "3m_change_pct": -24.08,
-        "6m_change_pct": -28.03,
+        "latest_date": "2026-08-27",
+        "latest": 837.65,
+        "1d_change_pct": 1.3,
+        "1w_change_pct": -0.39,
+        "1m_change_pct": 18.67,
+        "3m_change_pct": -26.08,
+        "6m_change_pct": -27.29,
         "symbol": "^KQ11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKQ11?range=1y&interval=1d"
       },
       "KOSPI200": {
-        "currency": null,
+        "currency": "KRW",
         "exchange": "KSC",
         "regularMarketPrice": 1065.7,
         "history": [
           {
-            "date": "2026-08-28",
-            "close": 1065.7
+            "date": "2025-08-28",
+            "close": 431.81
+          },
+          {
+            "date": "2025-08-29",
+            "close": 430.12
+          },
+          {
+            "date": "2025-09-01",
+            "close": 423.33
+          },
+          {
+            "date": "2025-09-02",
+            "close": 428.15
+          },
+          {
+            "date": "2025-09-03",
+            "close": 430.37
+          },
+          {
+            "date": "2025-09-04",
+            "close": 432.32
+          },
+          {
+            "date": "2025-09-05",
+            "close": 432.86
+          },
+          {
+            "date": "2025-09-08",
+            "close": 434.85
+          },
+          {
+            "date": "2025-09-09",
+            "close": 441.28
+          },
+          {
+            "date": "2025-09-10",
+            "close": 450.05
+          },
+          {
+            "date": "2025-09-11",
+            "close": 454.0
+          },
+          {
+            "date": "2025-09-12",
+            "close": 462.74
+          },
+          {
+            "date": "2025-09-15",
+            "close": 464.65
+          },
+          {
+            "date": "2025-09-16",
+            "close": 472.85
+          },
+          {
+            "date": "2025-09-17",
+            "close": 466.99
+          },
+          {
+            "date": "2025-09-18",
+            "close": 475.34
+          },
+          {
+            "date": "2025-09-19",
+            "close": 473.44
+          },
+          {
+            "date": "2025-09-22",
+            "close": 478.29
+          },
+          {
+            "date": "2025-09-23",
+            "close": 481.54
+          },
+          {
+            "date": "2025-09-24",
+            "close": 480.39
+          },
+          {
+            "date": "2025-09-25",
+            "close": 480.63
+          },
+          {
+            "date": "2025-09-26",
+            "close": 468.03
+          },
+          {
+            "date": "2025-09-29",
+            "close": 475.22
+          },
+          {
+            "date": "2025-09-30",
+            "close": 474.03
+          },
+          {
+            "date": "2025-10-01",
+            "close": 479.37
+          },
+          {
+            "date": "2025-10-02",
+            "close": 493.41
+          },
+          {
+            "date": "2025-10-10",
+            "close": 506.97
+          },
+          {
+            "date": "2025-10-13",
+            "close": 501.87
+          },
+          {
+            "date": "2025-10-14",
+            "close": 496.89
+          },
+          {
+            "date": "2025-10-15",
+            "close": 510.55
+          },
+          {
+            "date": "2025-10-16",
+            "close": 524.45
+          },
+          {
+            "date": "2025-10-17",
+            "close": 525.48
+          },
+          {
+            "date": "2025-10-20",
+            "close": 535.28
+          },
+          {
+            "date": "2025-10-21",
+            "close": 535.28
+          },
+          {
+            "date": "2025-10-22",
+            "close": 542.59
+          },
+          {
+            "date": "2025-10-23",
+            "close": 536.37
+          },
+          {
+            "date": "2025-10-24",
+            "close": 550.01
+          },
+          {
+            "date": "2025-10-27",
+            "close": 565.69
+          },
+          {
+            "date": "2025-10-28",
+            "close": 559.51
+          },
+          {
+            "date": "2025-10-29",
+            "close": 571.51
+          },
+          {
+            "date": "2025-10-30",
+            "close": 575.21
+          },
+          {
+            "date": "2025-10-31",
+            "close": 579.46
+          },
+          {
+            "date": "2025-11-03",
+            "close": 599.03
+          },
+          {
+            "date": "2025-11-04",
+            "close": 581.94
+          },
+          {
+            "date": "2025-11-05",
+            "close": 565.4
+          },
+          {
+            "date": "2025-11-06",
+            "close": 568.38
+          },
+          {
+            "date": "2025-11-07",
+            "close": 557.98
+          },
+          {
+            "date": "2025-11-10",
+            "close": 575.31
+          },
+          {
+            "date": "2025-11-11",
+            "close": 581.41
+          },
+          {
+            "date": "2025-11-12",
+            "close": 586.73
+          },
+          {
+            "date": "2025-11-13",
+            "close": 588.65
+          },
+          {
+            "date": "2025-11-14",
+            "close": 563.43
+          },
+          {
+            "date": "2025-11-17",
+            "close": 576.65
+          },
+          {
+            "date": "2025-11-18",
+            "close": 556.45
+          },
+          {
+            "date": "2025-11-19",
+            "close": 552.66
+          },
+          {
+            "date": "2025-11-20",
+            "close": 564.2
+          },
+          {
+            "date": "2025-11-21",
+            "close": 540.36
+          },
+          {
+            "date": "2025-11-24",
+            "close": 540.81
+          },
+          {
+            "date": "2025-11-25",
+            "close": 544.62
+          },
+          {
+            "date": "2025-11-26",
+            "close": 559.37
+          },
+          {
+            "date": "2025-11-27",
+            "close": 563.36
+          },
+          {
+            "date": "2025-11-28",
+            "close": 554.0
+          },
+          {
+            "date": "2025-12-01",
+            "close": 553.96
+          },
+          {
+            "date": "2025-12-02",
+            "close": 565.72
+          },
+          {
+            "date": "2025-12-03",
+            "close": 570.79
+          },
+          {
+            "date": "2025-12-04",
+            "close": 569.75
+          },
+          {
+            "date": "2025-12-05",
+            "close": 580.81
+          },
+          {
+            "date": "2025-12-08",
+            "close": 589.17
+          },
+          {
+            "date": "2025-12-09",
+            "close": 585.76
+          },
+          {
+            "date": "2025-12-10",
+            "close": 585.52
+          },
+          {
+            "date": "2025-12-11",
+            "close": 580.16
+          },
+          {
+            "date": "2025-12-12",
+            "close": 587.93
+          },
+          {
+            "date": "2025-12-15",
+            "close": 574.49
+          },
+          {
+            "date": "2025-12-16",
+            "close": 561.52
+          },
+          {
+            "date": "2025-12-17",
+            "close": 572.62
+          },
+          {
+            "date": "2025-12-18",
+            "close": 565.65
+          },
+          {
+            "date": "2025-12-19",
+            "close": 568.4
+          },
+          {
+            "date": "2025-12-22",
+            "close": 582.73
+          },
+          {
+            "date": "2025-12-23",
+            "close": 584.64
+          },
+          {
+            "date": "2025-12-24",
+            "close": 584.21
+          },
+          {
+            "date": "2025-12-26",
+            "close": 590.08
+          },
+          {
+            "date": "2025-12-29",
+            "close": 605.69
+          },
+          {
+            "date": "2025-12-30",
+            "close": 605.98
+          },
+          {
+            "date": "2026-01-02",
+            "close": 624.17
+          },
+          {
+            "date": "2026-01-05",
+            "close": 648.74
+          },
+          {
+            "date": "2026-01-06",
+            "close": 659.45
+          },
+          {
+            "date": "2026-01-07",
+            "close": 664.48
+          },
+          {
+            "date": "2026-01-08",
+            "close": 664.18
+          },
+          {
+            "date": "2026-01-09",
+            "close": 668.25
+          },
+          {
+            "date": "2026-01-12",
+            "close": 672.86
+          },
+          {
+            "date": "2026-01-13",
+            "close": 680.71
+          },
+          {
+            "date": "2026-01-14",
+            "close": 685.76
+          },
+          {
+            "date": "2026-01-15",
+            "close": 696.39
+          },
+          {
+            "date": "2026-01-16",
+            "close": 704.64
+          },
+          {
+            "date": "2026-01-19",
+            "close": 713.96
+          },
+          {
+            "date": "2026-01-20",
+            "close": 708.48
+          },
+          {
+            "date": "2026-01-21",
+            "close": 714.94
+          },
+          {
+            "date": "2026-01-22",
+            "close": 722.3
+          },
+          {
+            "date": "2026-01-23",
+            "close": 727.29
+          },
+          {
+            "date": "2026-01-26",
+            "close": 720.04
+          },
+          {
+            "date": "2026-01-27",
+            "close": 745.13
+          },
+          {
+            "date": "2026-01-28",
+            "close": 758.72
+          },
+          {
+            "date": "2026-01-29",
+            "close": 765.59
+          },
+          {
+            "date": "2026-01-30",
+            "close": 768.41
+          },
+          {
+            "date": "2026-02-02",
+            "close": 725.46
+          },
+          {
+            "date": "2026-02-03",
+            "close": 779.54
+          },
+          {
+            "date": "2026-02-04",
+            "close": 790.38
+          },
+          {
+            "date": "2026-02-05",
+            "close": 756.95
+          },
+          {
+            "date": "2026-02-06",
+            "close": 748.1
+          },
+          {
+            "date": "2026-02-09",
+            "close": 780.94
+          },
+          {
+            "date": "2026-02-10",
+            "close": 780.76
+          },
+          {
+            "date": "2026-02-11",
+            "close": 788.75
+          },
+          {
+            "date": "2026-02-12",
+            "close": 816.28
+          },
+          {
+            "date": "2026-02-13",
+            "close": 814.59
+          },
+          {
+            "date": "2026-02-19",
+            "close": 840.24
+          },
+          {
+            "date": "2026-02-20",
+            "close": 859.59
+          },
+          {
+            "date": "2026-02-23",
+            "close": 865.49
+          },
+          {
+            "date": "2026-02-24",
+            "close": 886.88
+          },
+          {
+            "date": "2026-02-25",
+            "close": 903.83
+          },
+          {
+            "date": "2026-02-26",
+            "close": 944.02
+          },
+          {
+            "date": "2026-02-27",
+            "close": 933.34
+          },
+          {
+            "date": "2026-03-03",
+            "close": 859.4
+          },
+          {
+            "date": "2026-03-04",
+            "close": 756.79
+          },
+          {
+            "date": "2026-03-05",
+            "close": 831.22
+          },
+          {
+            "date": "2026-03-06",
+            "close": 828.83
+          },
+          {
+            "date": "2026-03-09",
+            "close": 775.31
+          },
+          {
+            "date": "2026-03-10",
+            "close": 823.02
+          },
+          {
+            "date": "2026-03-11",
+            "close": 834.05
+          },
+          {
+            "date": "2026-03-12",
+            "close": 827.51
+          },
+          {
+            "date": "2026-03-13",
+            "close": 812.93
+          },
+          {
+            "date": "2026-03-16",
+            "close": 826.83
+          },
+          {
+            "date": "2026-03-17",
+            "close": 840.89
+          },
+          {
+            "date": "2026-03-18",
+            "close": 888.57
+          },
+          {
+            "date": "2026-03-19",
+            "close": 862.37
+          },
+          {
+            "date": "2026-03-20",
+            "close": 862.5
+          },
+          {
+            "date": "2026-03-23",
+            "close": 804.86
+          },
+          {
+            "date": "2026-03-24",
+            "close": 827.64
+          },
+          {
+            "date": "2026-03-25",
+            "close": 838.7
+          },
+          {
+            "date": "2026-03-26",
+            "close": 808.89
+          },
+          {
+            "date": "2026-03-27",
+            "close": 805.19
+          },
+          {
+            "date": "2026-03-30",
+            "close": 780.32
+          },
+          {
+            "date": "2026-03-31",
+            "close": 744.57
+          },
+          {
+            "date": "2026-04-01",
+            "close": 813.84
+          },
+          {
+            "date": "2026-04-02",
+            "close": 774.63
+          },
+          {
+            "date": "2026-04-03",
+            "close": 798.32
+          },
+          {
+            "date": "2026-04-06",
+            "close": 811.84
+          },
+          {
+            "date": "2026-04-07",
+            "close": 821.1
+          },
+          {
+            "date": "2026-04-08",
+            "close": 882.81
+          },
+          {
+            "date": "2026-04-09",
+            "close": 865.75
+          },
+          {
+            "date": "2026-04-10",
+            "close": 878.78
+          },
+          {
+            "date": "2026-04-13",
+            "close": 870.78
+          },
+          {
+            "date": "2026-04-14",
+            "close": 897.0
+          },
+          {
+            "date": "2026-04-15",
+            "close": 916.6
+          },
+          {
+            "date": "2026-04-16",
+            "close": 937.87
+          },
+          {
+            "date": "2026-04-17",
+            "close": 931.41
+          },
+          {
+            "date": "2026-04-20",
+            "close": 935.75
+          },
+          {
+            "date": "2026-04-21",
+            "close": 962.26
+          },
+          {
+            "date": "2026-04-22",
+            "close": 964.52
+          },
+          {
+            "date": "2026-04-23",
+            "close": 975.62
+          },
+          {
+            "date": "2026-04-24",
+            "close": 971.87
+          },
+          {
+            "date": "2026-04-27",
+            "close": 995.33
+          },
+          {
+            "date": "2026-04-28",
+            "close": 999.03
+          },
+          {
+            "date": "2026-04-29",
+            "close": 1006.59
+          },
+          {
+            "date": "2026-04-30",
+            "close": 992.15
+          },
+          {
+            "date": "2026-05-04",
+            "close": 1049.66
+          },
+          {
+            "date": "2026-05-06",
+            "close": 1129.63
+          },
+          {
+            "date": "2026-05-07",
+            "close": 1149.86
+          },
+          {
+            "date": "2026-05-08",
+            "close": 1151.17
+          },
+          {
+            "date": "2026-05-11",
+            "close": 1211.4399
+          },
+          {
+            "date": "2026-05-12",
+            "close": 1183.41
+          },
+          {
+            "date": "2026-05-13",
+            "close": 1220.17
+          },
+          {
+            "date": "2026-05-14",
+            "close": 1243.17
+          },
+          {
+            "date": "2026-05-15",
+            "close": 1162.39
+          },
+          {
+            "date": "2026-05-18",
+            "close": 1171.3
+          },
+          {
+            "date": "2026-05-19",
+            "close": 1132.42
+          },
+          {
+            "date": "2026-05-20",
+            "close": 1125.51
+          },
+          {
+            "date": "2026-05-21",
+            "close": 1225.22
+          },
+          {
+            "date": "2026-05-22",
+            "close": 1226.03
+          },
+          {
+            "date": "2026-05-26",
+            "close": 1260.53
+          },
+          {
+            "date": "2026-05-27",
+            "close": 1298.86
+          },
+          {
+            "date": "2026-05-28",
+            "close": 1292.5699
+          },
+          {
+            "date": "2026-05-29",
+            "close": 1342.8199
+          },
+          {
+            "date": "2026-06-01",
+            "close": 1399.91
+          },
+          {
+            "date": "2026-06-02",
+            "close": 1407.23
+          },
+          {
+            "date": "2026-06-04",
+            "close": 1379.5601
+          },
+          {
+            "date": "2026-06-05",
+            "close": 1297.02
+          },
+          {
+            "date": "2026-06-08",
+            "close": 1186.54
+          },
+          {
+            "date": "2026-06-09",
+            "close": 1293.4
+          },
+          {
+            "date": "2026-06-10",
+            "close": 1227.12
+          },
+          {
+            "date": "2026-06-11",
+            "close": 1231.54
+          },
+          {
+            "date": "2026-06-12",
+            "close": 1291.3199
+          },
+          {
+            "date": "2026-06-15",
+            "close": 1360.26
+          },
+          {
+            "date": "2026-06-16",
+            "close": 1391.74
+          },
+          {
+            "date": "2026-06-17",
+            "close": 1416.97
+          },
+          {
+            "date": "2026-06-18",
+            "close": 1459.23
+          },
+          {
+            "date": "2026-06-19",
+            "close": 1459.48
+          },
+          {
+            "date": "2026-06-22",
+            "close": 1477.22
+          },
+          {
+            "date": "2026-06-23",
+            "close": 1321.7
+          },
+          {
+            "date": "2026-06-24",
+            "close": 1369.62
+          },
+          {
+            "date": "2026-06-25",
+            "close": 1454.15
+          },
+          {
+            "date": "2026-06-26",
+            "close": 1366.49
+          },
+          {
+            "date": "2026-06-29",
+            "close": 1352.54
+          },
+          {
+            "date": "2026-06-30",
+            "close": 1370.73
+          },
+          {
+            "date": "2026-07-01",
+            "close": 1335.36
+          },
+          {
+            "date": "2026-07-02",
+            "close": 1219.62
+          },
+          {
+            "date": "2026-07-03",
+            "close": 1299.3
+          },
+          {
+            "date": "2026-07-06",
+            "close": 1293.13
+          },
+          {
+            "date": "2026-07-07",
+            "close": 1225.5699
+          },
+          {
+            "date": "2026-07-08",
+            "close": 1158.37
+          },
+          {
+            "date": "2026-07-09",
+            "close": 1169.73
+          },
+          {
+            "date": "2026-07-10",
+            "close": 1196.6899
+          },
+          {
+            "date": "2026-07-13",
+            "close": 1078.78
+          },
+          {
+            "date": "2026-07-14",
+            "close": 1092.23
+          },
+          {
+            "date": "2026-07-15",
+            "close": 1163.9
+          },
+          {
+            "date": "2026-07-16",
+            "close": 1080.36
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 1065.7,
+        "latest_date": "2026-07-16",
+        "latest": 1080.36,
+        "1d_change_pct": -7.18,
+        "1w_change_pct": -7.64,
+        "1m_change_pct": -23.76,
+        "3m_change_pct": 20.44,
+        "6m_change_pct": 61.67,
         "symbol": "^KS200",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS200?range=1y&interval=1d"
       },
@@ -3494,19 +4347,15 @@
           {
             "date": "2026-08-27",
             "close": 266000.0
-          },
-          {
-            "date": "2026-08-28",
-            "close": 257000.0
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 257000.0,
-        "1d_change_pct": -3.38,
-        "1w_change_pct": -8.7,
-        "1m_change_pct": 23.26,
-        "3m_change_pct": -14.19,
-        "6m_change_pct": 28.5,
+        "latest_date": "2026-08-27",
+        "latest": 266000.0,
+        "1d_change_pct": 1.72,
+        "1w_change_pct": -1.85,
+        "1m_change_pct": 20.91,
+        "3m_change_pct": -13.36,
+        "6m_change_pct": 37.82,
         "symbol": "005930.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=1y&interval=1d"
       },
@@ -4482,19 +5331,15 @@
           {
             "date": "2026-08-27",
             "close": 1730000.0
-          },
-          {
-            "date": "2026-08-28",
-            "close": 1653000.0
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 1653000.0,
-        "1d_change_pct": -4.45,
-        "1w_change_pct": -4.45,
-        "1m_change_pct": 17.99,
-        "3m_change_pct": -27.79,
-        "6m_change_pct": 64.48,
+        "latest_date": "2026-08-27",
+        "latest": 1730000.0,
+        "1d_change_pct": 2.49,
+        "1w_change_pct": 2.31,
+        "1m_change_pct": 11.61,
+        "3m_change_pct": -22.87,
+        "6m_change_pct": 81.91,
         "symbol": "000660.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=1y&interval=1d"
       },
@@ -5470,19 +6315,15 @@
           {
             "date": "2026-08-27",
             "close": 398000.0
-          },
-          {
-            "date": "2026-08-28",
-            "close": 399500.0
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 399500.0,
-        "1d_change_pct": 0.38,
-        "1w_change_pct": -3.73,
-        "1m_change_pct": 13.01,
-        "3m_change_pct": -40.99,
-        "6m_change_pct": -23.76,
+        "latest_date": "2026-08-27",
+        "latest": 398000.0,
+        "1d_change_pct": -2.45,
+        "1w_change_pct": -4.67,
+        "1m_change_pct": 9.34,
+        "3m_change_pct": -41.56,
+        "6m_change_pct": -23.9,
         "symbol": "005380.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005380.KS?range=1y&interval=1d"
       },
@@ -6458,26 +7299,22 @@
           {
             "date": "2026-08-27",
             "close": 216500.0
-          },
-          {
-            "date": "2026-08-28",
-            "close": 220500.0
           }
         ],
-        "latest_date": "2026-08-28",
-        "latest": 220500.0,
-        "1d_change_pct": 1.85,
-        "1w_change_pct": -0.68,
-        "1m_change_pct": 9.43,
-        "3m_change_pct": 7.56,
-        "6m_change_pct": -13.53,
+        "latest_date": "2026-08-27",
+        "latest": 216500.0,
+        "1d_change_pct": -1.59,
+        "1w_change_pct": -1.37,
+        "1m_change_pct": 3.1,
+        "3m_change_pct": 8.9,
+        "6m_change_pct": -15.26,
         "symbol": "035420.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/035420.KS?range=1y&interval=1d"
       },
       "KRW per USD": {
         "currency": "KRW",
         "exchange": "CCY",
-        "regularMarketPrice": 1371.68,
+        "regularMarketPrice": 1378.82,
         "history": [
           {
             "date": "2025-08-27",
@@ -7517,24 +8354,24 @@
           },
           {
             "date": "2026-08-28",
-            "close": 1371.6801
+            "close": 1378.8199
           }
         ],
         "latest_date": "2026-08-28",
-        "latest": 1371.6801,
-        "1d_change_pct": -0.85,
-        "1w_change_pct": -1.37,
-        "1m_change_pct": -4.9,
-        "3m_change_pct": -9.24,
-        "6m_change_pct": -6.1,
-        "1y_change_pct": -1.0,
+        "latest": 1378.8199,
+        "1d_change_pct": -0.34,
+        "1w_change_pct": -0.86,
+        "1m_change_pct": -4.4,
+        "3m_change_pct": -8.76,
+        "6m_change_pct": -5.61,
+        "1y_change_pct": -0.48,
         "symbol": "KRW=X",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=1y&interval=1d"
       },
       "US Dollar Index": {
         "currency": "USD",
         "exchange": "NYB",
-        "regularMarketPrice": 99.218,
+        "regularMarketPrice": 99.694,
         "history": [
           {
             "date": "2025-08-28",
@@ -8542,23 +9379,23 @@
           },
           {
             "date": "2026-08-28",
-            "close": 99.218
+            "close": 99.694
           }
         ],
         "latest_date": "2026-08-28",
-        "latest": 99.218,
-        "1d_change_pct": 0.06,
-        "1w_change_pct": 0.42,
-        "1m_change_pct": -0.79,
-        "3m_change_pct": 0.31,
-        "6m_change_pct": 1.65,
+        "latest": 99.694,
+        "1d_change_pct": 0.54,
+        "1w_change_pct": 0.9,
+        "1m_change_pct": -0.32,
+        "3m_change_pct": 0.79,
+        "6m_change_pct": 2.14,
         "symbol": "DX-Y.NYB",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1y&interval=1d"
       },
       "S&P500": {
         "currency": "USD",
         "exchange": "SNP",
-        "regularMarketPrice": 7730.99,
+        "regularMarketPrice": 7707.67,
         "history": [
           {
             "date": "2025-08-28",
@@ -9563,22 +10400,26 @@
           {
             "date": "2026-08-27",
             "close": 7730.9902
+          },
+          {
+            "date": "2026-08-28",
+            "close": 7707.6699
           }
         ],
-        "latest_date": "2026-08-27",
-        "latest": 7730.9902,
-        "1d_change_pct": 0.72,
-        "1w_change_pct": 1.18,
-        "1m_change_pct": 5.67,
-        "3m_change_pct": 2.21,
-        "6m_change_pct": 11.9,
+        "latest_date": "2026-08-28",
+        "latest": 7707.6699,
+        "1d_change_pct": -0.3,
+        "1w_change_pct": 0.43,
+        "1m_change_pct": 3.63,
+        "3m_change_pct": 1.68,
+        "6m_change_pct": 12.05,
         "symbol": "^GSPC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1y&interval=1d"
       },
       "Nasdaq": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 26541.352,
+        "regularMarketPrice": 26382.613,
         "history": [
           {
             "date": "2025-08-28",
@@ -10583,22 +11424,26 @@
           {
             "date": "2026-08-27",
             "close": 26541.3496
+          },
+          {
+            "date": "2026-08-28",
+            "close": 26382.6133
           }
         ],
-        "latest_date": "2026-08-27",
-        "latest": 26541.3496,
-        "1d_change_pct": 1.57,
-        "1w_change_pct": 1.82,
-        "1m_change_pct": 8.58,
-        "3m_change_pct": -1.4,
-        "6m_change_pct": 16.01,
+        "latest_date": "2026-08-28",
+        "latest": 26382.6133,
+        "1d_change_pct": -0.6,
+        "1w_change_pct": 0.77,
+        "1m_change_pct": 5.02,
+        "3m_change_pct": -2.19,
+        "6m_change_pct": 16.39,
         "symbol": "^IXIC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=1y&interval=1d"
       },
       "Philadelphia SOX": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 11882.169,
+        "regularMarketPrice": 11471.39,
         "history": [
           {
             "date": "2025-08-28",
@@ -11603,22 +12448,26 @@
           {
             "date": "2026-08-27",
             "close": 11882.1699
+          },
+          {
+            "date": "2026-08-28",
+            "close": 11471.3896
           }
         ],
-        "latest_date": "2026-08-27",
-        "latest": 11882.1699,
-        "1d_change_pct": 2.33,
-        "1w_change_pct": 0.7,
-        "1m_change_pct": 13.73,
-        "3m_change_pct": -7.38,
-        "6m_change_pct": 44.95,
+        "latest_date": "2026-08-28",
+        "latest": 11471.3896,
+        "1d_change_pct": -3.46,
+        "1w_change_pct": -2.29,
+        "1m_change_pct": 1.49,
+        "3m_change_pct": -10.59,
+        "6m_change_pct": 41.65,
         "symbol": "^SOX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d"
       },
       "VIX": {
         "currency": "USD",
         "exchange": "CXI",
-        "regularMarketPrice": 14.5,
+        "regularMarketPrice": 14.54,
         "history": [
           {
             "date": "2025-08-28",
@@ -12630,29 +13479,25 @@
           },
           {
             "date": "2026-08-28",
-            "close": 14.5
+            "close": 14.54
           }
         ],
         "latest_date": "2026-08-28",
-        "latest": 14.5,
-        "1d_change_pct": -0.07,
-        "1w_change_pct": -4.16,
-        "1m_change_pct": -15.16,
-        "3m_change_pct": -5.35,
-        "6m_change_pct": -32.37,
-        "1y_change_pct": 0.49,
+        "latest": 14.54,
+        "1d_change_pct": 0.21,
+        "1w_change_pct": -3.9,
+        "1m_change_pct": -14.92,
+        "3m_change_pct": -5.09,
+        "6m_change_pct": -32.18,
+        "1y_change_pct": 0.76,
         "symbol": "^VIX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1y&interval=1d"
       },
       "US 10Y yield": {
         "currency": "USD",
         "exchange": "CGI",
-        "regularMarketPrice": 4.672,
+        "regularMarketPrice": 4.72,
         "history": [
-          {
-            "date": "2025-08-27",
-            "close": 4.238
-          },
           {
             "date": "2025-08-28",
             "close": 4.207
@@ -13656,22 +14501,26 @@
           {
             "date": "2026-08-27",
             "close": 4.672
+          },
+          {
+            "date": "2026-08-28",
+            "close": 4.72
           }
         ],
-        "latest_date": "2026-08-27",
-        "latest": 4.672,
-        "1d_change_pct": 0.17,
-        "1w_change_pct": -0.51,
-        "1m_change_pct": 1.08,
-        "3m_change_pct": 4.87,
-        "6m_change_pct": 16.31,
+        "latest_date": "2026-08-28",
+        "latest": 4.72,
+        "1d_change_pct": 1.03,
+        "1w_change_pct": -0.38,
+        "1m_change_pct": 1.22,
+        "3m_change_pct": 6.0,
+        "6m_change_pct": 19.13,
         "symbol": "^TNX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d"
       },
       "WTI crude": {
         "currency": "USD",
         "exchange": "NYM",
-        "regularMarketPrice": 83.14,
+        "regularMarketPrice": 83.3,
         "history": [
           {
             "date": "2025-08-28",
@@ -14679,23 +15528,23 @@
           },
           {
             "date": "2026-08-28",
-            "close": 83.14
+            "close": 83.3
           }
         ],
         "latest_date": "2026-08-28",
-        "latest": 83.14,
-        "1d_change_pct": -0.47,
-        "1w_change_pct": -4.5,
-        "1m_change_pct": -0.54,
-        "3m_change_pct": -4.83,
-        "6m_change_pct": 24.05,
+        "latest": 83.3,
+        "1d_change_pct": -0.28,
+        "1w_change_pct": -4.32,
+        "1m_change_pct": -0.35,
+        "3m_change_pct": -4.65,
+        "6m_change_pct": 24.29,
         "symbol": "CL=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=1y&interval=1d"
       },
       "Gold": {
         "currency": "USD",
         "exchange": "CMX",
-        "regularMarketPrice": 4659.5,
+        "regularMarketPrice": 4512.2,
         "history": [
           {
             "date": "2025-08-28",
@@ -15703,23 +16552,23 @@
           },
           {
             "date": "2026-08-28",
-            "close": 4659.5
+            "close": 4512.2002
           }
         ],
         "latest_date": "2026-08-28",
-        "latest": 4659.5,
-        "1d_change_pct": 1.08,
-        "1w_change_pct": 0.77,
-        "1m_change_pct": 13.64,
-        "3m_change_pct": 2.17,
-        "6m_change_pct": -10.92,
+        "latest": 4512.2002,
+        "1d_change_pct": -2.12,
+        "1w_change_pct": -2.42,
+        "1m_change_pct": 10.05,
+        "3m_change_pct": -1.06,
+        "6m_change_pct": -13.73,
         "symbol": "GC=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=1y&interval=1d"
       },
       "iShares MSCI Korea ETF": {
         "currency": "USD",
         "exchange": "PCX",
-        "regularMarketPrice": 182.14,
+        "regularMarketPrice": 180.3,
         "history": [
           {
             "date": "2025-08-28",
@@ -16724,15 +17573,19 @@
           {
             "date": "2026-08-27",
             "close": 182.14
+          },
+          {
+            "date": "2026-08-28",
+            "close": 180.3
           }
         ],
-        "latest_date": "2026-08-27",
-        "latest": 182.14,
-        "1d_change_pct": 1.65,
-        "1w_change_pct": 2.23,
-        "1m_change_pct": 26.3,
-        "3m_change_pct": -11.76,
-        "6m_change_pct": 21.1,
+        "latest_date": "2026-08-28",
+        "latest": 180.3,
+        "1d_change_pct": -1.01,
+        "1w_change_pct": 1.1,
+        "1m_change_pct": 11.84,
+        "3m_change_pct": -12.4,
+        "6m_change_pct": 19.11,
         "symbol": "EWY",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=1y&interval=1d"
       }
@@ -16765,14 +17618,14 @@
       "VIXCLS": {
         "series": "VIXCLS",
         "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
-        "latest_date": "2026-08-26",
-        "latest": 15.21
+        "latest_date": "2026-08-27",
+        "latest": 14.51
       },
       "BAMLH0A0HYM2": {
         "series": "BAMLH0A0HYM2",
         "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
-        "latest_date": "2026-08-26",
-        "latest": 2.67
+        "latest_date": "2026-08-27",
+        "latest": 2.63
       }
     },
     "bok_base_rate": {
@@ -16886,7 +17739,7 @@
             "title": "OPINION: A stronger won can buy BOK more time - 네이트",
             "source": "네이트",
             "pubDate": "Mon, 24 Aug 2026 06:40:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nb3JMcEdWcUo0alV4cHd3RHl2dDI4SjJ2cFdaU3ZHRl9GUWNuRTNLdk5LYnJObkJ3TC1RM0FtZmtHUXd2a0FVQWp0d083VFExZWhxcWMzQ05SYXgyNDV3SQ?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaFJvRThZR1U2cmt6R3p6QnM4WHMzZC05am9adHNpVkl5ZERnTGxyYUswVHc2QUFvY3RPV1N3UjhjeTZoNEVGWHVLR3NKWlE1a2tJ?oc=5"
           },
           {
             "title": "[Market Insight] Korea Stocks Face Middle East Shock, but Brokers See Volatility as an Entry Point - 한국면세뉴스",
@@ -16907,10 +17760,10 @@
             "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uUHR4eUFLM0tMeHhJTkR0OXdpQVhId0JZMERvZHBuYVVGMWQwc0hZWVlGOFgwMXZ1TGxiMHlxZFFIMHFWVlNqRGRuQWkzOUlrMzUtT21nanJxLTJvSGc?oc=5"
           },
           {
-            "title": "트럼프 미 대통령 “호르무즈 협상 17일 시한” 경고…유가쇼크 속 코스피 7000 터치 - 브레이크뉴스",
-            "source": "브레이크뉴스",
-            "pubDate": "Sun, 16 Aug 2026 02:05:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE90dW14QXlUYmpsbzJveENlUEJMNGZ2cHZYRmtWRDUxNzRYUmREclNjRnNiMFo2UWxMYnV3YzNOUzBEVGFzd1dZWA?oc=5"
+            "title": "[Park Su-jin's Money Watch] KOSPI Falls Below 6800 on Sharp Semiconductor Selloff…Analysts Expect Another Push Toward 7000 Next Week - 뉴스워치",
+            "source": "뉴스워치",
+            "pubDate": "Fri, 28 Aug 2026 08:31:56 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTVmZ0RVl1cUlENG10ajZoUzU5d0FRMXNQUHpoT3RKUFRzcGRxMVI2SVcyQzN2aGNFOW9TVjBydFRVVmNYeFJUSmltSngzaGpUbUk3UjViTEY3LW1GVUdfcG9ObG5sOUVqQUE?oc=5"
           },
           {
             "title": "[미르의 알기쉬운 비즈니스]‘AI’가 바꾼 세계증시 서열…한국 코스피, 영국 제치고 세계 8위 등극 - 미디어펜",
@@ -17015,12 +17868,6 @@
             "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tMjJaRmdwNldVREtRblhSVUNRYkx5N3hoazBPR0NnQUZXY083VWRpWXN1LW4zYlhVWWRtMG9EbDIzaFlIVk1sWkwteFRtYzlGR2c?oc=5"
           },
           {
-            "title": "[증시 프리즘] \"금리 shock 안착 vs 환율 변수\"…오늘 증시 속도 조절속 차별화 전망 - thefairnews.co.kr",
-            "source": "thefairnews.co.kr",
-            "pubDate": "Thu, 27 Aug 2026 15:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1veDNEYzFoTkczQTFwcGpUUW9fWlRhTkpWUUliT1k3TkFTZ1lCY29qU0pxZGs5SzV0dkRYUFQ1TXcwTDQ0ekVIM3ZPMDVfMmJMdDhFRDZ2aHFIMExiUFE1NENMSEw1SlppS3cyVVl6Y2Y?oc=5"
-          },
-          {
             "title": "8월 금통위 ‘동결’ 무게…연속 인상 불씨는 잔존 - 스트레이트뉴스",
             "source": "스트레이트뉴스",
             "pubDate": "Fri, 21 Aug 2026 05:04:34 GMT",
@@ -17031,6 +17878,12 @@
             "source": "v.daum.net",
             "pubDate": "Tue, 11 Aug 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1zbTBBZlF1THFDTVJuQVNZMDRRYlNaTEFxTVpNLUlvMUNPc1ZIdVJ3bHpUNnlTSDN1TThWSHM2VmFydGVaaG45dHRVOA?oc=5"
+          },
+          {
+            "title": "[증시 프리즘] \"금리 shock 안착 vs 환율 변수\"…오늘 증시 속도 조절속 차별화 전망 - thefairnews.co.kr",
+            "source": "thefairnews.co.kr",
+            "pubDate": "Thu, 27 Aug 2026 15:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1veDNEYzFoTkczQTFwcGpUUW9fWlRhTkpWUUliT1k3TkFTZ1lCY29qU0pxZGs5SzV0dkRYUFQ1TXcwTDQ0ekVIM3ZPMDVfMmJMdDhFRDZ2aHFIMExiUFE1NENMSEw1SlppS3cyVVl6Y2Y?oc=5"
           }
         ]
       },
@@ -17038,6 +17891,12 @@
         "query": "삼성전자 SK하이닉스 HBM 반도체 주가 전망",
         "source": "https://news.google.com/rss/search?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+HBM+%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%A3%BC%EA%B0%80+%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako",
         "items": [
+          {
+            "title": "SK하이닉스, 美 HBM 생산 거점 마련… 3분기 실적도 ‘파란불’ - 시사위크",
+            "source": "시사위크",
+            "pubDate": "Fri, 28 Aug 2026 07:18:24 GMT",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSVC1mTmpYRldWa1FHTFJIZTBjaHhtOTFXcC1kUmx5TlVPN2VSVVlzY2pRRlM2OUlwVDIyS3VsNDZST3pPRElNMTZzWUhxN3UzdE5xTV9Uak91dW14TlJmRzZwMmhZZG5TMDRR0gFvQVVfeXFMTVJGSGpITy1tSm9EVHFSQ1pQd2ZSYkRlaXhLR2d1M2dwODJPYXRJVGJqOW0tbVZRUmhXeGhJbWFKNFhzUndSVEFDc0VXUFl0ZnphU0ZncHVBTFJEbzNvODZzSkpDMEl6R0M1V0ptX3Fv?oc=5"
+          },
           {
             "title": "엔비디아 '깜짝 실적'에 삼성전자·SK하이닉스 강세…AI 메모리 수요 기대↑ - 블루밍비트",
             "source": "블루밍비트",
@@ -17079,22 +17938,16 @@
             "source": "더퍼블릭",
             "pubDate": "Thu, 27 Aug 2026 05:13:10 GMT",
             "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqOTU1Z1k2RWJXSjVSYndhRVNDYjhZR0pkTUI1Y0JfZF94YUZtZlI0YVNkZUtfdnozQlBpMVRWOU5kRXh3R3BLZzNKQ29jOUcwaER4WWY5RGFBbERSbzF6NUFHWm1pYXQzaGFF0gFvQVVfeXFMT0o0bXdaZVJ6TDlNWXl1UGdDSXdjQmJkZGc3QWx6LW5lTEg5M0toM1czekhKZ2RmWXBKN2RaVWR2VEkzNTRZV29VVktNcElJdHRHOUkzNjFhOEtscXRxODF4bmpsY2FMYzFobkphNTZV?oc=5"
-          },
-          {
-            "title": "엔비디아 호실적에 K반도체 반등…삼성전자·SK하이닉스 강세 - 유스연합",
-            "source": "유스연합",
-            "pubDate": "Thu, 27 Aug 2026 05:16:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05T1R5VlBXUXpGSXVNYmxpb1lBenFJZzBkWG5jLWxYazcxQmlOMW9kMVg4MFZDY0hrWnpObEFTbDVJZ0NHelI0aWVfc0FEMFVYYlE?oc=5"
           }
         ]
       }
     ],
-    "run_phase": "morning",
-    "run_phase_label": "오전 9시 예측"
+    "run_phase": "close",
+    "run_phase_label": "오후 4시 당일 장세 분석 및 수정 적용"
   },
   "prediction": {
     "market": "KOSPI",
-    "generated_at_utc": "2026-08-28T10:00:46+00:00",
+    "generated_at_utc": "2026-08-28T19:18:34+00:00",
     "total_score": 0.44,
     "positive_score": 4.44,
     "negative_score": -4.0,
@@ -17104,16 +17957,16 @@
       "bias": "neutral"
     },
     "medium_term": {
-      "label": "상승 우세",
-      "confidence": "중간~높음",
-      "bias": "bullish"
+      "label": "조건부 상승",
+      "confidence": "중간",
+      "bias": "conditional_bullish"
     },
     "signals": [
       {
         "id": "trend_kospi",
         "category": "가격/추세",
         "factor": "KOSPI 중기 모멘텀",
-        "observed": "1M +19.88%, 3M -17.06%, 6M +13.72%",
+        "observed": "1M +14.75%, 3M -16.00%, 6M +18.24%",
         "direction": "상승",
         "score": 0.5,
         "weight": "높음",
@@ -17143,7 +17996,7 @@
         "id": "fx_krw",
         "category": "환율",
         "factor": "USD/KRW",
-        "observed": "1,371.68, 1M -4.90%",
+        "observed": "1,378.82, 1M -4.40%",
         "direction": "하락",
         "score": 0.5,
         "weight": "높음",
@@ -17153,7 +18006,7 @@
         "id": "sox_short_term",
         "category": "글로벌/반도체",
         "factor": "Philadelphia SOX 단기 흐름",
-        "observed": "1W +0.70%, 1M +13.73%",
+        "observed": "1W -2.29%, 1M +1.49%",
         "direction": "하락",
         "score": 0.0,
         "weight": "높음",
@@ -17173,7 +18026,7 @@
         "id": "us_rates",
         "category": "금리",
         "factor": "미국 10년물",
-        "observed": "4.672%, 1M +1.08%",
+        "observed": "4.720%, 1M +1.22%",
         "direction": "하락",
         "score": -1.0,
         "weight": "중간~높음",
@@ -17183,7 +18036,7 @@
         "id": "risk_vix",
         "category": "리스크",
         "factor": "VIX",
-        "observed": "14.50",
+        "observed": "14.54",
         "direction": "상승",
         "score": 1.0,
         "weight": "중간",
@@ -17193,7 +18046,7 @@
         "id": "oil",
         "category": "원자재",
         "factor": "WTI 유가",
-        "observed": "83.14달러, 1M -0.54%",
+        "observed": "83.30달러, 1M -0.35%",
         "direction": "하락",
         "score": 0.0,
         "weight": "중간",
@@ -17246,7 +18099,7 @@
     "market_models": {
       "KOSPI": {
         "market": "KOSPI",
-        "generated_at_utc": "2026-08-28T10:00:46+00:00",
+        "generated_at_utc": "2026-08-28T19:18:34+00:00",
         "total_score": 0.44,
         "positive_score": 4.44,
         "negative_score": -4.0,
@@ -17256,16 +18109,16 @@
           "bias": "neutral"
         },
         "medium_term": {
-          "label": "상승 우세",
-          "confidence": "중간~높음",
-          "bias": "bullish"
+          "label": "조건부 상승",
+          "confidence": "중간",
+          "bias": "conditional_bullish"
         },
         "signals": [
           {
             "id": "trend_kospi",
             "category": "가격/추세",
             "factor": "KOSPI 중기 모멘텀",
-            "observed": "1M +19.88%, 3M -17.06%, 6M +13.72%",
+            "observed": "1M +14.75%, 3M -16.00%, 6M +18.24%",
             "direction": "상승",
             "score": 0.5,
             "weight": "높음",
@@ -17295,7 +18148,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,371.68, 1M -4.90%",
+            "observed": "1,378.82, 1M -4.40%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -17305,7 +18158,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W +0.70%, 1M +13.73%",
+            "observed": "1W -2.29%, 1M +1.49%",
             "direction": "하락",
             "score": 0.0,
             "weight": "높음",
@@ -17325,7 +18178,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.672%, 1M +1.08%",
+            "observed": "4.720%, 1M +1.22%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간~높음",
@@ -17335,7 +18188,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "14.50",
+            "observed": "14.54",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -17345,7 +18198,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "83.14달러, 1M -0.54%",
+            "observed": "83.30달러, 1M -0.35%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간",
@@ -17398,7 +18251,7 @@
       },
       "KOSDAQ": {
         "market": "KOSDAQ",
-        "generated_at_utc": "2026-08-28T10:00:46+00:00",
+        "generated_at_utc": "2026-08-28T19:18:34+00:00",
         "total_score": 2.44,
         "positive_score": 4.94,
         "negative_score": -2.5,
@@ -17417,7 +18270,7 @@
             "id": "trend_kosdaq",
             "category": "가격/추세",
             "factor": "KOSDAQ 중기 모멘텀",
-            "observed": "1M +26.52%, 3M -24.08%, 6M -28.03%",
+            "observed": "1M +18.67%, 3M -26.08%, 6M -27.29%",
             "direction": "하락",
             "score": -0.5,
             "weight": "높음",
@@ -17447,7 +18300,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,371.68, 1M -4.90%",
+            "observed": "1,378.82, 1M -4.40%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -17457,7 +18310,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W +0.70%, 1M +13.73%",
+            "observed": "1W -2.29%, 1M +1.49%",
             "direction": "하락",
             "score": 0.0,
             "weight": "높음",
@@ -17477,7 +18330,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.672%, 1M +1.08%",
+            "observed": "4.720%, 1M +1.22%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간~높음",
@@ -17487,7 +18340,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "14.50",
+            "observed": "14.54",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -17497,7 +18350,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "83.14달러, 1M -0.54%",
+            "observed": "83.30달러, 1M -0.35%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간",
@@ -17554,26 +18407,77 @@
       "horizon_days": 5,
       "markets": {
         "KOSPI": {
-          "samples": 219,
-          "hit_rate": 0.6164,
-          "avg_forward_return": 1.7964,
-          "suggested_weight": 0.2329,
+          "samples": 218,
+          "hit_rate": 0.6147,
+          "avg_forward_return": 1.8128,
+          "suggested_weight": 0.2294,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
           "horizon_days": 5
         },
         "KOSDAQ": {
-          "samples": 219,
-          "hit_rate": 0.5616,
-          "avg_forward_return": 0.1528,
-          "suggested_weight": 0.1233,
+          "samples": 218,
+          "hit_rate": 0.5596,
+          "avg_forward_return": 0.1327,
+          "suggested_weight": 0.1193,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
           "horizon_days": 5
         }
       }
     },
-    "run_phase": "morning",
-    "run_phase_label": "오전 9시 예측"
+    "run_phase": "close",
+    "run_phase_label": "오후 4시 당일 장세 분석 및 수정 적용",
+    "intraday_review": {
+      "phase": "close",
+      "morning_generated_kst": "2026-08-28T19:00:32+09:00",
+      "close_generated_kst": "2026-08-29T04:18:23+09:00",
+      "trading_date": "2026-08-29",
+      "morning_prediction_label": "중립",
+      "morning_prediction_bias": "neutral",
+      "close_prediction_label": "중립",
+      "primary_market": "KOSPI",
+      "primary_hit": false,
+      "feedback_eligible": false,
+      "feedback_reason": "오전 예측일(2026-08-28)과 마감 분석일(2026-08-29)이 달라 피드백 표본에 반영하지 않았습니다.",
+      "markets": {
+        "KOSPI": {
+          "morning": 6788.88,
+          "close": 6788.88,
+          "change_pct": 0.0
+        },
+        "KOSDAQ": {
+          "morning": 838.41,
+          "close": 838.41,
+          "change_pct": 0.0
+        }
+      },
+      "adjustment": {
+        "action": "피드백 보류",
+        "reason": "오전 예측일(2026-08-28)과 마감 분석일(2026-08-29)이 달라 피드백 표본에 반영하지 않았습니다.",
+        "applied": false
+      }
+    },
+    "next_feedback": {
+      "version": 1,
+      "samples": 72,
+      "hits": 28,
+      "misses": 44,
+      "hit_rate": 0.3889,
+      "next_session_score_adjustment": 0.44,
+      "last_actual_bias": "bullish",
+      "last_feedback": {
+        "summary": "전일 09시 예측 불일치: 예측=neutral, 실제=bullish(+0.55%)",
+        "hit": false,
+        "predicted_bias": "neutral",
+        "actual_bias": "bullish",
+        "kospi_change_pct": 0.55,
+        "close_generated_kst": "2026-08-26T16:48:39+09:00",
+        "trading_date": "2026-08-26"
+      },
+      "last_skipped_feedback": {
+        "reason": "오전 예측일(2026-08-28)과 마감 분석일(2026-08-29)이 달라 피드백 표본에 반영하지 않았습니다."
+      }
+    }
   }
 }
