@@ -1,7 +1,7 @@
 {
   "snapshot": {
-    "generated_utc": "2026-09-15T03:46:56Z",
-    "generated_kst": "2026-09-15T12:46:56+09:00",
+    "generated_utc": "2026-09-15T12:30:45Z",
+    "generated_kst": "2026-09-15T21:30:45+09:00",
     "naver_indices": {
       "KOSPI": {
         "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
@@ -16,16 +16,16 @@
         "rows": [
           {
             "date": "26.09.15",
-            "individual": 3402.0,
-            "foreign": -10253.0,
-            "institution_total": -3184.0,
-            "financial_investment": -2636.0,
-            "insurance": 103.0,
-            "investment_trust_private": -1339.0,
-            "bank": 122.0,
-            "other_financial": 96.0,
-            "pension": 469.0,
-            "other_corporations": 10035.0
+            "individual": 8596.0,
+            "foreign": -15458.0,
+            "institution_total": -9585.0,
+            "financial_investment": -6605.0,
+            "insurance": 101.0,
+            "investment_trust_private": -3510.0,
+            "bank": 113.0,
+            "other_financial": 204.0,
+            "pension": 114.0,
+            "other_corporations": 16447.0
           },
           {
             "date": "26.09.14",
@@ -147,20 +147,20 @@
         ],
         "sums_억원": {
           "5d": {
-            "individual": 33351.0,
-            "foreign": -97165.0,
-            "institution_total": -12071.0,
-            "financial_investment": 470.0,
-            "pension": 570.0,
-            "other_corporations": 75883.0
+            "individual": 38545.0,
+            "foreign": -102370.0,
+            "institution_total": -18472.0,
+            "financial_investment": -3499.0,
+            "pension": 215.0,
+            "other_corporations": 82295.0
           },
           "10d": {
-            "individual": -89104.0,
-            "foreign": -79280.0,
-            "institution_total": 26323.0,
-            "financial_investment": 38211.0,
-            "pension": -2538.0,
-            "other_corporations": 142059.0
+            "individual": -83910.0,
+            "foreign": -84485.0,
+            "institution_total": 19922.0,
+            "financial_investment": 34242.0,
+            "pension": -2893.0,
+            "other_corporations": 148471.0
           }
         }
       },
@@ -169,16 +169,16 @@
         "rows": [
           {
             "date": "26.09.15",
-            "individual": -1178.0,
-            "foreign": 114.0,
-            "institution_total": 1031.0,
-            "financial_investment": 479.0,
-            "insurance": 25.0,
-            "investment_trust_private": 396.0,
-            "bank": -16.0,
-            "other_financial": 63.0,
-            "pension": 84.0,
-            "other_corporations": 32.0
+            "individual": -1478.0,
+            "foreign": 272.0,
+            "institution_total": 1149.0,
+            "financial_investment": 625.0,
+            "insurance": 14.0,
+            "investment_trust_private": 401.0,
+            "bank": -27.0,
+            "other_financial": 68.0,
+            "pension": 68.0,
+            "other_corporations": 58.0
           },
           {
             "date": "26.09.14",
@@ -300,20 +300,20 @@
         ],
         "sums_억원": {
           "5d": {
-            "individual": -275.0,
-            "foreign": -12539.0,
-            "institution_total": 12440.0,
-            "financial_investment": 415.0,
-            "pension": 495.0,
-            "other_corporations": 373.0
+            "individual": -575.0,
+            "foreign": -12381.0,
+            "institution_total": 12558.0,
+            "financial_investment": 561.0,
+            "pension": 479.0,
+            "other_corporations": 399.0
           },
           "10d": {
-            "individual": 2652.0,
-            "foreign": -9538.0,
-            "institution_total": 6462.0,
-            "financial_investment": -3649.0,
-            "pension": 563.0,
-            "other_corporations": 422.0
+            "individual": 2352.0,
+            "foreign": -9380.0,
+            "institution_total": 6580.0,
+            "financial_investment": -3503.0,
+            "pension": 547.0,
+            "other_corporations": 448.0
           }
         }
       }
@@ -328,7 +328,7 @@
       "KOSPI": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 6680.85,
+        "regularMarketPrice": 6627.26,
         "history": [
           {
             "date": "2025-09-15",
@@ -1304,23 +1304,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 6680.8501
+            "close": 6627.2598
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 6680.8501,
-        "1d_change_pct": -0.05,
-        "1w_change_pct": -3.94,
-        "1m_change_pct": -4.26,
-        "3m_change_pct": -23.44,
-        "6m_change_pct": 21.75,
+        "latest": 6627.2598,
+        "1d_change_pct": -0.85,
+        "1w_change_pct": -4.71,
+        "1m_change_pct": -5.03,
+        "3m_change_pct": -24.06,
+        "6m_change_pct": 20.78,
         "symbol": "^KS11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=1y&interval=1d"
       },
       "KOSDAQ": {
         "currency": "KRW",
         "exchange": "KOE",
-        "regularMarketPrice": 820.89,
+        "regularMarketPrice": 812.41,
         "history": [
           {
             "date": "2025-09-15",
@@ -2296,23 +2296,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 820.89
+            "close": 812.41
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 820.89,
-        "1d_change_pct": 1.75,
-        "1w_change_pct": 1.11,
-        "1m_change_pct": -5.06,
-        "3m_change_pct": -19.42,
-        "6m_change_pct": -28.8,
+        "latest": 812.41,
+        "1d_change_pct": 0.7,
+        "1w_change_pct": 0.07,
+        "1m_change_pct": -6.04,
+        "3m_change_pct": -20.25,
+        "6m_change_pct": -29.54,
         "symbol": "^KQ11",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKQ11?range=1y&interval=1d"
       },
       "KOSPI200": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 1051.49,
+        "regularMarketPrice": 1042.46,
         "history": [
           {
             "date": "2025-09-15",
@@ -3128,23 +3128,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 1051.49
+            "close": 1042.46
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 1051.49,
-        "1d_change_pct": -2.67,
-        "1w_change_pct": -12.13,
-        "1m_change_pct": -27.94,
-        "3m_change_pct": 14.72,
-        "6m_change_pct": 56.27,
+        "latest": 1042.46,
+        "1d_change_pct": -3.51,
+        "1w_change_pct": -12.89,
+        "1m_change_pct": -28.56,
+        "3m_change_pct": 13.73,
+        "6m_change_pct": 54.93,
         "symbol": "^KS200",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS200?range=1y&interval=1d"
       },
       "Samsung Electronics": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 250250.0,
+        "regularMarketPrice": 248500.0,
         "history": [
           {
             "date": "2025-09-15",
@@ -4116,23 +4116,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 250250.0
+            "close": 248500.0
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 250250.0,
-        "1d_change_pct": 0.5,
-        "1w_change_pct": -7.14,
-        "1m_change_pct": -8.83,
-        "3m_change_pct": -27.04,
-        "6m_change_pct": 36.38,
+        "latest": 248500.0,
+        "1d_change_pct": -0.2,
+        "1w_change_pct": -7.79,
+        "1m_change_pct": -9.47,
+        "3m_change_pct": -27.55,
+        "6m_change_pct": 35.42,
         "symbol": "005930.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=1y&interval=1d"
       },
       "SK Hynix": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 1713000.0,
+        "regularMarketPrice": 1690000.0,
         "history": [
           {
             "date": "2025-09-15",
@@ -5104,23 +5104,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 1713000.0
+            "close": 1690000.0
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 1713000.0,
-        "1d_change_pct": 0.94,
-        "1w_change_pct": -4.46,
-        "1m_change_pct": 4.13,
-        "3m_change_pct": -28.09,
-        "6m_change_pct": 88.24,
+        "latest": 1690000.0,
+        "1d_change_pct": -0.41,
+        "1w_change_pct": -5.74,
+        "1m_change_pct": 2.74,
+        "3m_change_pct": -29.05,
+        "6m_change_pct": 85.71,
         "symbol": "000660.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=1y&interval=1d"
       },
       "Hyundai Motor": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 370000.0,
+        "regularMarketPrice": 367000.0,
         "history": [
           {
             "date": "2025-09-15",
@@ -6092,23 +6092,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 370000.0
+            "close": 367000.0
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 370000.0,
-        "1d_change_pct": -0.4,
-        "1w_change_pct": -3.9,
-        "1m_change_pct": -18.32,
-        "3m_change_pct": -42.19,
-        "6m_change_pct": -28.43,
+        "latest": 367000.0,
+        "1d_change_pct": -1.21,
+        "1w_change_pct": -4.68,
+        "1m_change_pct": -18.98,
+        "3m_change_pct": -42.66,
+        "6m_change_pct": -29.01,
         "symbol": "005380.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/005380.KS?range=1y&interval=1d"
       },
       "NAVER": {
         "currency": "KRW",
         "exchange": "KSC",
-        "regularMarketPrice": 207000.0,
+        "regularMarketPrice": 206000.0,
         "history": [
           {
             "date": "2025-09-15",
@@ -7080,23 +7080,23 @@
           },
           {
             "date": "2026-09-15",
-            "close": 207000.0
+            "close": 206000.0
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 207000.0,
-        "1d_change_pct": 1.47,
-        "1w_change_pct": -3.5,
-        "1m_change_pct": -9.21,
-        "3m_change_pct": -14.46,
-        "6m_change_pct": -7.17,
+        "latest": 206000.0,
+        "1d_change_pct": 0.98,
+        "1w_change_pct": -3.96,
+        "1m_change_pct": -9.65,
+        "3m_change_pct": -14.88,
+        "6m_change_pct": -7.62,
         "symbol": "035420.KS",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/035420.KS?range=1y&interval=1d"
       },
       "KRW per USD": {
         "currency": "KRW",
         "exchange": "CCY",
-        "regularMarketPrice": 1353.2,
+        "regularMarketPrice": 1358.31,
         "history": [
           {
             "date": "2025-09-14",
@@ -8136,24 +8136,24 @@
           },
           {
             "date": "2026-09-15",
-            "close": 1353.2
+            "close": 1358.3101
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 1353.2,
-        "1d_change_pct": 0.64,
-        "1w_change_pct": 0.72,
-        "1m_change_pct": -4.39,
-        "3m_change_pct": -11.29,
-        "6m_change_pct": -10.04,
-        "1y_change_pct": -2.78,
+        "latest": 1358.3101,
+        "1d_change_pct": 1.02,
+        "1w_change_pct": 1.1,
+        "1m_change_pct": -4.03,
+        "3m_change_pct": -10.96,
+        "6m_change_pct": -9.7,
+        "1y_change_pct": -2.41,
         "symbol": "KRW=X",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=1y&interval=1d"
       },
       "US Dollar Index": {
         "currency": "USD",
         "exchange": "NYB",
-        "regularMarketPrice": 99.596,
+        "regularMarketPrice": 99.631,
         "history": [
           {
             "date": "2025-09-15",
@@ -9161,16 +9161,16 @@
           },
           {
             "date": "2026-09-15",
-            "close": 99.596
+            "close": 99.631
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 99.596,
-        "1d_change_pct": 0.14,
-        "1w_change_pct": 0.76,
-        "1m_change_pct": -0.07,
-        "3m_change_pct": -0.03,
-        "6m_change_pct": -0.11,
+        "latest": 99.631,
+        "1d_change_pct": 0.17,
+        "1w_change_pct": 0.8,
+        "1m_change_pct": -0.04,
+        "3m_change_pct": 0.0,
+        "6m_change_pct": -0.08,
         "symbol": "DX-Y.NYB",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1y&interval=1d"
       },
@@ -11201,11 +11201,11 @@
           },
           {
             "date": "2026-09-14",
-            "close": 26186.4141
+            "close": 26186.4102
           }
         ],
         "latest_date": "2026-09-14",
-        "latest": 26186.4141,
+        "latest": 26186.4102,
         "1d_change_pct": -0.56,
         "1w_change_pct": -1.21,
         "1m_change_pct": -2.3,
@@ -12221,11 +12221,11 @@
           },
           {
             "date": "2026-09-14",
-            "close": 11131.2812
+            "close": 11131.2803
           }
         ],
         "latest_date": "2026-09-14",
-        "latest": 11131.2812,
+        "latest": 11131.2803,
         "1d_change_pct": -5.86,
         "1w_change_pct": -5.15,
         "1m_change_pct": -10.64,
@@ -12237,7 +12237,7 @@
       "VIX": {
         "currency": "USD",
         "exchange": "CXI",
-        "regularMarketPrice": 17.1,
+        "regularMarketPrice": 17.0,
         "history": [
           {
             "date": "2025-09-15",
@@ -13250,16 +13250,20 @@
           {
             "date": "2026-09-14",
             "close": 17.1
+          },
+          {
+            "date": "2026-09-15",
+            "close": 17.0
           }
         ],
-        "latest_date": "2026-09-14",
-        "latest": 17.1,
-        "1d_change_pct": 7.95,
-        "1w_change_pct": 11.76,
-        "1m_change_pct": 20.0,
-        "3m_change_pct": 5.56,
-        "6m_change_pct": -23.56,
-        "1y_change_pct": 8.99,
+        "latest_date": "2026-09-15",
+        "latest": 17.0,
+        "1d_change_pct": -0.58,
+        "1w_change_pct": 8.14,
+        "1m_change_pct": 11.92,
+        "3m_change_pct": 3.6,
+        "6m_change_pct": -32.24,
+        "1y_change_pct": 3.91,
         "symbol": "^VIX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1y&interval=1d"
       },
@@ -14286,7 +14290,7 @@
       "WTI crude": {
         "currency": "USD",
         "exchange": "NYM",
-        "regularMarketPrice": 102.84,
+        "regularMarketPrice": 102.97,
         "history": [
           {
             "date": "2025-09-15",
@@ -15294,231 +15298,231 @@
           },
           {
             "date": "2026-09-15",
-            "close": 102.84
+            "close": 102.97
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 102.84,
-        "1d_change_pct": 1.43,
-        "1w_change_pct": 10.54,
-        "1m_change_pct": 24.81,
-        "3m_change_pct": 27.36,
-        "6m_change_pct": 9.99,
+        "latest": 102.97,
+        "1d_change_pct": 1.56,
+        "1w_change_pct": 10.68,
+        "1m_change_pct": 24.96,
+        "3m_change_pct": 27.52,
+        "6m_change_pct": 10.13,
         "symbol": "CL=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=1y&interval=1d"
       },
       "Gold": {
         "currency": "USD",
         "exchange": "CMX",
-        "regularMarketPrice": 4352.5,
+        "regularMarketPrice": 4311.7,
         "history": [
           {
             "date": "2025-09-15",
-            "close": 3682.2
+            "close": 3719.0
           },
           {
             "date": "2025-09-16",
-            "close": 3688.8999
+            "close": 3725.1001
           },
           {
             "date": "2025-09-17",
-            "close": 3681.8
+            "close": 3717.8
           },
           {
             "date": "2025-09-18",
-            "close": 3643.7
+            "close": 3678.3
           },
           {
             "date": "2025-09-19",
-            "close": 3671.5
+            "close": 3705.8
           },
           {
             "date": "2025-09-22",
-            "close": 3740.7
+            "close": 3775.1001
           },
           {
             "date": "2025-09-23",
-            "close": 3780.6001
+            "close": 3815.7
           },
           {
             "date": "2025-09-24",
-            "close": 3732.1001
+            "close": 3768.1001
           },
           {
             "date": "2025-09-25",
-            "close": 3736.8999
+            "close": 3771.1001
           },
           {
             "date": "2025-09-26",
-            "close": 3775.3
+            "close": 3809.0
           },
           {
             "date": "2025-09-29",
-            "close": 3820.8999
+            "close": 3855.2
           },
           {
             "date": "2025-09-30",
-            "close": 3840.8
+            "close": 3873.2
           },
           {
             "date": "2025-10-01",
-            "close": 3867.5
+            "close": 3897.5
           },
           {
             "date": "2025-10-02",
-            "close": 3839.7
+            "close": 3868.1001
           },
           {
             "date": "2025-10-03",
-            "close": 3880.8
+            "close": 3908.8999
           },
           {
             "date": "2025-10-06",
-            "close": 3948.5
+            "close": 3976.3
           },
           {
             "date": "2025-10-07",
-            "close": 3976.6001
+            "close": 4004.3999
           },
           {
             "date": "2025-10-08",
-            "close": 4043.3
+            "close": 4070.5
           },
           {
             "date": "2025-10-09",
-            "close": 3946.3
+            "close": 3972.6001
           },
           {
             "date": "2025-10-10",
-            "close": 3975.8999
+            "close": 4000.3999
           },
           {
             "date": "2025-10-13",
-            "close": 4108.6001
+            "close": 4133.0
           },
           {
             "date": "2025-10-14",
-            "close": 4138.7002
+            "close": 4163.3999
           },
           {
             "date": "2025-10-15",
-            "close": 4176.8999
+            "close": 4201.6001
           },
           {
             "date": "2025-10-16",
-            "close": 4280.2002
+            "close": 4304.6001
           },
           {
             "date": "2025-10-17",
-            "close": 4189.8999
+            "close": 4213.2998
           },
           {
             "date": "2025-10-20",
-            "close": 4336.3999
+            "close": 4359.3999
           },
           {
             "date": "2025-10-21",
-            "close": 4087.7
+            "close": 4109.1001
           },
           {
             "date": "2025-10-22",
-            "close": 4044.3999
+            "close": 4065.3999
           },
           {
             "date": "2025-10-23",
-            "close": 4125.5
+            "close": 4145.6001
           },
           {
             "date": "2025-10-24",
-            "close": 4118.3999
+            "close": 4137.7998
           },
           {
             "date": "2025-10-27",
-            "close": 4001.8999
+            "close": 4019.7
           },
           {
             "date": "2025-10-28",
-            "close": 3966.2
+            "close": 3983.1001
           },
           {
             "date": "2025-10-29",
-            "close": 3983.7
+            "close": 4000.7
           },
           {
             "date": "2025-10-30",
-            "close": 4001.3
+            "close": 4015.8999
           },
           {
             "date": "2025-10-31",
-            "close": 3982.2
+            "close": 3996.5
           },
           {
             "date": "2025-11-03",
-            "close": 4000.3
+            "close": 4014.0
           },
           {
             "date": "2025-11-04",
-            "close": 3947.7
+            "close": 3960.5
           },
           {
             "date": "2025-11-05",
-            "close": 3980.3
+            "close": 3992.8999
           },
           {
             "date": "2025-11-06",
-            "close": 3979.8999
+            "close": 3991.0
           },
           {
             "date": "2025-11-07",
-            "close": 3999.3999
+            "close": 4009.8
           },
           {
             "date": "2025-11-10",
-            "close": 4111.7998
+            "close": 4122.0
           },
           {
             "date": "2025-11-11",
-            "close": 4106.7998
+            "close": 4116.2998
           },
           {
             "date": "2025-11-12",
-            "close": 4204.3999
+            "close": 4213.6001
           },
           {
             "date": "2025-11-13",
-            "close": 4186.8999
+            "close": 4194.5
           },
           {
             "date": "2025-11-14",
-            "close": 4087.6001
+            "close": 4094.2
           },
           {
             "date": "2025-11-17",
-            "close": 4068.3
+            "close": 4074.5
           },
           {
             "date": "2025-11-18",
-            "close": 4061.3
+            "close": 4066.5
           },
           {
             "date": "2025-11-19",
-            "close": 4077.7
+            "close": 4082.8
           },
           {
             "date": "2025-11-20",
-            "close": 4056.5
+            "close": 4060.0
           },
           {
             "date": "2025-11-21",
-            "close": 4076.7
+            "close": 4079.5
           },
           {
             "date": "2025-11-24",
-            "close": 4091.8999
+            "close": 4094.2
           },
           {
             "date": "2025-11-25",
-            "close": 4139.2002
+            "close": 4140.0
           },
           {
             "date": "2025-11-26",
@@ -15526,167 +15530,167 @@
           },
           {
             "date": "2025-11-28",
-            "close": 4218.2998
+            "close": 4254.8999
           },
           {
             "date": "2025-12-01",
-            "close": 4239.2998
+            "close": 4274.7998
           },
           {
             "date": "2025-12-02",
-            "close": 4186.6001
+            "close": 4220.7998
           },
           {
             "date": "2025-12-03",
-            "close": 4199.2998
+            "close": 4232.5
           },
           {
             "date": "2025-12-04",
-            "close": 4211.7998
+            "close": 4243.0
           },
           {
             "date": "2025-12-05",
-            "close": 4212.8999
+            "close": 4243.0
           },
           {
             "date": "2025-12-08",
-            "close": 4187.2002
+            "close": 4217.7002
           },
           {
             "date": "2025-12-09",
-            "close": 4206.7002
+            "close": 4236.2002
           },
           {
             "date": "2025-12-10",
-            "close": 4196.3999
+            "close": 4224.7002
           },
           {
             "date": "2025-12-11",
-            "close": 4285.5
+            "close": 4313.0
           },
           {
             "date": "2025-12-12",
-            "close": 4300.1001
+            "close": 4328.2998
           },
           {
             "date": "2025-12-15",
-            "close": 4306.7002
+            "close": 4335.2002
           },
           {
             "date": "2025-12-16",
-            "close": 4304.5
+            "close": 4332.2998
           },
           {
             "date": "2025-12-17",
-            "close": 4347.5
+            "close": 4373.8999
           },
           {
             "date": "2025-12-18",
-            "close": 4339.5
+            "close": 4364.5
           },
           {
             "date": "2025-12-19",
-            "close": 4361.3999
+            "close": 4387.2998
           },
           {
             "date": "2025-12-22",
-            "close": 4444.6001
+            "close": 4469.3999
           },
           {
             "date": "2025-12-23",
-            "close": 4482.7998
+            "close": 4505.7002
           },
           {
             "date": "2025-12-24",
-            "close": 4480.6001
+            "close": 4502.7998
           },
           {
             "date": "2025-12-26",
-            "close": 4529.1001
+            "close": 4552.7002
           },
           {
             "date": "2025-12-29",
-            "close": 4325.1001
+            "close": 4343.6001
           },
           {
             "date": "2025-12-30",
-            "close": 4370.1001
+            "close": 4386.2998
           },
           {
             "date": "2025-12-31",
-            "close": 4325.6001
+            "close": 4341.1001
           },
           {
             "date": "2026-01-02",
-            "close": 4314.3999
+            "close": 4329.6001
           },
           {
             "date": "2026-01-05",
-            "close": 4436.8999
+            "close": 4451.5
           },
           {
             "date": "2026-01-06",
-            "close": 4482.2002
+            "close": 4496.1001
           },
           {
             "date": "2026-01-07",
-            "close": 4449.2998
+            "close": 4462.5
           },
           {
             "date": "2026-01-08",
-            "close": 4449.7002
+            "close": 4460.7002
           },
           {
             "date": "2026-01-09",
-            "close": 4490.2998
+            "close": 4500.8999
           },
           {
             "date": "2026-01-12",
-            "close": 4604.2998
+            "close": 4614.7002
           },
           {
             "date": "2026-01-13",
-            "close": 4589.2002
+            "close": 4599.1001
           },
           {
             "date": "2026-01-14",
-            "close": 4626.2998
+            "close": 4635.7002
           },
           {
             "date": "2026-01-15",
-            "close": 4616.2998
+            "close": 4623.7002
           },
           {
             "date": "2026-01-16",
-            "close": 4588.3999
+            "close": 4595.3999
           },
           {
             "date": "2026-01-20",
-            "close": 4759.6001
+            "close": 4765.7998
           },
           {
             "date": "2026-01-21",
-            "close": 4831.7998
+            "close": 4837.5
           },
           {
             "date": "2026-01-22",
-            "close": 4908.7998
+            "close": 4913.3999
           },
           {
             "date": "2026-01-23",
-            "close": 4976.2002
+            "close": 4979.7002
           },
           {
             "date": "2026-01-26",
-            "close": 5079.7002
+            "close": 5082.5
           },
           {
             "date": "2026-01-27",
-            "close": 5079.8999
+            "close": 5082.6001
           },
           {
             "date": "2026-01-28",
-            "close": 5301.6001
+            "close": 5303.6001
           },
           {
             "date": "2026-01-29",
@@ -15694,163 +15698,163 @@
           },
           {
             "date": "2026-01-30",
-            "close": 4713.8999
+            "close": 4745.1001
           },
           {
             "date": "2026-02-02",
-            "close": 4622.5
+            "close": 4652.6001
           },
           {
             "date": "2026-02-03",
-            "close": 4903.7002
+            "close": 4935.0
           },
           {
             "date": "2026-02-04",
-            "close": 4920.3999
+            "close": 4950.7998
           },
           {
             "date": "2026-02-05",
-            "close": 4861.3999
+            "close": 4889.5
           },
           {
             "date": "2026-02-06",
-            "close": 4951.2002
+            "close": 4979.7998
           },
           {
             "date": "2026-02-09",
-            "close": 5050.8999
+            "close": 5079.3999
           },
           {
             "date": "2026-02-10",
-            "close": 5003.7998
+            "close": 5031.0
           },
           {
             "date": "2026-02-11",
-            "close": 5071.6001
+            "close": 5098.5
           },
           {
             "date": "2026-02-12",
-            "close": 4923.7002
+            "close": 4948.3999
           },
           {
             "date": "2026-02-13",
-            "close": 5022.0
+            "close": 5046.2998
           },
           {
             "date": "2026-02-17",
-            "close": 4882.8999
+            "close": 4905.8999
           },
           {
             "date": "2026-02-18",
-            "close": 4986.5
+            "close": 5009.5
           },
           {
             "date": "2026-02-19",
-            "close": 4975.8999
+            "close": 4997.3999
           },
           {
             "date": "2026-02-20",
-            "close": 5059.2998
+            "close": 5080.8999
           },
           {
             "date": "2026-02-23",
-            "close": 5204.7002
+            "close": 5225.6001
           },
           {
             "date": "2026-02-24",
-            "close": 5155.7998
+            "close": 5176.2998
           },
           {
             "date": "2026-02-25",
-            "close": 5206.3999
+            "close": 5226.2002
           },
           {
             "date": "2026-02-26",
-            "close": 5176.5
+            "close": 5194.2002
           },
           {
             "date": "2026-02-27",
-            "close": 5230.5
+            "close": 5247.8999
           },
           {
             "date": "2026-03-02",
-            "close": 5294.3999
+            "close": 5311.6001
           },
           {
             "date": "2026-03-03",
-            "close": 5107.3999
+            "close": 5123.7002
           },
           {
             "date": "2026-03-04",
-            "close": 5120.2002
+            "close": 5134.7002
           },
           {
             "date": "2026-03-05",
-            "close": 5065.2998
+            "close": 5078.7002
           },
           {
             "date": "2026-03-06",
-            "close": 5146.1001
+            "close": 5158.7002
           },
           {
             "date": "2026-03-09",
-            "close": 5091.5
+            "close": 5103.7002
           },
           {
             "date": "2026-03-10",
-            "close": 5229.7002
+            "close": 5242.1001
           },
           {
             "date": "2026-03-11",
-            "close": 5167.3999
+            "close": 5179.1001
           },
           {
             "date": "2026-03-12",
-            "close": 5115.7998
+            "close": 5125.7998
           },
           {
             "date": "2026-03-13",
-            "close": 5052.5
+            "close": 5061.7002
           },
           {
             "date": "2026-03-16",
-            "close": 4994.0
+            "close": 5002.2002
           },
           {
             "date": "2026-03-17",
-            "close": 5001.0
+            "close": 5008.2002
           },
           {
             "date": "2026-03-18",
-            "close": 4889.8999
+            "close": 4896.2002
           },
           {
             "date": "2026-03-19",
-            "close": 4600.7002
+            "close": 4605.7002
           },
           {
             "date": "2026-03-20",
-            "close": 4570.3999
+            "close": 4574.8999
           },
           {
             "date": "2026-03-23",
-            "close": 4404.1001
+            "close": 4407.2998
           },
           {
             "date": "2026-03-24",
-            "close": 4399.2998
+            "close": 4402.0
           },
           {
             "date": "2026-03-25",
-            "close": 4549.7998
+            "close": 4552.2998
           },
           {
             "date": "2026-03-26",
-            "close": 4375.5
+            "close": 4376.2998
           },
           {
             "date": "2026-03-27",
-            "close": 4492.0
+            "close": 4492.5
           },
           {
             "date": "2026-03-30",
@@ -15862,159 +15866,159 @@
           },
           {
             "date": "2026-04-01",
-            "close": 4783.2002
+            "close": 4813.1001
           },
           {
             "date": "2026-04-02",
-            "close": 4651.5
+            "close": 4679.7002
           },
           {
             "date": "2026-04-06",
-            "close": 4656.7998
+            "close": 4684.7002
           },
           {
             "date": "2026-04-07",
-            "close": 4657.1001
+            "close": 4684.7002
           },
           {
             "date": "2026-04-08",
-            "close": 4749.5
+            "close": 4777.2002
           },
           {
             "date": "2026-04-09",
-            "close": 4792.2002
+            "close": 4818.0
           },
           {
             "date": "2026-04-10",
-            "close": 4761.8999
+            "close": 4787.3999
           },
           {
             "date": "2026-04-13",
-            "close": 4742.3999
+            "close": 4767.3999
           },
           {
             "date": "2026-04-14",
-            "close": 4825.0
+            "close": 4850.1001
           },
           {
             "date": "2026-04-15",
-            "close": 4800.0
+            "close": 4823.6001
           },
           {
             "date": "2026-04-16",
-            "close": 4785.3999
+            "close": 4808.2998
           },
           {
             "date": "2026-04-17",
-            "close": 4857.6001
+            "close": 4879.6001
           },
           {
             "date": "2026-04-20",
-            "close": 4806.6001
+            "close": 4828.7998
           },
           {
             "date": "2026-04-21",
-            "close": 4698.3999
+            "close": 4719.6001
           },
           {
             "date": "2026-04-22",
-            "close": 4732.5
+            "close": 4753.0
           },
           {
             "date": "2026-04-23",
-            "close": 4705.1001
+            "close": 4724.0
           },
           {
             "date": "2026-04-24",
-            "close": 4722.2998
+            "close": 4740.8999
           },
           {
             "date": "2026-04-27",
-            "close": 4675.3999
+            "close": 4693.7002
           },
           {
             "date": "2026-04-28",
-            "close": 4591.5
+            "close": 4608.3999
           },
           {
             "date": "2026-04-29",
-            "close": 4545.2002
+            "close": 4561.5
           },
           {
             "date": "2026-04-30",
-            "close": 4614.7002
+            "close": 4629.6001
           },
           {
             "date": "2026-05-01",
-            "close": 4629.8999
+            "close": 4644.5
           },
           {
             "date": "2026-05-04",
-            "close": 4519.5
+            "close": 4533.2998
           },
           {
             "date": "2026-05-05",
-            "close": 4555.7998
+            "close": 4568.5
           },
           {
             "date": "2026-05-06",
-            "close": 4681.8999
+            "close": 4694.2998
           },
           {
             "date": "2026-05-07",
-            "close": 4699.7998
+            "close": 4710.8999
           },
           {
             "date": "2026-05-08",
-            "close": 4720.3999
+            "close": 4730.7002
           },
           {
             "date": "2026-05-11",
-            "close": 4718.7002
+            "close": 4728.7002
           },
           {
             "date": "2026-05-12",
-            "close": 4677.6001
+            "close": 4686.7002
           },
           {
             "date": "2026-05-13",
-            "close": 4697.7002
+            "close": 4706.7002
           },
           {
             "date": "2026-05-14",
-            "close": 4678.1001
+            "close": 4685.2998
           },
           {
             "date": "2026-05-15",
-            "close": 4555.7998
+            "close": 4561.8999
           },
           {
             "date": "2026-05-18",
-            "close": 4552.5
+            "close": 4558.0
           },
           {
             "date": "2026-05-19",
-            "close": 4506.2998
+            "close": 4511.2002
           },
           {
             "date": "2026-05-20",
-            "close": 4531.2998
+            "close": 4535.2998
           },
           {
             "date": "2026-05-21",
-            "close": 4539.7998
+            "close": 4542.5
           },
           {
             "date": "2026-05-22",
-            "close": 4521.0
+            "close": 4523.2002
           },
           {
             "date": "2026-05-26",
-            "close": 4500.3999
+            "close": 4502.2998
           },
           {
             "date": "2026-05-27",
-            "close": 4447.5
+            "close": 4448.3999
           },
           {
             "date": "2026-05-28",
@@ -16022,171 +16026,171 @@
           },
           {
             "date": "2026-05-29",
-            "close": 4560.5
+            "close": 4593.0
           },
           {
             "date": "2026-06-01",
-            "close": 4475.2002
+            "close": 4506.2998
           },
           {
             "date": "2026-06-02",
-            "close": 4489.1001
+            "close": 4519.8999
           },
           {
             "date": "2026-06-03",
-            "close": 4436.7002
+            "close": 4466.8999
           },
           {
             "date": "2026-06-04",
-            "close": 4475.7998
+            "close": 4505.0
           },
           {
             "date": "2026-06-05",
-            "close": 4337.1001
+            "close": 4365.2998
           },
           {
             "date": "2026-06-08",
-            "close": 4335.8999
+            "close": 4363.3999
           },
           {
             "date": "2026-06-09",
-            "close": 4260.0
+            "close": 4286.3999
           },
           {
             "date": "2026-06-10",
-            "close": 4108.2002
+            "close": 4133.2998
           },
           {
             "date": "2026-06-11",
-            "close": 4090.3
+            "close": 4114.0
           },
           {
             "date": "2026-06-12",
-            "close": 4215.0
+            "close": 4238.7998
           },
           {
             "date": "2026-06-15",
-            "close": 4328.0
+            "close": 4351.6001
           },
           {
             "date": "2026-06-16",
-            "close": 4330.8999
+            "close": 4354.3999
           },
           {
             "date": "2026-06-17",
-            "close": 4358.8999
+            "close": 4381.3999
           },
           {
             "date": "2026-06-18",
-            "close": 4224.1001
+            "close": 4245.8999
           },
           {
             "date": "2026-06-22",
-            "close": 4181.8999
+            "close": 4202.7002
           },
           {
             "date": "2026-06-23",
-            "close": 4129.8999
+            "close": 4149.3999
           },
           {
             "date": "2026-06-24",
-            "close": 3990.3
+            "close": 4008.8
           },
           {
             "date": "2026-06-25",
-            "close": 4030.5
+            "close": 4047.6001
           },
           {
             "date": "2026-06-26",
-            "close": 4078.7
+            "close": 4096.2998
           },
           {
             "date": "2026-06-29",
-            "close": 4022.3
+            "close": 4038.8999
           },
           {
             "date": "2026-06-30",
-            "close": 4022.8999
+            "close": 4038.5
           },
           {
             "date": "2026-07-01",
-            "close": 4068.3
+            "close": 4082.3999
           },
           {
             "date": "2026-07-02",
-            "close": 4112.7002
+            "close": 4125.7002
           },
           {
             "date": "2026-07-06",
-            "close": 4155.1001
+            "close": 4167.5
           },
           {
             "date": "2026-07-07",
-            "close": 4145.2998
+            "close": 4157.3999
           },
           {
             "date": "2026-07-08",
-            "close": 4070.8999
+            "close": 4082.3999
           },
           {
             "date": "2026-07-09",
-            "close": 4130.6001
+            "close": 4140.7998
           },
           {
             "date": "2026-07-10",
-            "close": 4104.1001
+            "close": 4113.7002
           },
           {
             "date": "2026-07-13",
-            "close": 3997.0
+            "close": 4005.7
           },
           {
             "date": "2026-07-14",
-            "close": 4061.1001
+            "close": 4069.7
           },
           {
             "date": "2026-07-15",
-            "close": 4044.0
+            "close": 4051.8
           },
           {
             "date": "2026-07-16",
-            "close": 3985.6001
+            "close": 3992.1001
           },
           {
             "date": "2026-07-17",
-            "close": 4012.7
+            "close": 4018.8
           },
           {
             "date": "2026-07-20",
-            "close": 4010.3
+            "close": 4015.8999
           },
           {
             "date": "2026-07-21",
-            "close": 4071.1001
+            "close": 4076.3999
           },
           {
             "date": "2026-07-22",
-            "close": 4146.8999
+            "close": 4151.8999
           },
           {
             "date": "2026-07-23",
-            "close": 4046.6001
+            "close": 4050.2
           },
           {
             "date": "2026-07-24",
-            "close": 4067.6001
+            "close": 4070.8
           },
           {
             "date": "2026-07-27",
-            "close": 4074.5
+            "close": 4077.0
           },
           {
             "date": "2026-07-28",
-            "close": 4036.3
+            "close": 4038.7
           },
           {
             "date": "2026-07-29",
-            "close": 4034.7
+            "close": 4036.3
           },
           {
             "date": "2026-07-30",
@@ -16194,119 +16198,119 @@
           },
           {
             "date": "2026-07-31",
-            "close": 4049.1001
+            "close": 4107.0
           },
           {
             "date": "2026-08-03",
-            "close": 4033.7
+            "close": 4090.5
           },
           {
             "date": "2026-08-04",
-            "close": 4095.3999
+            "close": 4152.6001
           },
           {
             "date": "2026-08-05",
-            "close": 4245.7998
+            "close": 4305.2002
           },
           {
             "date": "2026-08-06",
-            "close": 4242.0
+            "close": 4299.6001
           },
           {
             "date": "2026-08-07",
-            "close": 4340.7002
+            "close": 4399.7002
           },
           {
             "date": "2026-08-10",
-            "close": 4361.7998
+            "close": 4419.7002
           },
           {
             "date": "2026-08-11",
-            "close": 4383.0
+            "close": 4441.1001
           },
           {
             "date": "2026-08-12",
-            "close": 4408.8999
+            "close": 4467.5
           },
           {
             "date": "2026-08-13",
-            "close": 4363.6001
+            "close": 4420.3999
           },
           {
             "date": "2026-08-14",
-            "close": 4380.3999
+            "close": 4437.2998
           },
           {
             "date": "2026-08-17",
-            "close": 4417.7998
+            "close": 4473.7002
           },
           {
             "date": "2026-08-18",
-            "close": 4366.0
+            "close": 4420.6001
           },
           {
             "date": "2026-08-19",
-            "close": 4489.3999
+            "close": 4545.2998
           },
           {
             "date": "2026-08-20",
-            "close": 4516.2998
+            "close": 4571.3999
           },
           {
             "date": "2026-08-21",
-            "close": 4624.1001
+            "close": 4680.6001
           },
           {
             "date": "2026-08-24",
-            "close": 4640.7998
+            "close": 4697.7998
           },
           {
             "date": "2026-08-25",
-            "close": 4638.1001
+            "close": 4694.5
           },
           {
             "date": "2026-08-26",
-            "close": 4598.2002
+            "close": 4653.2998
           },
           {
             "date": "2026-08-27",
-            "close": 4609.7002
+            "close": 4664.0
           },
           {
             "date": "2026-08-28",
-            "close": 4478.1001
+            "close": 4529.8999
           },
           {
             "date": "2026-08-31",
-            "close": 4431.1001
+            "close": 4481.5
           },
           {
             "date": "2026-09-01",
-            "close": 4348.0
+            "close": 4396.3999
           },
           {
             "date": "2026-09-02",
-            "close": 4366.2998
+            "close": 4414.6001
           },
           {
             "date": "2026-09-03",
-            "close": 4491.7002
+            "close": 4539.8999
           },
           {
             "date": "2026-09-04",
-            "close": 4429.7998
+            "close": 4476.6001
           },
           {
             "date": "2026-09-08",
-            "close": 4393.8999
+            "close": 4439.0
           },
           {
             "date": "2026-09-09",
-            "close": 4416.0
+            "close": 4460.7002
           },
           {
             "date": "2026-09-10",
-            "close": 4364.5
+            "close": 4407.2998
           },
           {
             "date": "2026-09-11",
@@ -16318,16 +16322,16 @@
           },
           {
             "date": "2026-09-15",
-            "close": 4352.5
+            "close": 4311.7002
           }
         ],
         "latest_date": "2026-09-15",
-        "latest": 4352.5,
-        "1d_change_pct": 0.01,
-        "1w_change_pct": -0.94,
-        "1m_change_pct": -0.64,
-        "3m_change_pct": 0.57,
-        "6m_change_pct": -12.85,
+        "latest": 4311.7002,
+        "1d_change_pct": -0.92,
+        "1w_change_pct": -2.87,
+        "1m_change_pct": -2.83,
+        "3m_change_pct": -0.92,
+        "6m_change_pct": -13.8,
         "symbol": "GC=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=1y&interval=1d"
       },
@@ -17438,8 +17442,8 @@
         "source": "https://news.google.com/rss/search?q=%ED%95%9C%EA%B5%AD+%EC%A6%9D%EC%8B%9C+%EC%BD%94%EC%8A%A4%ED%94%BC+%EC%A0%84%EB%A7%9D+%EC%99%B8%EA%B5%AD%EC%9D%B8+%ED%99%98%EC%9C%A8+%EB%B0%98%EB%8F%84%EC%B2%B4&hl=ko&gl=KR&ceid=KR%3Ako",
         "items": [
           {
-            "title": "코스피 7천 재탈환 시도와 필라델피아 반도체 지수 점검 (feat. SOXL 투자) - contents.premium.naver.com",
-            "source": "contents.premium.naver.com",
+            "title": "코스피 7천 재탈환 시도와 필라델피아 반도체 지수 점검 (feat. SOXL 투자) - 네이버 프리미엄콘텐츠",
+            "source": "네이버 프리미엄콘텐츠",
             "pubDate": "Tue, 08 Sep 2026 06:52:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZnJsV1dmSWlObEcyU0p6RHhRNXJYd1B1OFc5cThodGNPT29oYjB0R3FjNDdEcm9vR3BCd3hhUkt4dkhzUlZ0akttd2tNdnpFSXdLeUtFLU0wS2c3U1BpMmdsTFhHSU82cGthbWtTQTVpTWxTQmtJTGhXeFZuM0QtelpKYw?oc=5"
           },
@@ -17498,8 +17502,8 @@
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Yb2VseUNiZmdtVHlBdXh0dU1RZUlkYmE1NlVwZmtHN2g5WjBwYUNCbG9BRnZsWWFHd2hoZFFHc1dDQzF2enp4dGQ5VnptS0xndFI0?oc=5"
           },
           {
-            "title": "[Cox] Samsung Electronics–SK hynix Buybacks Propping Up KOSPI and Won Expected to Run Dry in October - coxnews.co.kr",
-            "source": "coxnews.co.kr",
+            "title": "[Cox] Samsung Electronics–SK hynix Buybacks Propping Up KOSPI and Won Expected to Run Dry in October - 콕스뉴스",
+            "source": "콕스뉴스",
             "pubDate": "Mon, 07 Sep 2026 06:05:45 GMT",
             "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BYU84SXpfeFhUSkhjYWlMdVFmSGwwN3FnYzVhX3dvZThRSS0xWThZZzRpRGlreGxIVVN2M2dSclJXMFo1WjNFa3VEekFQQzlLU2JDNWxfTno0QTZSRTVaaEdMcC00UlJXV3c?oc=5"
           },
@@ -17528,8 +17532,8 @@
             "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zcXNtTVA3azdFQzdrQjFkdU55Q2hmUjRyaFpzNEFJRGFTTEhmekV0SzI2LWNFb05YZ1c0RWpWRDNPLXppRkFlRG5kZkg4WVVSWHpiLdIBWEFVX3lxTE9yYmgtUElObWJEcjJJc0dDTlRlZFhzN1AtU1ZBQS1YQ1dwc3NLTXF0dVVpbzF2MUNSRUZiTERXU0RCMTE1WWRwMnFLcElOWnZtVEZ2SnNBM1U?oc=5"
           },
           {
-            "title": "KOSPI Surges 3.7% to Close at 8788.38 Amid AI Stock Rally and Jensen Huangs Visit - ajupress.com",
-            "source": "ajupress.com",
+            "title": "KOSPI Surges 3.7% to Close at 8788.38 Amid AI Stock Rally and Jensen Huangs Visit - Aju Press",
+            "source": "Aju Press",
             "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pQ2J1V1BCWHdmdnFhSzhvR3B6SHdhVlRTZ0FkcnlWakJfdXREQkI4ZzkxWi1Mel9zbWtBMW0tRXEza1JiVTFxLVZUNkpMZngwU05KbkJRQmtrU1nSAVdBVV95cUxPSGpOeWRwRUNQb1QxdmNLV0YzUTl6NHFSYV9peUI1U0hiSGhqdmtBS2RXa3QwUzRlbEk2dGlPNlVJX1VqazQzb3A2VmQ0S2psMi1iT25SN1E?oc=5"
           },
@@ -17570,8 +17574,8 @@
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5M3lJV0kxWTBYY2x5a05QOEt0RktiLUtyeUU3emYtT0pUd2NOdmNOYTRWd3pWU1dpeUpzNmN5TnA3NzdYUWJnZ1NoMDV0TjBPcnAtUXVnWkdHN3hkRmJDYjlWdF94X01sbWNmbtIBcEFVX3lxTE5EZ1I5YUlONjdsb2Y1d1hNeUJjSFNoSUR2Tm0ySUFkQndxa0ZRR3N6cUtob29ZYnFHXzZWNW9xMEpmcXdzRTRIajZCV0RKbHZqbS14VkVMaWRoTmI0UlFoN2hHMVBxa0pFcE5fYUhtd1E?oc=5"
           },
           {
-            "title": "한국 수출, 마침내 '1000억달러 시대'…반도체가 새 역사 썼다 - joseilbo.com",
-            "source": "joseilbo.com",
+            "title": "한국 수출, 마침내 '1000억달러 시대'…반도체가 새 역사 썼다 - 조세일보",
+            "source": "조세일보",
             "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XZXZpa0RmelZReVBaSldKRUFfUkR4dlVZZmQ5dERYeDVSWHV0QWl2b1p1T1h6RENYNWs3QjVzVXBjWGVETmtnR2Zna0hYcE5yMlBiMXNibWFud3RfVE9Z?oc=5"
           },
@@ -17582,16 +17586,16 @@
             "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TRUw4dWcxWDllZEw2XzVtOUVmT0VXRnI5NzBoYmFJRHRXZXloeG83TkpuM1dOZzVXdnY2RXFVUDF2RmRaLTVNXzg4TEIxUjl0V1M1VG5YbXNIYjY0a3VTZlhNOFpaWFl3Q3pucnJCNGR3MmRBa1ZN?oc=5"
           },
           {
-            "title": "“일본, 눈치껏 비켜줘”…1분기 수출 2199억 달러 ‘역대 최고’ - 매일경제",
-            "source": "매일경제",
-            "pubDate": "Wed, 06 May 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqNGZxU3pHLXdjOHFFZmI2bDdOMUZpcFRqaGZmSVZ3akNVLVFRakgwTnd2eWhpRElZaHNxNXBxSm5relFKSlc4ZlM0WFhuZnV2MWlaZw?oc=5"
-          },
-          {
             "title": "반도체 ‘두 배 폭증’…1월 수출 658억달러, AI 사이클 본격화 신호 - mstoday.co.kr",
             "source": "mstoday.co.kr",
             "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WWXZoNW8zVHAwWWhWQ1JmUk1qSG12ZC1hQWE0VkZYc2RRZzJyU3ItTXlueUpzbzJRUnhGZDNneTU4akQzcXdITWxEZW9falBPNmZiRG1zWndwSGlGY2NJbUtmNnd6b2s?oc=5"
+          },
+          {
+            "title": "“일본, 눈치껏 비켜줘”…1분기 수출 2199억 달러 ‘역대 최고’ - 매일경제",
+            "source": "매일경제",
+            "pubDate": "Wed, 06 May 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqNGZxU3pHLXdjOHFFZmI2bDdOMUZpcFRqaGZmSVZ3akNVLVFRakgwTnd2eWhpRElZaHNxNXBxSm5relFKSlc4ZlM0WFhuZnV2MWlaZw?oc=5"
           }
         ]
       },
@@ -17630,10 +17634,10 @@
             "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90M2tIZWhPRUdPcW1waDgwR0VqaDlWUU1xWnAwSkhzaFJPbVBKZS1meU1fcGF5c3AycGFGb1BxU1V3NzNhbm83UUgtNUVsZGh0em1CQjZjcjJBeGZTT3Bpd2FHdlY0YW9lelF6QWdQTQ?oc=5"
           },
           {
-            "title": "통화긴축 시작된다…전문가들 \"7월 이어 8월이나 10월 인상\" - yna.co.kr",
-            "source": "yna.co.kr",
-            "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvd29wTFVtSUZiS0FaMDFmbWVQanQzVmwtaldyTnJhRXEyMGVmWU5sd2l5Uk02dXF5RG10eGsweXh6Qy1ta2FtUWNjVVlpMGkwekRWNlZqUTFqQkHSAWBBVV95cUxQRmgxcExDLWo4dElLR1hpSVlaMXJGS1NxS01BQWMzaHhHMUt6alRUaVBmVTY0TC1rLUljTmJTYlhkS1RJbXpOdXV6eEFsOFJFVWhwZndnOTI3aU1PdGJKTmw?oc=5"
+            "title": "우리금융硏 \"한은, 8월 기준금리 '매파적 동결' 전망\" - 연합뉴스",
+            "source": "연합뉴스",
+            "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vRk9rU3Izc2YxZzE4Q0pOY1cwS3JtRGFVRnRPNnc5bE9zNVRnVGYyMGQwWVh4VF8zblZHeG9NaXdPcUJJM3BmdUpKTWljX3dabmREUmVDbEdQVUnSAWBBVV95cUxQdzNDMVJlZ3dkeVN2OGhacF9oaEVyVVVsNURhZ1A0enllY2ZTclgzamZINEM5cnAtclgtbmZMRlVTV0JVV3pjb3VTZ1JITEhzTlUtVUpzMlNlMnhJRmpBaUc?oc=5"
           },
           {
             "title": "증시 충격에 흔들린 8월 금리 전망…채권시장 ‘동결 가능성’ 무게 - 산경투데이",
@@ -17642,10 +17646,10 @@
             "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQRWVKOE84WWtLMk9yNUZ3a1MxY280b0xBYUg5RFRtNXkza2g5ZVZtMWtkdTRYTGZYZWlsd3gyczFIbGFnR0FRN2lXOC1wXzdhS0dCRlFPVFNybFRVajhUY3NWM1pOb2lQcTA3LWZNMl_SAXRBVV95cUxORWtoV1l1S0x4bTBWZU4xdjloeFlpZjVoNzhISlI1eHNSaWZfTTFBV1pCa05YX2ZqeHFjcElCbl9odEJSeXNpaGpCMkJQTElQQm4xX2Jib2tVUEQzMkgtTmhNU0xnMlhmakR3WF9VbjVpWmNYWQ?oc=5"
           },
           {
-            "title": "[오늘의 미국금리와 서민경제] 미국 금리 안 내려가고 한국은 3%…대출·집값·주식 어디로 갈까 - 전국시민의소리",
-            "source": "전국시민의소리",
-            "pubDate": "Thu, 27 Aug 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHT19vM1JHbDdlWEoxd2FLbWVzaHA2WUNpZTJwM1czLUZsdEIwam1zT1kwLV84VWV3WjBWeU9sZnV2cHYzQWJrYmlJcTlOUlI2MHBPVDBnYW9FcktwQzJONXZIejV1ckVkaGdPZ2J3?oc=5"
+            "title": "주가 급락에 한은 8월 '금리 연속 인상' 전망 후퇴…채권시장 단기물 주목 - 티제이비",
+            "source": "티제이비",
+            "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VazNUTWhJR0FBMW5ua2NWd2hKOGNqRkg2dDdnOGpuMUItRGsxcnVlcUQ4UXBXZy0xc29QYU54MVdxMDRtMVUxdFJ0TGJtOVFjUkpCY0VsSGZDWUt4U18zOHRfNDdMU2ZMOGc?oc=5"
           }
         ]
       },
@@ -17654,16 +17658,10 @@
         "source": "https://news.google.com/rss/search?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4+HBM+%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%A3%BC%EA%B0%80+%EC%A0%84%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako",
         "items": [
           {
-            "title": "SK하이닉스의 HBM 점유율 하락으로 주가 하락할까? 향후 전망 분석과 핵심 포인트 - contents.premium.naver.com",
-            "source": "contents.premium.naver.com",
+            "title": "SK하이닉스의 HBM 점유율 하락으로 주가 하락할까? 향후 전망 분석과 핵심 포인트 - 네이버 프리미엄콘텐츠",
+            "source": "네이버 프리미엄콘텐츠",
             "pubDate": "Fri, 11 Sep 2026 05:51:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV2t1NXU4WWVJX2gtWm1tWk94OW5hSlQ3ZkQwZVpGbVJaazAtMmFqS2ZYd1FoakJYeUEtYkVnenBFTmNCVlotSks2THZTZWRXYUU0UU5YLTZob25jUURmS1B2cUp6MXZpOHBHcWt4ZENqMkd0OVVuNDhqWGpfSjc3SVVTMA?oc=5"
-          },
-          {
-            "title": "\"삼성이 돌아왔다\"…SK하이닉스와 시총 다시 벌어지는 이유 - news.einfomax.co.kr",
-            "source": "news.einfomax.co.kr",
-            "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ncDNmcUJjVE9JdUwtQmUweXVlYnc3cnVYVmRsNk54QXQ0UTJXZGJsTWhQZFFtLWxKa1huZFNoSWVXMkU3Zi04NUptWGt4bHpEb1ZHTlVpdWhJOHlvakVFUFNYdmJPUjF6c2Q1aWprQWY?oc=5"
           },
           {
             "title": "LS증권, 반도체 투톱 ‘엇갈린 눈높이’…하이닉스 27%↓·삼전 12.5%↑ - 브릿지경제",
@@ -17672,10 +17670,16 @@
             "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81M2dmc2hXVGJWb3pZTXlGZ094VlMzUUZNM25zbHA3OUlMd1ZOVmtmTEhrOTh0WTZJTTFRbFFvd1c1b3pVdzZ0TVZudjVhdXQybVFXSTd6VkRIQQ?oc=5"
           },
           {
-            "title": "40만 전자·310만 닉스?…'이것' 덕에 목표주가 나란히 올랐다 - 위키트리",
-            "source": "위키트리",
-            "pubDate": "Mon, 07 Sep 2026 07:54:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpdUxnYWE5WURkSUozUEhXN0ZVMlBBZ3AzUmRWdzRGdUpOUVd1X3lwSnVDOFFUOEduZWtLTWNCbkZLUXRPQ3NmVGpLTEJBanhVMEUwdk1R?oc=5"
+            "title": "삼성·SK하이닉스 목표가 최대 322만 원 격차…증권가 AI 전망 엇갈려 투자자 혼란 가중 - 뉴스21 통신",
+            "source": "뉴스21 통신",
+            "pubDate": "Sun, 23 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NRXdKRWZ1dTNKZTVmLWpfNVgzYVJieTBhTXo2RkRoeFFuSHBEbU5NdWJZU21acXhWbThQT2pVekw0NTFQYXk1bXloTHFGWk9xVzBVZW5n?oc=5"
+          },
+          {
+            "title": "삼성전자·SK하이닉스 어디까지? 주가 움직이는 3가지 동력 - bizhankook.com",
+            "source": "bizhankook.com",
+            "pubDate": "Sat, 09 May 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3cnFES1h3N2FEaDJvZXB1YXBKZmYzbGpnUmlZUlJlcHFzZUF0OUtWMTF5NWtmR242cm1CVTVIajZuaGxCMnlUR0FyTGh3NVJtdkphLQ?oc=5"
           },
           {
             "title": "삼성전자·SK하이닉스 목표주가 '극과 극'…AI 반도체는 사이클인가 성장산업인가 - 폴리뉴스 Polinews",
@@ -17684,32 +17688,32 @@
             "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nRmNGNk9zeDY2MlR2MU9ENWc1dWlLaGxkeldMZVMtbUlOWHhvcHhPWkN5YlBlRlRGa3FfMnI5VDZtajNaazVGMFJxdGp1TnozSkxJb1JXVlJTZjdRY1MzZS1CS2tVTGZZcEp6TF9B0gFyQVVfeXFMTTN1WFpJaFpMc1NYbkROTjlUZEVpS0J5MUlILXBWNVJCcHE0NXRoRDhQUVhTcmlnazFhbVBwUFdaVzR6cEpqQk8zMDlnUnNkbkZGdDV1SkRRcWd4UmlIaU9WZEJJVWpBWHNsazBwTXlJX013?oc=5"
           },
           {
-            "title": "실적은 좋은데 주가는 왜 떨어지나…삼성전자·SK하이닉스 급락이 말해주는 것 - 시사프리즘",
-            "source": "시사프리즘",
-            "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lalgtR1NFQ1p0LVdoSXIxR0JKd0RDQVdFSTVlalp6RVh4VncyQVhlanZPSU01eEFKVEdQWThhcGxubEhYcjN1RGhWNGotemJzaHYzQ2NVdEI5R2xEaGxkV3lveHNUbmc4?oc=5"
-          },
-          {
-            "title": "삼성·SK하이닉스 목표가 최대 322만 원 격차…증권가 AI 전망 엇갈려 투자자 혼란 가중 - 뉴스21 통신",
-            "source": "뉴스21 통신",
-            "pubDate": "Sun, 23 Aug 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NRXdKRWZ1dTNKZTVmLWpfNVgzYVJieTBhTXo2RkRoeFFuSHBEbU5NdWJZU21acXhWbThQT2pVekw0NTFQYXk1bXloTHFGWk9xVzBVZW5n?oc=5"
+            "title": "40만 전자·310만 닉스?…'이것' 덕에 목표주가 나란히 올랐다 - 위키트리",
+            "source": "위키트리",
+            "pubDate": "Mon, 07 Sep 2026 07:54:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpdUxnYWE5WURkSUozUEhXN0ZVMlBBZ3AzUmRWdzRGdUpOUVd1X3lwSnVDOFFUOEduZWtLTWNCbkZLUXRPQ3NmVGpLTEJBanhVMEUwdk1R?oc=5"
           },
           {
             "title": "엔비디아 호실적에 K반도체 웃었다…삼성전자·SK하이닉스 프리마켓 강세 - 매일신문",
             "source": "매일신문",
             "pubDate": "Thu, 27 Aug 2026 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aS0JpSVRoQWc3Zm5zWk5vOV9ONUtYY2lXbU0xSGEtLUdsU0U5cXVUc1lscFR6cTV0LS1VTlBtdzFpTHJuMzNZZ3BkbnNTV3Flc1dEcHhmRmZ2bzRONkpGUnR3?oc=5"
+          },
+          {
+            "title": "실적은 좋은데 주가는 왜 떨어지나…삼성전자·SK하이닉스 급락이 말해주는 것 - 시사프리즘",
+            "source": "시사프리즘",
+            "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lalgtR1NFQ1p0LVdoSXIxR0JKd0RDQVdFSTVlalp6RVh4VncyQVhlanZPSU01eEFKVEdQWThhcGxubEhYcjN1RGhWNGotemJzaHYzQ2NVdEI5R2xEaGxkV3lveHNUbmc4?oc=5"
           }
         ]
       }
     ],
-    "run_phase": "morning",
-    "run_phase_label": "오전 9시 예측"
+    "run_phase": "close",
+    "run_phase_label": "오후 4시 당일 장세 분석 및 수정 적용"
   },
   "prediction": {
     "market": "KOSPI",
-    "generated_at_utc": "2026-09-15T03:47:09+00:00",
+    "generated_at_utc": "2026-09-15T12:30:59+00:00",
     "total_score": -0.68,
     "positive_score": 4.5,
     "negative_score": -5.18,
@@ -17728,7 +17732,7 @@
         "id": "trend_kospi",
         "category": "가격/추세",
         "factor": "KOSPI 중기 모멘텀",
-        "observed": "1M -4.26%, 3M -23.44%, 6M +21.75%",
+        "observed": "1M -5.03%, 3M -24.06%, 6M +20.78%",
         "direction": "상승",
         "score": 0.5,
         "weight": "높음",
@@ -17738,7 +17742,7 @@
         "id": "foreign_kospi_flow",
         "category": "수급",
         "factor": "KOSPI 외국인 순매수",
-        "observed": "5D -97,165억, 10D -79,280억",
+        "observed": "5D -102,370억, 10D -84,485억",
         "direction": "하락",
         "score": -2.0,
         "weight": "매우 높음",
@@ -17748,7 +17752,7 @@
         "id": "retail_kospi_absorption",
         "category": "수급",
         "factor": "KOSPI 개인 순매수 방어",
-        "observed": "개인 5D 33,351억, 기관 5D -12,071억",
+        "observed": "개인 5D 38,545억, 기관 5D -18,472억",
         "direction": "중립",
         "score": 0.0,
         "weight": "중간",
@@ -17758,7 +17762,7 @@
         "id": "fx_krw",
         "category": "환율",
         "factor": "USD/KRW",
-        "observed": "1,353.20, 1M -4.39%",
+        "observed": "1,358.31, 1M -4.03%",
         "direction": "하락",
         "score": 0.5,
         "weight": "높음",
@@ -17798,7 +17802,7 @@
         "id": "risk_vix",
         "category": "리스크",
         "factor": "VIX",
-        "observed": "17.10",
+        "observed": "17.00",
         "direction": "상승",
         "score": 1.0,
         "weight": "중간",
@@ -17808,7 +17812,7 @@
         "id": "oil",
         "category": "원자재",
         "factor": "WTI 유가",
-        "observed": "102.84달러, 1M +24.81%",
+        "observed": "102.97달러, 1M +24.96%",
         "direction": "하락",
         "score": -1.0,
         "weight": "중간",
@@ -17861,7 +17865,7 @@
     "market_models": {
       "KOSPI": {
         "market": "KOSPI",
-        "generated_at_utc": "2026-09-15T03:47:09+00:00",
+        "generated_at_utc": "2026-09-15T12:30:59+00:00",
         "total_score": -0.68,
         "positive_score": 4.5,
         "negative_score": -5.18,
@@ -17880,7 +17884,7 @@
             "id": "trend_kospi",
             "category": "가격/추세",
             "factor": "KOSPI 중기 모멘텀",
-            "observed": "1M -4.26%, 3M -23.44%, 6M +21.75%",
+            "observed": "1M -5.03%, 3M -24.06%, 6M +20.78%",
             "direction": "상승",
             "score": 0.5,
             "weight": "높음",
@@ -17890,7 +17894,7 @@
             "id": "foreign_kospi_flow",
             "category": "수급",
             "factor": "KOSPI 외국인 순매수",
-            "observed": "5D -97,165억, 10D -79,280억",
+            "observed": "5D -102,370억, 10D -84,485억",
             "direction": "하락",
             "score": -2.0,
             "weight": "매우 높음",
@@ -17900,7 +17904,7 @@
             "id": "retail_kospi_absorption",
             "category": "수급",
             "factor": "KOSPI 개인 순매수 방어",
-            "observed": "개인 5D 33,351억, 기관 5D -12,071억",
+            "observed": "개인 5D 38,545억, 기관 5D -18,472억",
             "direction": "중립",
             "score": 0.0,
             "weight": "중간",
@@ -17910,7 +17914,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,353.20, 1M -4.39%",
+            "observed": "1,358.31, 1M -4.03%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -17950,7 +17954,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "17.10",
+            "observed": "17.00",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -17960,7 +17964,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "102.84달러, 1M +24.81%",
+            "observed": "102.97달러, 1M +24.96%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간",
@@ -18013,7 +18017,7 @@
       },
       "KOSDAQ": {
         "market": "KOSDAQ",
-        "generated_at_utc": "2026-09-15T03:47:09+00:00",
+        "generated_at_utc": "2026-09-15T12:30:59+00:00",
         "total_score": -1.68,
         "positive_score": 4.0,
         "negative_score": -5.68,
@@ -18032,7 +18036,7 @@
             "id": "trend_kosdaq",
             "category": "가격/추세",
             "factor": "KOSDAQ 중기 모멘텀",
-            "observed": "1M -5.06%, 3M -19.42%, 6M -28.80%",
+            "observed": "1M -6.04%, 3M -20.25%, 6M -29.54%",
             "direction": "하락",
             "score": -0.5,
             "weight": "높음",
@@ -18042,7 +18046,7 @@
             "id": "foreign_kosdaq_flow",
             "category": "수급",
             "factor": "KOSDAQ 외국인 순매수",
-            "observed": "5D -12,539억, 10D -9,538억",
+            "observed": "5D -12,381억, 10D -9,380억",
             "direction": "하락",
             "score": -2.0,
             "weight": "매우 높음",
@@ -18052,7 +18056,7 @@
             "id": "retail_kosdaq_absorption",
             "category": "수급",
             "factor": "KOSDAQ 개인 순매수 방어",
-            "observed": "개인 5D -275억, 기관 5D 12,440억",
+            "observed": "개인 5D -575억, 기관 5D 12,558억",
             "direction": "중립",
             "score": 0.0,
             "weight": "중간",
@@ -18062,7 +18066,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,353.20, 1M -4.39%",
+            "observed": "1,358.31, 1M -4.03%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -18102,7 +18106,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "17.10",
+            "observed": "17.00",
             "direction": "상승",
             "score": 1.0,
             "weight": "중간",
@@ -18112,7 +18116,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "102.84달러, 1M +24.81%",
+            "observed": "102.97달러, 1M +24.96%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간",
@@ -18171,7 +18175,7 @@
         "KOSPI": {
           "samples": 219,
           "hit_rate": 0.5845,
-          "avg_forward_return": 1.5525,
+          "avg_forward_return": 1.5489,
           "suggested_weight": 0.1689,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
@@ -18180,7 +18184,7 @@
         "KOSDAQ": {
           "samples": 219,
           "hit_rate": 0.5205,
-          "avg_forward_return": 0.0536,
+          "avg_forward_return": 0.0489,
           "suggested_weight": 0.0411,
           "best_signal_label": "모멘텀 롱",
           "lookback_days": 20,
@@ -18188,7 +18192,58 @@
         }
       }
     },
-    "run_phase": "morning",
-    "run_phase_label": "오전 9시 예측"
+    "run_phase": "close",
+    "run_phase_label": "오후 4시 당일 장세 분석 및 수정 적용",
+    "intraday_review": {
+      "phase": "close",
+      "morning_generated_kst": "2026-09-15T12:46:56+09:00",
+      "close_generated_kst": "2026-09-15T21:30:45+09:00",
+      "trading_date": "2026-09-15",
+      "morning_prediction_label": "중립/하락 경계",
+      "morning_prediction_bias": "mild_bearish",
+      "close_prediction_label": "중립/하락 경계",
+      "primary_market": "KOSPI",
+      "primary_hit": false,
+      "feedback_eligible": false,
+      "feedback_reason": "KOSPI 오전/마감 지수 값이 불완전해 피드백 표본에 반영하지 않았습니다.",
+      "markets": {
+        "KOSPI": {
+          "morning": null,
+          "close": null,
+          "change_pct": 0.0
+        },
+        "KOSDAQ": {
+          "morning": null,
+          "close": null,
+          "change_pct": 0.0
+        }
+      },
+      "adjustment": {
+        "action": "피드백 보류",
+        "reason": "KOSPI 오전/마감 지수 값이 불완전해 피드백 표본에 반영하지 않았습니다.",
+        "applied": false
+      }
+    },
+    "next_feedback": {
+      "version": 1,
+      "samples": 80,
+      "hits": 32,
+      "misses": 48,
+      "hit_rate": 0.4,
+      "next_session_score_adjustment": -0.18,
+      "last_actual_bias": "neutral",
+      "last_feedback": {
+        "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=neutral(-0.11%)",
+        "hit": false,
+        "predicted_bias": "bullish",
+        "actual_bias": "neutral",
+        "kospi_change_pct": -0.11,
+        "close_generated_kst": "2026-09-09T21:11:44+09:00",
+        "trading_date": "2026-09-09"
+      },
+      "last_skipped_feedback": {
+        "reason": "KOSPI 오전/마감 지수 값이 불완전해 피드백 표본에 반영하지 않았습니다."
+      }
+    }
   }
 }
