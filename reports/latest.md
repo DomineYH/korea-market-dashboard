@@ -1,6 +1,6 @@
 # 한국 주식시장 방향성 리포트
 
-- 생성 시각: `2026-10-05T13:30:25+09:00`
+- 생성 시각: `2026-10-06T00:39:06+09:00`
 - 단기 판정: **상승 우세** / 신뢰도: 중간~높음
 - 중기 판정: **조건부 상승** / 신뢰도: 중간
 - 총점: **5.32** = 상승 6.5 + 하락 -1.18
@@ -11,10 +11,10 @@
 |---|---:|---|
 | KOSPI | N/A |  |
 | KOSDAQ | N/A |  |
-| USD/KRW | 1,346.55 | 1M -0.65% |
-| SOX | 1W 3.69% | 1M 15.85% |
-| VIX | 15.31 | 위험선호/공포 지표 |
-| WTI | 89.80 | 1M -1.64% |
+| USD/KRW | 1,342.29 | 1M -0.97% |
+| SOX | 1W 5.17% | 1M 15.49% |
+| VIX | 15.54 | 위험선호/공포 지표 |
+| WTI | 90.82 | 1M -0.53% |
 
 ## KOSPI/KOSDAQ 분리 모델
 
@@ -30,12 +30,12 @@
 | 가격/추세 | KOSPI 중기 모멘텀 | 1M +2.46%, 3M -15.65%, 6M +32.71% | 상승 | 0.5 | 높음 | 지수 자체의 중기 추세가 강하면 급락보다 눌림 후 재상승 확률이 커진다. |
 | 수급 | KOSPI 외국인 순매수 | 5D 0억, 10D 0억 | 상승 | 1.0 | 매우 높음 | 한국 시장은 외국인 매매가 단기 방향을 지배하는 경우가 많다. |
 | 수급 | KOSPI 개인 순매수 방어 | 개인 5D 0억, 기관 5D 0억 | 중립 | 0.0 | 중간 | 외국인 매도를 개인이 받아내는 구조는 단기 과열/분산 매물 신호가 될 수 있다. |
-| 환율 | USD/KRW | 1,346.55, 1M -0.65% | 하락 | 0.5 | 높음 | 원화 약세는 외국인 환차손 우려와 할인율 부담을 높인다. |
-| 글로벌/반도체 | Philadelphia SOX 단기 흐름 | 1W +3.69%, 1M +15.85% | 하락 | 1.0 | 높음 | 한국 반도체 대형주는 미국 반도체 지수와 단기 연동성이 높다. |
+| 환율 | USD/KRW | 1,342.29, 1M -0.97% | 하락 | 0.5 | 높음 | 원화 약세는 외국인 환차손 우려와 할인율 부담을 높인다. |
+| 글로벌/반도체 | Philadelphia SOX 단기 흐름 | 1W +5.17%, 1M +15.49% | 하락 | 1.0 | 높음 | 한국 반도체 대형주는 미국 반도체 지수와 단기 연동성이 높다. |
 | 펀더멘털 | 반도체/HBM·수출 뉴스 | 수출·반도체·HBM 긍정 키워드 확인 | 상승 | 1.5 | 높음 | 한국 지수의 이익 개선은 반도체 수출 사이클에 크게 의존한다. |
-| 금리 | 미국 10년물 | 5.277%, 1M +10.03% | 하락 | -1.0 | 중간~높음 | 미 장기금리 상승은 성장주와 고PER 반도체 밸류에이션을 압박한다. |
-| 리스크 | VIX | 15.31 | 상승 | 1.0 | 중간 | VIX 20 이하에서는 위기성 급락보다 일반 조정일 가능성이 커진다. |
-| 원자재 | WTI 유가 | 89.80달러, 1M -1.64% | 하락 | 0.0 | 중간 | 고유가는 한국의 비용·무역수지·물가 부담을 키운다. |
+| 금리 | 미국 10년물 | 5.326%, 1M +11.84% | 하락 | -1.0 | 중간~높음 | 미 장기금리 상승은 성장주와 고PER 반도체 밸류에이션을 압박한다. |
+| 리스크 | VIX | 15.54 | 상승 | 1.0 | 중간 | VIX 20 이하에서는 위기성 급락보다 일반 조정일 가능성이 커진다. |
+| 원자재 | WTI 유가 | 90.82달러, 1M -0.53% | 하락 | 0.0 | 중간 | 고유가는 한국의 비용·무역수지·물가 부담을 키운다. |
 | 업종 | 반도체/자동차 장중 흐름 | 반도체 +0.00%, 자동차 +0.00% | 상승 | 0.5 | 높음 | KOSPI 지수 기여도가 큰 업종이 밀리면 지수 조정 압력이 커진다. |
 | 국내금리 | 한국은행 기준금리 | 2.50% | 상승 | 0.5 | 중간 | 국내 기준금리 안정은 밸류에이션 하방을 일부 완충한다. |
 | 피드백 | 전일 09시 예측 vs 마감 장세 | 전일 09시 예측 불일치: 예측=bullish, 실제=neutral(-0.11%) | 하락 | -0.18 | 동적 | 전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다. |
@@ -63,7 +63,7 @@
 
 ## 주요 뉴스 헤드라인
 
-- [환율 1,550원 육박...코스피 '검은 금요일' - YTN](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TLTZEWFpQYUdFQkU3eTAwUk5TMnpRV09BaTJHOVE2RWJBd3VBb2E1NXhBQkdnLVFHTzg3blpUbXdEMU9QcEM5VG5QdHRfQmRTTWdUa0RvVTh0TDUzd1E?oc=5) — YTN
+- [환율 1,550원 육박...코스피 '검은 금요일' - ytn.co.kr](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TLTZEWFpQYUdFQkU3eTAwUk5TMnpRV09BaTJHOVE2RWJBd3VBb2E1NXhBQkdnLVFHTzg3blpUbXdEMU9QcEM5VG5QdHRfQmRTTWdUa0RvVTh0TDUzd1E?oc=5) — ytn.co.kr
 - [코스피 7천 재탈환 시도와 필라델피아 반도체 지수 점검 (feat. SOXL 투자) - 네이버 프리미엄콘텐츠](https://news.google.com/rss/articles/CBMigwFBVV95cUxOZnJsV1dmSWlObEcyU0p6RHhRNXJYd1B1OFc5cThodGNPT29oYjB0R3FjNDdEcm9vR3BCd3hhUkt4dkhzUlZ0akttd2tNdnpFSXdLeUtFLU0wS2c3U1BpMmdsTFhHSU82cGthbWtTQTVpTWxTQmtJTGhXeFZuM0QtelpKYw?oc=5) — 네이버 프리미엄콘텐츠
 - [환율 1415.9원으로 ‘뚝’…코스피·코스닥도 동반 상승 - 스트레이트뉴스](https://news.google.com/rss/articles/CBMic0FVX3lxTE13Z09JcUdJYnhhODJWRTlJVWhRN3dJUXo4T3lVWXlrendsMXF6dVRmN1ZxQmJTSzBkNGJWSkkxVHdSOVFmeTdDaDR0YlRIMkZ2U0gzTXRuMkdBQjBPRDBTUElCS0tvV043Zm8wa1E4bE5lbDjSAXdBVV95cUxPeXJYZk0yZGNaYmpacHZTclFlSk5obW1oQXVsTGhWZlRHVEdJQTgweHVEVWU1b3g4b1lKcUN4ZV9rX0JjWWliaE9OQVJOd0k3N2VKZ0hMWVJBYk9YNWlqU0Q1Q2E2OGFFYTNCb3hMem81Ui1oRGRJSQ?oc=5) — 스트레이트뉴스
 - [외국인 48조 매도에도 "한국 떠난 건 아니다"…복귀 조건은 실적·주주환원 - 뉴스핌](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lNXZkLUF2QTNlaEE4bWRWU0s4R0tlUFRidmZXT0NiYVI0WHBZZWtiOEo3TWFnQkttOWNBZ3ZabDZhMkxpb3pmdnA2VGcxUm9XcVVHb0U5dXUwVV9i?oc=5) — 뉴스핌
