@@ -3,19 +3,19 @@
   "horizon_days": 5,
   "markets": {
     "KOSPI": {
-      "samples": 218,
-      "hit_rate": 0.5505,
-      "avg_forward_return": 1.4188,
-      "suggested_weight": 0.1009,
+      "samples": 220,
+      "hit_rate": 0.5455,
+      "avg_forward_return": 1.3055,
+      "suggested_weight": 0.0909,
       "best_signal_label": "모멘텀 롱",
       "lookback_days": 20,
       "horizon_days": 5
     },
     "KOSDAQ": {
-      "samples": 218,
-      "hit_rate": 0.5092,
-      "avg_forward_return": 0.2035,
-      "suggested_weight": 0.0183,
+      "samples": 220,
+      "hit_rate": 0.5045,
+      "avg_forward_return": 0.1489,
+      "suggested_weight": 0.0091,
       "best_signal_label": "모멘텀 롱",
       "lookback_days": 20,
       "horizon_days": 5
