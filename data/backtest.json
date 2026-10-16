@@ -4,9 +4,9 @@
   "markets": {
     "KOSPI": {
       "samples": 220,
-      "hit_rate": 0.5409,
-      "avg_forward_return": 1.1753,
-      "suggested_weight": 0.0818,
+      "hit_rate": 0.5455,
+      "avg_forward_return": 1.138,
+      "suggested_weight": 0.0909,
       "best_signal_label": "모멘텀 롱",
       "lookback_days": 20,
       "horizon_days": 5
@@ -14,7 +14,7 @@
     "KOSDAQ": {
       "samples": 220,
       "hit_rate": 0.5,
-      "avg_forward_return": 0.0286,
+      "avg_forward_return": -0.004,
       "suggested_weight": 0.0,
       "best_signal_label": "모멘텀 롱",
       "lookback_days": 20,
