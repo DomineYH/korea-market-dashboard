@@ -1,21 +1,18 @@
 {
   "version": 1,
-  "samples": 80,
+  "samples": 81,
   "hits": 32,
-  "misses": 48,
-  "hit_rate": 0.4,
-  "next_session_score_adjustment": -0.18,
+  "misses": 49,
+  "hit_rate": 0.3951,
+  "next_session_score_adjustment": -0.1,
   "last_actual_bias": "neutral",
   "last_feedback": {
-    "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=neutral(-0.11%)",
+    "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=neutral(-0.01%)",
     "hit": false,
     "predicted_bias": "bullish",
     "actual_bias": "neutral",
-    "kospi_change_pct": -0.11,
-    "close_generated_kst": "2026-09-09T21:11:44+09:00",
-    "trading_date": "2026-09-09"
-  },
-  "last_skipped_feedback": {
-    "reason": "KOSPI 오전/마감 지수 값이 불완전해 피드백 표본에 반영하지 않았습니다."
+    "kospi_change_pct": -0.01,
+    "close_generated_kst": "2026-10-30T16:14:40+09:00",
+    "trading_date": "2026-10-30"
   }
 }
