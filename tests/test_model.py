@@ -69,5 +69,33 @@ class PredictionModelTests(unittest.TestCase):
         self.assertNotEqual(result["KOSPI"]["total_score"], result["KOSDAQ"]["total_score"])
 
 
+class VixTailGuardTests(unittest.TestCase):
+    """2026-10-30 감사 반영: VIX 급등 국면에서 상승 방향 총점을 중립 상한으로 제한한다."""
+
+    def test_vix_spike_caps_bullish_total_score(self):
+        snap = sample_snapshot()
+        snap["yahoo_market"]["VIX"] = {"latest": 31.0}
+        snap["investor_flows_억원"]["KOSPI"]["sums_억원"]["5d"]["foreign"] = 30000
+        snap["yahoo_market"]["Philadelphia SOX"] = {"1w_change_pct": 5.0, "1m_change_pct": 10.0}
+        snap["yahoo_market"]["KRW per USD"] = {"latest": 1350.0, "1m_change_pct": -1.0}
+        snap["yahoo_market"]["WTI crude"] = {"latest": 70.0, "1m_change_pct": 1.0}
+        snap["yahoo_market"]["US 10Y yield"] = {"latest": 4.0, "1m_change_pct": -1.0}
+        snap["sectors"]["bottom"] = []
+
+        result = build_prediction_table(snap)
+
+        self.assertTrue(result["tail_guard"]["applied"])
+        self.assertLessEqual(result["total_score"], 0.4)
+        self.assertEqual(result["short_term"]["bias"], "neutral")
+        self.assertTrue(any(row["id"] == "vix_tail_guard" and row["score"] < 0 for row in result["signals"]))
+
+    def test_vix_tail_guard_inactive_when_calm(self):
+        result = build_prediction_table(sample_snapshot())
+
+        self.assertFalse(result["tail_guard"]["applied"])
+        self.assertFalse(any(row["id"] == "vix_tail_guard" for row in result["signals"]))
+        self.assertLess(result["total_score"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()

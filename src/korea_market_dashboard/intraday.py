@@ -15,7 +15,19 @@ def _num(value: Any) -> float | None:
 
 
 def _index_value(payload: dict[str, Any], market: str) -> float | None:
-    return _num((((payload.get("snapshot") or {}).get("naver_indices") or {}).get(market) or {}).get("now_value"))
+    naver = _num((((payload.get("snapshot") or {}).get("naver_indices") or {}).get(market) or {}).get("now_value"))
+    if naver:
+        return naver
+    # Naver index API is dead since 2026-09-11 (404): fall back to the payload's
+    # own Yahoo history. The last bar of each payload is that run's session
+    # reference (morning ~= open, close ~= final close).
+    history = (((payload.get("snapshot") or {}).get("yahoo_market") or {}).get(market) or {}).get("history") or []
+    for bar in reversed(history):
+        if isinstance(bar, dict):
+            close = _num(bar.get("close"))
+            if close:
+                return close
+    return None
 
 
 def _generated(payload: dict[str, Any]) -> str:
@@ -40,12 +52,15 @@ def _prediction_bias(payload: dict[str, Any]) -> str:
     return str(((payload.get("prediction") or {}).get("short_term") or {}).get("bias") or "neutral")
 
 
+NEUTRAL_HIT_BAND_PCT = 0.5
+
+
 def _hit_for_bias(bias: str, change_pct: float) -> bool:
     if "bullish" in bias:
         return change_pct > 0
     if "bearish" in bias:
         return change_pct < 0
-    return abs(change_pct) <= 0.3
+    return abs(change_pct) <= NEUTRAL_HIT_BAND_PCT
 
 
 def _feedback_eligibility(
@@ -54,6 +69,7 @@ def _feedback_eligibility(
     close_generated: str,
     morning_label: str,
     markets: dict[str, dict[str, Any]],
+    morning_bias: str = "",
 ) -> tuple[bool, str, str | None]:
     morning_date = _date_part(morning_generated)
     close_date = _date_part(close_generated)
@@ -62,8 +78,12 @@ def _feedback_eligibility(
         return False, "저장된 오전 9시 예측 payload가 없어 피드백 표본에 반영하지 않았습니다.", close_date
     if morning_label == "N/A":
         return False, "오전 9시 예측 판정이 없어 피드백 표본에 반영하지 않았습니다.", close_date
+    if morning_bias == "neutral":
+        return False, "오전 예측이 중립(방향 판정 보류)이어서 피드백 표본에서 제외했습니다.", close_date
     if kospi.get("morning") is None or kospi.get("close") is None:
         return False, "KOSPI 오전/마감 지수 값이 불완전해 피드백 표본에 반영하지 않았습니다.", close_date
+    if float(kospi.get("change_pct", 0.0) or 0.0) == 0.0:
+        return False, "KOSPI 당일 변화율이 0.00%로 기록되어(스테일 지수 스냅샷 의심) 피드백 표본에서 제외했습니다.", close_date
     if not morning_date or not close_date:
         return False, "오전/마감 생성일을 확인할 수 없어 피드백 표본에 반영하지 않았습니다.", close_date
     if morning_date != close_date:
@@ -89,7 +109,9 @@ def build_close_analysis(morning_payload: dict[str, Any] | None, close_payload: 
     morning_label = _prediction_label(morning_payload)
     bias = _prediction_bias(morning_payload)
     primary_market = "KOSPI"
-    eligible, feedback_reason, trading_date = _feedback_eligibility(morning_payload, morning_generated, close_generated, morning_label, markets)
+    eligible, feedback_reason, trading_date = _feedback_eligibility(
+        morning_payload, morning_generated, close_generated, morning_label, markets, morning_bias=bias
+    )
     primary_hit = _hit_for_bias(bias, float(markets[primary_market]["change_pct"])) if eligible else False
     if not eligible:
         adjustment = {

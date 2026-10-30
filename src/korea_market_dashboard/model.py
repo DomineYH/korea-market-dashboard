@@ -4,6 +4,9 @@ from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
 from typing import Any
 
+VIX_TAIL_GUARD_THRESHOLD = 28.0
+VIX_TAIL_GUARD_CAP = 0.4
+
 
 @dataclass(frozen=True)
 class Signal:
@@ -144,6 +147,23 @@ def build_prediction_table(data: dict[str, Any], market: str = "KOSPI") -> dict[
         "상승", 0.5 if 0 < base_rate <= 2.75 else 0.0, "중간", "국내 기준금리 안정은 밸류에이션 하방을 일부 완충한다."
     ))
 
+    raw_total = round(sum(s.score for s in signals), 2)
+    tail_guard: dict[str, Any] = {
+        "applied": False,
+        "vix": vix,
+        "threshold": VIX_TAIL_GUARD_THRESHOLD,
+        "cap": VIX_TAIL_GUARD_CAP,
+    }
+    if vix >= VIX_TAIL_GUARD_THRESHOLD and raw_total > VIX_TAIL_GUARD_CAP:
+        signals.append(Signal(
+            "vix_tail_guard", "리스크", "VIX 급등 꼬리 가드",
+            f"VIX {vix:.2f} (임계 {VIX_TAIL_GUARD_THRESHOLD:.0f})",
+            "하락", round(VIX_TAIL_GUARD_CAP - raw_total, 2), "높음",
+            "VIX 급등 국면에서는 상승 방향 총점을 중립 상한으로 제한해 변동성 충격기의 상승 오판을 줄인다."
+        ))
+        tail_guard["applied"] = True
+        tail_guard["raw_total"] = raw_total
+
     total = round(sum(s.score for s in signals), 2)
     positives = round(sum(s.score for s in signals if s.score > 0), 2)
     negatives = round(sum(s.score for s in signals if s.score < 0), 2)
@@ -164,6 +184,7 @@ def build_prediction_table(data: dict[str, Any], market: str = "KOSPI") -> dict[
         "short_term": short_term,
         "medium_term": medium,
         "signals": [asdict(signal) for signal in signals],
+        "tail_guard": tail_guard,
         "method": {
             "horizon_short": "1~5거래일",
             "horizon_medium": "1~3개월",
