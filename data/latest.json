@@ -1,7 +1,7 @@
 {
   "snapshot": {
-    "generated_utc": "2026-11-03T07:12:25Z",
-    "generated_kst": "2026-11-03T16:12:25+09:00",
+    "generated_utc": "2026-11-03T14:53:34Z",
+    "generated_kst": "2026-11-03T23:53:34+09:00",
     "naver_indices": {
       "KOSPI": {
         "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
@@ -2022,7 +2022,7 @@
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKQ11?range=1y&interval=1d"
       },
       "KOSPI200": {
-        "currency": "KRW",
+        "currency": null,
         "exchange": "KSC",
         "regularMarketPrice": 885.67,
         "history": [
@@ -6023,7 +6023,7 @@
       "KRW per USD": {
         "currency": "KRW",
         "exchange": "CCY",
-        "regularMarketPrice": 1340.58,
+        "regularMarketPrice": 1342.98,
         "history": [
           {
             "date": "2025-11-03",
@@ -7063,24 +7063,24 @@
           },
           {
             "date": "2026-11-03",
-            "close": 1340.58
+            "close": 1342.98
           }
         ],
         "latest_date": "2026-11-03",
-        "latest": 1340.58,
-        "1d_change_pct": 1.14,
-        "1w_change_pct": 1.19,
-        "1m_change_pct": -0.15,
-        "3m_change_pct": -5.67,
-        "6m_change_pct": -8.21,
-        "1y_change_pct": -8.17,
+        "latest": 1342.98,
+        "1d_change_pct": 1.32,
+        "1w_change_pct": 1.37,
+        "1m_change_pct": 0.03,
+        "3m_change_pct": -5.5,
+        "6m_change_pct": -8.05,
+        "1y_change_pct": -8.0,
         "symbol": "KRW=X",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=1y&interval=1d"
       },
       "US Dollar Index": {
         "currency": "USD",
         "exchange": "NYB",
-        "regularMarketPrice": 101.735,
+        "regularMarketPrice": 101.856,
         "history": [
           {
             "date": "2025-11-03",
@@ -8088,23 +8088,23 @@
           },
           {
             "date": "2026-11-03",
-            "close": 101.735
+            "close": 101.856
           }
         ],
         "latest_date": "2026-11-03",
-        "latest": 101.735,
-        "1d_change_pct": -0.01,
-        "1w_change_pct": -0.57,
-        "1m_change_pct": -0.43,
-        "3m_change_pct": 2.05,
-        "6m_change_pct": 3.31,
+        "latest": 101.856,
+        "1d_change_pct": 0.1,
+        "1w_change_pct": -0.45,
+        "1m_change_pct": -0.31,
+        "3m_change_pct": 2.17,
+        "6m_change_pct": 3.43,
         "symbol": "DX-Y.NYB",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1y&interval=1d"
       },
       "S&P500": {
         "currency": "USD",
         "exchange": "SNP",
-        "regularMarketPrice": 7541.4,
+        "regularMarketPrice": 7559.35,
         "history": [
           {
             "date": "2025-11-03",
@@ -9109,22 +9109,26 @@
           {
             "date": "2026-11-02",
             "close": 7541.3999
+          },
+          {
+            "date": "2026-11-03",
+            "close": 7559.3501
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 7541.3999,
-        "1d_change_pct": -0.51,
-        "1w_change_pct": -1.76,
-        "1m_change_pct": -2.35,
-        "3m_change_pct": -2.52,
-        "6m_change_pct": 4.73,
+        "latest_date": "2026-11-03",
+        "latest": 7559.3501,
+        "1d_change_pct": 0.24,
+        "1w_change_pct": -2.11,
+        "1m_change_pct": -2.76,
+        "3m_change_pct": -2.13,
+        "6m_change_pct": 4.13,
         "symbol": "^GSPC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1y&interval=1d"
       },
       "Nasdaq": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 25164.363,
+        "regularMarketPrice": 25319.232,
         "history": [
           {
             "date": "2025-11-03",
@@ -10129,22 +10133,26 @@
           {
             "date": "2026-11-02",
             "close": 25164.3105
+          },
+          {
+            "date": "2026-11-03",
+            "close": 25319.2324
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 25164.3105,
-        "1d_change_pct": -1.07,
-        "1w_change_pct": -3.84,
-        "1m_change_pct": -7.45,
-        "3m_change_pct": -5.34,
-        "6m_change_pct": 0.38,
+        "latest_date": "2026-11-03",
+        "latest": 25319.2324,
+        "1d_change_pct": 0.62,
+        "1w_change_pct": -4.38,
+        "1m_change_pct": -7.85,
+        "3m_change_pct": -3.96,
+        "6m_change_pct": -0.03,
         "symbol": "^IXIC",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=1y&interval=1d"
       },
       "Philadelphia SOX": {
         "currency": "USD",
         "exchange": "NIM",
-        "regularMarketPrice": 10328.329,
+        "regularMarketPrice": 10620.613,
         "history": [
           {
             "date": "2025-11-03",
@@ -11149,22 +11157,26 @@
           {
             "date": "2026-11-02",
             "close": 10328.3301
+          },
+          {
+            "date": "2026-11-03",
+            "close": 10620.6133
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 10328.3301,
-        "1d_change_pct": -3.37,
-        "1w_change_pct": -6.81,
-        "1m_change_pct": -21.38,
-        "3m_change_pct": -15.2,
-        "6m_change_pct": -1.96,
+        "latest_date": "2026-11-03",
+        "latest": 10620.6133,
+        "1d_change_pct": 2.83,
+        "1w_change_pct": -7.51,
+        "1m_change_pct": -19.37,
+        "3m_change_pct": -11.56,
+        "6m_change_pct": -3.28,
         "symbol": "^SOX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d"
       },
       "VIX": {
         "currency": "USD",
         "exchange": "CXI",
-        "regularMarketPrice": 21.15,
+        "regularMarketPrice": 20.88,
         "history": [
           {
             "date": "2025-11-03",
@@ -12177,23 +12189,27 @@
           {
             "date": "2026-11-02",
             "close": 21.15
+          },
+          {
+            "date": "2026-11-03",
+            "close": 20.88
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 21.15,
-        "1d_change_pct": 8.91,
-        "1w_change_pct": 15.01,
-        "1m_change_pct": 38.15,
-        "3m_change_pct": 33.78,
-        "6m_change_pct": 21.62,
-        "1y_change_pct": 23.18,
+        "latest_date": "2026-11-03",
+        "latest": 20.88,
+        "1d_change_pct": -1.28,
+        "1w_change_pct": 19.18,
+        "1m_change_pct": 34.54,
+        "3m_change_pct": 37.82,
+        "6m_change_pct": 22.25,
+        "1y_change_pct": 9.89,
         "symbol": "^VIX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1y&interval=1d"
       },
       "US 10Y yield": {
         "currency": "USD",
         "exchange": "CGI",
-        "regularMarketPrice": 4.894,
+        "regularMarketPrice": 4.927,
         "history": [
           {
             "date": "2025-11-03",
@@ -13198,22 +13214,26 @@
           {
             "date": "2026-11-02",
             "close": 4.894
+          },
+          {
+            "date": "2026-11-03",
+            "close": 4.927
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 4.894,
-        "1d_change_pct": -0.71,
-        "1w_change_pct": -1.85,
-        "1m_change_pct": -7.26,
-        "3m_change_pct": 5.77,
-        "6m_change_pct": 10.08,
+        "latest_date": "2026-11-03",
+        "latest": 4.927,
+        "1d_change_pct": 0.67,
+        "1w_change_pct": -1.32,
+        "1m_change_pct": -7.23,
+        "3m_change_pct": 6.71,
+        "6m_change_pct": 11.57,
         "symbol": "^TNX",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d"
       },
       "WTI crude": {
         "currency": "USD",
         "exchange": "NYM",
-        "regularMarketPrice": 98.2,
+        "regularMarketPrice": 96.07,
         "history": [
           {
             "date": "2025-11-03",
@@ -14221,23 +14241,23 @@
           },
           {
             "date": "2026-11-03",
-            "close": 98.2
+            "close": 96.07
           }
         ],
         "latest_date": "2026-11-03",
-        "latest": 98.2,
-        "1d_change_pct": 1.8,
-        "1w_change_pct": -1.7,
-        "1m_change_pct": 9.81,
-        "3m_change_pct": 30.55,
-        "6m_change_pct": -3.98,
+        "latest": 96.07,
+        "1d_change_pct": -0.4,
+        "1w_change_pct": -3.83,
+        "1m_change_pct": 7.42,
+        "3m_change_pct": 27.72,
+        "6m_change_pct": -6.06,
         "symbol": "CL=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?range=1y&interval=1d"
       },
       "Gold": {
         "currency": "USD",
         "exchange": "CMX",
-        "regularMarketPrice": 3922.0,
+        "regularMarketPrice": 3955.6,
         "history": [
           {
             "date": "2025-11-03",
@@ -15245,23 +15265,23 @@
           },
           {
             "date": "2026-11-03",
-            "close": 3922.0
+            "close": 3955.6001
           }
         ],
         "latest_date": "2026-11-03",
-        "latest": 3922.0,
-        "1d_change_pct": -1.2,
-        "1w_change_pct": -3.75,
-        "1m_change_pct": -5.65,
-        "3m_change_pct": -8.9,
-        "6m_change_pct": -14.15,
+        "latest": 3955.6001,
+        "1d_change_pct": -0.35,
+        "1w_change_pct": -2.92,
+        "1m_change_pct": -4.84,
+        "3m_change_pct": -8.12,
+        "6m_change_pct": -13.42,
         "symbol": "GC=F",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=1y&interval=1d"
       },
       "iShares MSCI Korea ETF": {
         "currency": "USD",
         "exchange": "PCX",
-        "regularMarketPrice": 151.62,
+        "regularMarketPrice": 155.38,
         "history": [
           {
             "date": "2025-11-03",
@@ -16266,15 +16286,19 @@
           {
             "date": "2026-11-02",
             "close": 151.62
+          },
+          {
+            "date": "2026-11-03",
+            "close": 155.38
           }
         ],
-        "latest_date": "2026-11-02",
-        "latest": 151.62,
-        "1d_change_pct": -0.83,
-        "1w_change_pct": -0.72,
-        "1m_change_pct": -20.98,
-        "3m_change_pct": -11.41,
-        "6m_change_pct": -7.32,
+        "latest_date": "2026-11-03",
+        "latest": 155.38,
+        "1d_change_pct": 2.48,
+        "1w_change_pct": -1.32,
+        "1m_change_pct": -18.84,
+        "3m_change_pct": -8.14,
+        "6m_change_pct": -10.43,
         "symbol": "EWY",
         "source": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=1y&interval=1d"
       }
@@ -16307,8 +16331,8 @@
       "VIXCLS": {
         "series": "VIXCLS",
         "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
-        "latest_date": "2026-10-30",
-        "latest": 19.42
+        "latest_date": "2026-11-02",
+        "latest": 21.15
       },
       "BAMLH0A0HYM2": {
         "series": "BAMLH0A0HYM2",
@@ -16371,22 +16395,10 @@
             "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54XzM4VEhUSGJ5MmJzd09JZkN1dy1oMTJEbDJZa3V2UUxjNXZuVUJhWHBuY1EwRzEyMGFoNXJidDdMb09TZUdGRmJhZ0VtOTViZVdYQUhnM0lwQksz?oc=5"
           },
           {
-            "title": "“코스피, 심폐소생 가능합니까?”…전문가 3인이 꼽은 반등 조건 [증시 긴급진단①] - 매일경제 마켓",
-            "source": "매일경제 마켓",
-            "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iejFmUV92S1diUWlvMnZjc1hEeFRxQlE1OVNMc0pXSTJhTmE4cjRtSVdKU3Vhc0hnWEt1ZTVlVDk3YWpyX2pRaUU3R3lQcUZVc3c?oc=5"
-          },
-          {
-            "title": "[주간증시전망] \"폭락장에 주식 팔지 마라\"…코스피 반등 이끌 '세 가지 변수'는 - www.ebn.co.kr",
-            "source": "www.ebn.co.kr",
-            "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EekhxVU9IZ2hEYVZKZGxvMmZhRGJ1V2pyaF81M0U5OHl2X2pQVTkzZk1EQVBJX2V3a1lYZG9LaDNOVlcyVEtOVlg3czFFY1RmdlR1aEE0eUhJMGhlRDRCWThFX3BqN09V?oc=5"
-          },
-          {
-            "title": "환율 1415.9원으로 ‘뚝’…코스피·코스닥도 동반 상승 - 스트레이트뉴스",
-            "source": "스트레이트뉴스",
-            "pubDate": "Tue, 11 Aug 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13Z09JcUdJYnhhODJWRTlJVWhRN3dJUXo4T3lVWXlrendsMXF6dVRmN1ZxQmJTSzBkNGJWSkkxVHdSOVFmeTdDaDR0YlRIMkZ2U0gzTXRuMkdBQjBPRDBTUElCS0tvV043Zm8wa1E4bE5lbDjSAXdBVV95cUxPeXJYZk0yZGNaYmpacHZTclFlSk5obW1oQXVsTGhWZlRHVEdJQTgweHVEVWU1b3g4b1lKcUN4ZV9rX0JjWWliaE9OQVJOd0k3N2VKZ0hMWVJBYk9YNWlqU0Q1Q2E2OGFFYTNCb3hMem81Ui1oRGRJSQ?oc=5"
+            "title": "코스피 전망, 美 반도체 8일째 급락…외국인 수급 시험대 - 톱스타뉴스",
+            "source": "톱스타뉴스",
+            "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iQjdTY2wxeWpKN2JNRDdFZGJXT09KUXhrMFR2Y2xIdUJOMXFSM2w3cnhPdkxqdmE4ZFZROFptOHpVYUozUFJkb0hxWE51dmNEQ21VRW5EeUgzNkdmTWphQnRUYlR6b29ZQkR4SXBieWE1QQ?oc=5"
           },
           {
             "title": "환율 1,550원 육박...코스피 '검은 금요일' - YTN",
@@ -16395,22 +16407,34 @@
             "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TLTZEWFpQYUdFQkU3eTAwUk5TMnpRV09BaTJHOVE2RWJBd3VBb2E1NXhBQkdnLVFHTzg3blpUbXdEMU9QcEM5VG5QdHRfQmRTTWdUa0RvVTh0TDUzd1E?oc=5"
           },
           {
-            "title": "코스피 오르는데 환율도 올라…\"외국인 매도의 성격이 달라졌다\" - KB Think",
-            "source": "KB Think",
-            "pubDate": "Fri, 15 May 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RNGlXWFBmUy1HUE5vS181RHhYZV9TdHdpcXFUZUVpWEtwQ0lhcG5IYnkyTVB0QWpTT1N5R0hzSnI0UXhQX1FIR2lPSGJaQXFZUFBTTjFVVmVHcDh6dC1aX21JTU1CNlZkSlJOaThmcUNRUQ?oc=5"
+            "title": "[심층분석] ‘삼전닉스’ 17조 덜어낸 외국인…실적·금리 개선이 복귀 가른다 - 굿모닝경제",
+            "source": "굿모닝경제",
+            "pubDate": "Tue, 06 Oct 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yLWw2WndSa0pWTXlvRktRZ3NQd2lTQlRHNGpXLVQzYWgzdkdTZVhCakVzcktOZTcyeXlUcHFvcDdiaEZfSXhUb21yUUhSVFRFOWFmd19aaGs5b19uUkRZRXc3MElST2tNeG05SA?oc=5"
           },
           {
-            "title": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 - 주간조선",
-            "source": "주간조선",
-            "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FYXNfRGhzMkxFUEM1cElEaG51Nm1OeGw3Rk9HNWw3UGczV3pGazA2ZlJMblM5ejFuQU0xVGlkT21XX1RaaS1aWUktNlhob2RCVmpRdjRrdWdBdkVPX3Z1c25rRzc2dmRSbGfSAW5BVV95cUxNcTJrVW9SalNWZk4xTHVLSDZLNG9zR3BXaFBpckRJWXMzdXo4R1FJbTlUT0NuSVEzUzRpUHZLYUQxM0JzblFMWVh4TWVUMnpmbTYybkRHZngtQXlLOWRpRURvNFdRaFBza0ZPb2I1QQ?oc=5"
+            "title": "환율 1415.9원으로 ‘뚝’…코스피·코스닥도 동반 상승 - 스트레이트뉴스",
+            "source": "스트레이트뉴스",
+            "pubDate": "Tue, 11 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13Z09JcUdJYnhhODJWRTlJVWhRN3dJUXo4T3lVWXlrendsMXF6dVRmN1ZxQmJTSzBkNGJWSkkxVHdSOVFmeTdDaDR0YlRIMkZ2U0gzTXRuMkdBQjBPRDBTUElCS0tvV043Zm8wa1E4bE5lbDjSAXdBVV95cUxPeXJYZk0yZGNaYmpacHZTclFlSk5obW1oQXVsTGhWZlRHVEdJQTgweHVEVWU1b3g4b1lKcUN4ZV9rX0JjWWliaE9OQVJOd0k3N2VKZ0hMWVJBYk9YNWlqU0Q1Q2E2OGFFYTNCb3hMem81Ui1oRGRJSQ?oc=5"
           },
           {
-            "title": "[증시 레이더] 코스피, 반도체 반등에 8,470선 회복⋯환율 1,549원대 부담은 지속 - 포커스온경제",
-            "source": "포커스온경제",
-            "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50MzduX3YtZm5XOGdGWVNydUdITkNaMnBody1LeXNzUTI0N2NNaE0wSTkyMkFaS1QzV3A0SmlHXzl2cVpVUEJzWEdqdkp4Y0ZKU2Y1MkNMb0N1WUxZeDNodg?oc=5"
+            "title": "7000피 아슬아슬한데 \"1만2000 간다\"…외국인 돌아온 코스피, 복병은 - 머니투데이 - 머니투데이",
+            "source": "머니투데이",
+            "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtYk1BaU5NLUlPdWlyUTFldGdmX2NJbm9IVjBnaG1oTllIVXNIMUstX1JFRDZBOG0yVFFROWZNb3Q4TmI4V3ZUT2JQdjE2dWNQY1ZFMUxzQkduNGVDVUZORzZ2Q184WGZI0gFuQVVfeXFMUHpoR3RYWHJtNG04SWtxS25pajJGZFBFTktlRWZBb0dTdzNibV8ybXFrSndDbjBiWi0zN01zY3R6RVVablQ5eU1KT3RXamxadHR4bnNSb0J3b2dYUjhBQy1KT3JIOHo4SEl1YlhNYXc?oc=5"
+          },
+          {
+            "title": "외국인 20일째 \"팔자\"… 코스피 한때 8000선까지 급락 - 조선일보",
+            "source": "조선일보",
+            "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbWpfWFdxa242eEg2ZUNhUXpZWlE5TTBDaVBWTE1Jam9Mc0gzYWdCbDFsSUVYNmdvQW9MS29hUmNBX1lOTlJHU3BYUFJjblp1WngyZzdFN2tuVGd0UWdQOFZzcDVqdnhrNkpfUkZCYi1vemloOVc3d0lvMVdkQkNIdg?oc=5"
+          },
+          {
+            "title": "코스피 7천 재탈환 시도와 필라델피아 반도체 지수 점검 (feat. SOXL 투자) - 네이버 프리미엄콘텐츠",
+            "source": "네이버 프리미엄콘텐츠",
+            "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZnJsV1dmSWlObEcyU0p6RHhRNXJYd1B1OFc5cThodGNPT29oYjB0R3FjNDdEcm9vR3BCd3hhUkt4dkhzUlZ0akttd2tNdnpFSXdLeUtFLU0wS2c3U1BpMmdsTFhHSU82cGthbWtTQTVpTWxTQmtJTGhXeFZuM0QtelpKYw?oc=5"
           }
         ]
       },
@@ -16449,12 +16473,6 @@
             "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zcXNtTVA3azdFQzdrQjFkdU55Q2hmUjRyaFpzNEFJRGFTTEhmekV0SzI2LWNFb05YZ1c0RWpWRDNPLXppRkFlRG5kZkg4WVVSWHpiLdIBWEFVX3lxTE9yYmgtUElObWJEcjJJc0dDTlRlZFhzN1AtU1ZBQS1YQ1dwc3NLTXF0dVVpbzF2MUNSRUZiTERXU0RCMTE1WWRwMnFLcElOWnZtVEZ2SnNBM1U?oc=5"
           },
           {
-            "title": "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
-            "source": "브레이크뉴스",
-            "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5"
-          },
-          {
             "title": "KOSPI Tops 3,800 for the First Time Signs of an Improving Korean Economy? - 뷰티경제",
             "source": "뷰티경제",
             "pubDate": "Tue, 21 Oct 2025 07:00:00 GMT",
@@ -16465,6 +16483,12 @@
             "source": "Korea JoongAng Daily",
             "pubDate": "Wed, 25 Jun 2025 07:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAyUGZQZ2RMZnB4Zm5IOERtemJWNjd1OWdNbFg4aVRpV0huaVlIQU9NMmFNbEJsUjIyUW5BTVZtb25PY2RqTGxhVzNkT2hCZ1ZVM1lqQW1IWi1PSlgtN3Nrb25B?oc=5"
+          },
+          {
+            "title": "President Lee visits the National Intelligence Service... 'KOSPI breaks 3,600 vs. cosmetics stocks cooling' - 뷰티경제",
+            "source": "뷰티경제",
+            "pubDate": "Sat, 11 Oct 2025 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10WjZ6d3ZnMFkzYUNiTGMwcXZtOGFrTGk4ZVA5cURzZEpQeXR5RXdndUMyWTRCM0tRcElGVmFtSlhncmdiMVJyYnpvd1l2MUZJUkk1bzBiNFZzVkZ2SzlSZjloMGI1eTlKeEE?oc=5"
           }
         ]
       },
@@ -16503,6 +16527,12 @@
             "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45WnN4ZnNRWE1icDBjSW5sT0wycU1oNXVPMlR1TUtwald2YlV2V0hIRE1yVzhzY0VYQlVVWnhqY1JMbXh3QzZ6UWdpV1A3RTdDOG9ZNHZ5Uk9aN2s?oc=5"
           },
           {
+            "title": "지난해 한국 수출 첫 7000억 달러 돌파…반도체도 역대 최대 - 대한민국 정책브리핑",
+            "source": "대한민국 정책브리핑",
+            "pubDate": "Fri, 02 Jan 2026 08:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51aGdfRWhHdU1TMF9IT2hBcUI0Z3NfVTJnR3FpZ1VjMWhfZnZEUWVHVW4xX0Q4ZjJrZDFtX0Z1T0x6NXJnUDhaTW5PMm55ZGdJc0JxMFprWmZ4OGM1VVNzWTIzWl9QQmc1V2lPVg?oc=5"
+          },
+          {
             "title": "한국 수출, 마침내 '1000억달러 시대'…반도체가 새 역사 썼다 - 조세일보",
             "source": "조세일보",
             "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
@@ -16513,12 +16543,6 @@
             "source": "엠에스투데이",
             "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5od09KZ2Z5UVd2UFF0REkyT0lJV3RHbnBiWUxtZmZwZDQ5dThOTXRUd1I1LU9LVkpLV2l2ejBycmhRSWNEeUFsSlBBWnpMcjJfaEdycTRmU2VGdFdZMkFaNkpybkZucVJVcTRRMNIBcEFVX3lxTE5xanFJV3Qyb1RzTTcyTThBdWV2Ry11c0JDNFFrc3hGc2g0SWdNSXpSTEVlYWhNZE1xblF3SDJOM19JNERMYTFhUzYyUWwxMUlhMG1pWDVIUHQ2WGo5eVBCZ3hOUmFCOEM4YkNEc1VMTFY?oc=5"
-          },
-          {
-            "title": "\"한국 수출 새 역사 썼다\"…6월 첫 '1,000억 달러' 돌파, 반도체가 이끌었다 - 리드경제",
-            "source": "리드경제",
-            "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HUjVhRzlIUElkT3FXeXM5ZWVSMnlHeWtuRzRUek45dkdTRDN4VGJIMExGb01ydndZUGdIaVVjdGJ0RHhiZFhaMHpDd3N5TjJEeUlzelFVVXpTNmxHWEl6b0k4Sm5YZ2NkUExScDJLTQ?oc=5"
           }
         ]
       },
@@ -16527,28 +16551,16 @@
         "source": "https://news.google.com/rss/search?q=%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89+%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC+%EC%A0%84%EB%A7%9D+%EC%A6%9D%EC%8B%9C+%ED%99%98%EC%9C%A8&hl=ko&gl=KR&ceid=KR%3Ako",
         "items": [
           {
-            "title": "미국보다 나은 한국 경제성장, 원화 강세 모멘텀 지속 - KB Think",
+            "title": "[환율 전망] 변동성 줄어든 시장, 여전히 환율 하락에 무게 - KB Think",
             "source": "KB Think",
-            "pubDate": "Mon, 26 Oct 2026 00:59:18 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NRVZCNlRsOHR0RWtTVF91RTBaR0NUY0tCNnhxQzVIZ1ZmV25tRnlQYlhTQmpCVjFGVzZTQWpBY29hM1laR1hwVEdUNHRUdl9ucjU3SEJVcm5HTWFUUEdsb1Rn?oc=5"
+            "pubDate": "Wed, 21 Oct 2026 23:10:20 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hT1BUdWxOQTlETTdlS3hMWVVNRlJncFozYkNMM29QVWdnSzV5RC1EWm9JTnRMaXZkMVdTeW50T0NLUG5JQng2OTk0NG1tbUxWNkJUTGozbkw4d2xlakpmTw?oc=5"
           },
           {
-            "title": "\"한은 11월 금리 추가 인상…최종 3.50% 전망\" - 뉴스투데이",
-            "source": "뉴스투데이",
-            "pubDate": "Fri, 23 Oct 2026 04:18:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83bXdmZU9hb0xJVXhmZVZKQ1gzcU1NWFpVZWFvNmRwelpUeGtiTlNTd0JzR3ZtMkdfWlpYNnpIakVHeVU0ajE5Tmo1U0dDeTA3cUFNcFRFYkpFNkk?oc=5"
-          },
-          {
-            "title": "채권전문가 93% “10월 금통위 기준금리 동결”…금리 하락 전망 확대 - 브릿지경제",
-            "source": "브릿지경제",
-            "pubDate": "Tue, 20 Oct 2026 04:36:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fb3loVGEyMFZXa1FXR1dQUktpQkp4eEdRVGZENkhtbFVtZ09ObHhhdktmTUVQWkw2OEZHNDdLNDFRVUV6bDh0U01qS2paU2M4ck5iZkJBZw?oc=5"
-          },
-          {
-            "title": "10월 “한·미 기준금리 ‘동결’, 증시 박스권 강보합” - 중소기업투데이",
-            "source": "중소기업투데이",
-            "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92b2lEcW16NnViOWhFV3RqY1U2QURfb0ZoLUo5TFFZQmJOT2hqQ29idHlTRE1wLUlGY3luZVZPaVA5bWc3dWFpVEVNVWowRGJRZURXXzRmcl9IN0I0X0pSQTQtWVo0QVFK?oc=5"
+            "title": "증시·환율 출렁이는데 여유로운 한은…금리 인상 유력해도 더 봐야 할 것은 [동여의도 위클리] - 매일경제 마켓",
+            "source": "매일경제 마켓",
+            "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wVno3dzlhcHBsS3NWOTdJWGZYSjJmRUw2U09YSnBMSllGSEozcndIaW5QR1ZrdmhmQzh4aVljNTVaTjVodXRubDdOalhQNTRrTXc?oc=5"
           },
           {
             "title": "미국 금리 오르면 한국은 어디부터 흔들리나…대출·환율·증시 동시 압박 - 경북매일",
@@ -16557,22 +16569,34 @@
             "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiZUtzYWdsdUFXQ19FeTJCNFNtaWQwc3ZIa2c5Z0RpYm03ekpKNTZyZi12Q1dybUlfbEE2YW5nM3JiMnZqREFJRDJZN3FPLWc5VVB1V3J2Y3NFdw?oc=5"
           },
           {
-            "title": "코스피 하루 만에 3.73% 급락…환율은 1320원대로, 금융시장 '엇갈린 신호' - 지이코노미",
-            "source": "지이코노미",
-            "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSM3RucjM3MDhmODl1SlhnVHpDVVpPeUlacXBjZkpEdlJPWFZWaERDeXJmMG90ZTJWNGtGTFJIQ0tacmNwZm5JRnY5SzZCbHpCRGpaTFY1SE1sUS1GeHVwMzkxMjc?oc=5"
+            "title": "우리금융硏 \"한은, 8월 기준금리 '매파적 동결' 전망\" - 연합뉴스",
+            "source": "연합뉴스",
+            "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vRk9rU3Izc2YxZzE4Q0pOY1cwS3JtRGFVRnRPNnc5bE9zNVRnVGYyMGQwWVh4VF8zblZHeG9NaXdPcUJJM3BmdUpKTWljX3dabmREUmVDbEdQVUnSAWBBVV95cUxQdzNDMVJlZ3dkeVN2OGhacF9oaEVyVVVsNURhZ1A0enllY2ZTclgzamZINEM5cnAtclgtbmZMRlVTV0JVV3pjb3VTZ1JITEhzTlUtVUpzMlNlMnhJRmpBaUc?oc=5"
           },
           {
-            "title": "[주간환율전망] 금통위·빅테크 대기…1320원에서 1360원 박스권 - 자본시장뉴스",
-            "source": "자본시장뉴스",
-            "pubDate": "Mon, 19 Oct 2026 07:00:00 GMT",
-            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TZFFYMVNYcFc1YUprNjQ3RDluQ2pJWU1fb2ZuNUFjSkhSWW5MWnIteHJLT0RRaThEQTAwc2FlRTdtZkNWRjVPekM5ZlVSUHRLd1F4dGFQRHNSWFMxY1lTUzRyNUZsY1U?oc=5"
+            "title": "연속 인상이냐 숨 고르기냐…한은 8월 금리 전망 '팽팽' - www.ebn.co.kr",
+            "source": "www.ebn.co.kr",
+            "pubDate": "Sun, 23 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LbGdxbzcwWnY5R2FzbVY2b3JCVnVIUE9ubHdHMElCRXB3c2xUZnI0eUI0bnBfckNrQmFndlc2S3lzOWxobEswQ3JTSjVYNXVJaVdIbFVSaV9jMGJoRUZzdVlLZ0dTXzhy?oc=5"
           },
           {
-            "title": "코스피 3%대 급락에도 환율 5일째 연저점…1,324원대 하락 - 산경투데이",
-            "source": "산경투데이",
-            "pubDate": "Thu, 22 Oct 2026 07:21:21 GMT",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JNUVuejFwMk0wSzNpRTVKU1JiTGt3cjNvRVE2Y1RTazNhNTdIczlXZ190MTE4R3VPRk52STVXN0VOakdtRzRPaEgxb2RtbWJsZl9OZlJDLXdrcTFmWmNsajVGbzA1NFh4SlhMa3hXZU3SAXRBVV95cUxPUFM5Zy02M3lZeklRMGpaQVh5REZzVHFCRXZCMno4M05IenVlM0taanlyWkkwSjk3NDFpVzVXOFB3UExBQUxud1A3eG12NGNMREZ3VFhycS16cnd5NkhDYUs4UFItb1NDNHlna01QVTBMcXR2bw?oc=5"
+            "title": "환율은 내렸는데 금리는 올렸다… 대출자와 증시에 미칠 파장은? - 이로운넷",
+            "source": "이로운넷",
+            "pubDate": "Thu, 27 Aug 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fVXVMYmNidDFVcERTaHZOY2NCaVZBSE9oMm94Mm9OdmRiNmxNVDhnUHBNX1lFQUxQMWdTdVYzNzJyRjgwYW93N0ljVXRnOFRQOVAyNE40ZlZRa2tmbF9ZNVJjVjFuZw?oc=5"
+          },
+          {
+            "title": "\"韓 적정 환율은 얼마일까?\" 환율 vs 금리 vs 증시 상관관계 집중해부 - YTN",
+            "source": "YTN",
+            "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50bVBaMGNlWG1LRkQ2OEh1YUF0cjlWc1EwdS1URDE1ZzJpajQzYmtTdUpGZk9yOWc0V1REZF9fNmVWOU4yVFVhbzhtQzNzMUg3b0ZfVkhVd1dxVGl0OXc?oc=5"
+          },
+          {
+            "title": "“7월 기준금리, 3년만에 0.25% 인상 될 듯” - 애플경제",
+            "source": "애플경제",
+            "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13dy0zUGw2SzNEZ2FQSHA2M1F3UWhFNkpwZFUxNDBsM24xZTQ3SVV6MkZ5dVkxcnNrdTRtUWh3NEp0RThrZGMzWlNSa1d1b0hkejU5N2pFS1cyTktHRkg0U1NmaU5Ec2laLVV6MjJTcFA?oc=5"
           }
         ]
       },
@@ -16605,12 +16629,6 @@
             "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aMFBRRXhLYVJCWHVZam1TcldiNUowOExwbGtKTUV2SHA4SVhSdDl3aTZIdU9UZUJzNEZ1T0lOcnFqY0ZFM3BFYzRDRC04SnBKYm1LMTBuWHMwVW03RFNrZUxfakdMVDdtNDYwal9vd3JXZw?oc=5"
           },
           {
-            "title": "SK하이닉스 주가 전망: ASML 부품 가격 10% 인상 속 HBM 성장이 비용 압박을 상쇄할 수 있을까? - TradingKey",
-            "source": "TradingKey",
-            "pubDate": "Sun, 01 Nov 2026 06:12:53 GMT",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONnJCRjhKMUJaYzgyRDhUQXF1V0F0RGRRd2wtVHdBbkZySTBzbHVYNURBNFhxQWVyNnVIcG1yUkhvZ1VKbTU1UmJFWHJldi1lU2IxLXVpcU5xZHlzT3U3aUpoZDlieHAwb3FXTnZSODdxLVhpOWF5V1kybndNTk5BZjhhZU1aR2Fac0lWODBYT2Y2RlgxMmpZM3RSRG1vTDlaNDJDR1R2VW1HdS0tMkd3cw?oc=5"
-          },
-          {
             "title": "삼성전자·하이닉스 ‘공급과잉 우려 일축’에도…반도체 주가 흐름 신중론, 왜? - 일요신문",
             "source": "일요신문",
             "pubDate": "Fri, 30 Oct 2026 08:18:47 GMT",
@@ -16627,6 +16645,12 @@
             "source": "뉴시스",
             "pubDate": "Fri, 30 Oct 2026 15:30:00 GMT",
             "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04MFRBMmlFY2dhUUthTlNKNGhNcm5ZU2hSb2FNYlFmSklUYmJ5aU16Q0JCZ2NBYlQwUmlVZ05CQktGcU56ai1MdG5tMmxuaTEyWThwZUVRUURqeklOX3NvZtIBeEFVX3lxTE1ibHJ5M0hIT2dNbEs4bjRKNXgtWC1kQ0JBWXhqd2JERENHN3R3bTRUSm4yVm1kbVRtNi1fRVZWYkhZME9Kbkx3bTcxREhSbEpVNE1zQmlFVDNwb1VzbXd4LVNENjFhT3dJT0NRT1NfQTFPTmluWlRlLQ?oc=5"
+          },
+          {
+            "title": "삼성전자, HBM 매출 하이닉스 첫 추월 가능성…\"주가 재평가\" [분석+] - 한국경제",
+            "source": "한국경제",
+            "pubDate": "Tue, 27 Oct 2026 13:15:01 GMT",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ab2hfTXhyMlQ1c1ROcHpKRFQ0WU1nTHRTazNhT0txM1NEUW1CTjB4TUd5STloX1VUT3VkV3U3Qm9hZXdvNUIzZUVrZkJKSVA0ZzFwR19MZTNDdw?oc=5"
           }
         ]
       }
@@ -16636,10 +16660,10 @@
   },
   "prediction": {
     "market": "KOSPI",
-    "generated_at_utc": "2026-11-03T07:12:43+00:00",
-    "total_score": 1.1,
+    "generated_at_utc": "2026-11-03T14:53:58+00:00",
+    "total_score": 1.4,
     "positive_score": 4.0,
-    "negative_score": -2.9,
+    "negative_score": -2.6,
     "short_term": {
       "label": "중립/상승 경계",
       "confidence": "중간",
@@ -16685,7 +16709,7 @@
         "id": "fx_krw",
         "category": "환율",
         "factor": "USD/KRW",
-        "observed": "1,340.58, 1M -0.15%",
+        "observed": "1,342.98, 1M +0.03%",
         "direction": "하락",
         "score": 0.5,
         "weight": "높음",
@@ -16695,7 +16719,7 @@
         "id": "sox_short_term",
         "category": "글로벌/반도체",
         "factor": "Philadelphia SOX 단기 흐름",
-        "observed": "1W -6.81%, 1M -21.38%",
+        "observed": "1W -7.51%, 1M -19.37%",
         "direction": "하락",
         "score": -1.0,
         "weight": "높음",
@@ -16715,7 +16739,7 @@
         "id": "us_rates",
         "category": "금리",
         "factor": "미국 10년물",
-        "observed": "4.894%, 1M -7.26%",
+        "observed": "4.927%, 1M -7.23%",
         "direction": "하락",
         "score": 0.0,
         "weight": "중간~높음",
@@ -16725,7 +16749,7 @@
         "id": "risk_vix",
         "category": "리스크",
         "factor": "VIX",
-        "observed": "21.15",
+        "observed": "20.88",
         "direction": "상승",
         "score": 0.0,
         "weight": "중간",
@@ -16735,7 +16759,7 @@
         "id": "oil",
         "category": "원자재",
         "factor": "WTI 유가",
-        "observed": "98.20달러, 1M +9.81%",
+        "observed": "96.07달러, 1M +7.42%",
         "direction": "하락",
         "score": -1.0,
         "weight": "중간",
@@ -16765,16 +16789,16 @@
         "id": "feedback_next_session_adjustment",
         "category": "피드백",
         "factor": "전일 09시 예측 vs 마감 장세",
-        "observed": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
+        "observed": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
         "direction": "하락",
-        "score": -0.4,
+        "score": -0.1,
         "weight": "동적",
         "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
       }
     ],
     "tail_guard": {
       "applied": false,
-      "vix": 21.15,
+      "vix": 20.88,
       "threshold": 28.0,
       "cap": 0.4
     },
@@ -16785,19 +16809,19 @@
     },
     "feedback": {
       "applied": true,
-      "score_adjustment": -0.4,
-      "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
-      "samples": 82,
-      "hit_rate": 0.3902,
-      "last_actual_bias": "bearish"
+      "score_adjustment": -0.1,
+      "summary": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
+      "samples": 83,
+      "hit_rate": 0.3976,
+      "last_actual_bias": "bullish"
     },
     "market_models": {
       "KOSPI": {
         "market": "KOSPI",
-        "generated_at_utc": "2026-11-03T07:12:43+00:00",
-        "total_score": 1.1,
+        "generated_at_utc": "2026-11-03T14:53:58+00:00",
+        "total_score": 1.4,
         "positive_score": 4.0,
-        "negative_score": -2.9,
+        "negative_score": -2.6,
         "short_term": {
           "label": "중립/상승 경계",
           "confidence": "중간",
@@ -16843,7 +16867,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,340.58, 1M -0.15%",
+            "observed": "1,342.98, 1M +0.03%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -16853,7 +16877,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W -6.81%, 1M -21.38%",
+            "observed": "1W -7.51%, 1M -19.37%",
             "direction": "하락",
             "score": -1.0,
             "weight": "높음",
@@ -16873,7 +16897,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.894%, 1M -7.26%",
+            "observed": "4.927%, 1M -7.23%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간~높음",
@@ -16883,7 +16907,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "21.15",
+            "observed": "20.88",
             "direction": "상승",
             "score": 0.0,
             "weight": "중간",
@@ -16893,7 +16917,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "98.20달러, 1M +9.81%",
+            "observed": "96.07달러, 1M +7.42%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간",
@@ -16923,16 +16947,16 @@
             "id": "feedback_next_session_adjustment",
             "category": "피드백",
             "factor": "전일 09시 예측 vs 마감 장세",
-            "observed": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
+            "observed": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
             "direction": "하락",
-            "score": -0.4,
+            "score": -0.1,
             "weight": "동적",
             "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
           }
         ],
         "tail_guard": {
           "applied": false,
-          "vix": 21.15,
+          "vix": 20.88,
           "threshold": 28.0,
           "cap": 0.4
         },
@@ -16943,19 +16967,19 @@
         },
         "feedback": {
           "applied": true,
-          "score_adjustment": -0.4,
-          "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
-          "samples": 82,
-          "hit_rate": 0.3902,
-          "last_actual_bias": "bearish"
+          "score_adjustment": -0.1,
+          "summary": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
+          "samples": 83,
+          "hit_rate": 0.3976,
+          "last_actual_bias": "bullish"
         }
       },
       "KOSDAQ": {
         "market": "KOSDAQ",
-        "generated_at_utc": "2026-11-03T07:12:43+00:00",
-        "total_score": 1.1,
+        "generated_at_utc": "2026-11-03T14:53:58+00:00",
+        "total_score": 1.4,
         "positive_score": 4.0,
-        "negative_score": -2.9,
+        "negative_score": -2.6,
         "short_term": {
           "label": "중립/상승 경계",
           "confidence": "중간",
@@ -17001,7 +17025,7 @@
             "id": "fx_krw",
             "category": "환율",
             "factor": "USD/KRW",
-            "observed": "1,340.58, 1M -0.15%",
+            "observed": "1,342.98, 1M +0.03%",
             "direction": "하락",
             "score": 0.5,
             "weight": "높음",
@@ -17011,7 +17035,7 @@
             "id": "sox_short_term",
             "category": "글로벌/반도체",
             "factor": "Philadelphia SOX 단기 흐름",
-            "observed": "1W -6.81%, 1M -21.38%",
+            "observed": "1W -7.51%, 1M -19.37%",
             "direction": "하락",
             "score": -1.0,
             "weight": "높음",
@@ -17031,7 +17055,7 @@
             "id": "us_rates",
             "category": "금리",
             "factor": "미국 10년물",
-            "observed": "4.894%, 1M -7.26%",
+            "observed": "4.927%, 1M -7.23%",
             "direction": "하락",
             "score": 0.0,
             "weight": "중간~높음",
@@ -17041,7 +17065,7 @@
             "id": "risk_vix",
             "category": "리스크",
             "factor": "VIX",
-            "observed": "21.15",
+            "observed": "20.88",
             "direction": "상승",
             "score": 0.0,
             "weight": "중간",
@@ -17051,7 +17075,7 @@
             "id": "oil",
             "category": "원자재",
             "factor": "WTI 유가",
-            "observed": "98.20달러, 1M +9.81%",
+            "observed": "96.07달러, 1M +7.42%",
             "direction": "하락",
             "score": -1.0,
             "weight": "중간",
@@ -17081,16 +17105,16 @@
             "id": "feedback_next_session_adjustment",
             "category": "피드백",
             "factor": "전일 09시 예측 vs 마감 장세",
-            "observed": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
+            "observed": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
             "direction": "하락",
-            "score": -0.4,
+            "score": -0.1,
             "weight": "동적",
             "rationale": "전일 오전 예측과 마감 장세의 적중/불일치 결과를 다음 장세 예측 점수에 반영한다."
           }
         ],
         "tail_guard": {
           "applied": false,
-          "vix": 21.15,
+          "vix": 20.88,
           "threshold": 28.0,
           "cap": 0.4
         },
@@ -17101,11 +17125,11 @@
         },
         "feedback": {
           "applied": true,
-          "score_adjustment": -0.4,
-          "summary": "전일 09시 예측 불일치: 예측=bullish, 실제=bearish(-0.75%)",
-          "samples": 82,
-          "hit_rate": 0.3902,
-          "last_actual_bias": "bearish"
+          "score_adjustment": -0.1,
+          "summary": "전일 09시 예측 적중: 예측=mild_bullish, 실제=bullish(+0.20%)",
+          "samples": 83,
+          "hit_rate": 0.3976,
+          "last_actual_bias": "bullish"
         }
       }
     },
@@ -17138,7 +17162,7 @@
     "intraday_review": {
       "phase": "close",
       "morning_generated_kst": "2026-11-03T14:39:50+09:00",
-      "close_generated_kst": "2026-11-03T16:12:25+09:00",
+      "close_generated_kst": "2026-11-03T23:53:34+09:00",
       "trading_date": "2026-11-03",
       "morning_prediction_label": "중립/상승 경계",
       "morning_prediction_bias": "mild_bullish",
@@ -17181,6 +17205,9 @@
         "kospi_change_pct": 0.2,
         "close_generated_kst": "2026-11-03T16:12:25+09:00",
         "trading_date": "2026-11-03"
+      },
+      "last_skipped_feedback": {
+        "reason": "이미 2026-11-03 마감 피드백을 반영했습니다."
       }
     }
   }
