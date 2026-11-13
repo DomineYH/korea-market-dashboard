@@ -1,30 +1,30 @@
 {
   "phase": "close",
   "morning_generated_kst": "2026-11-13T14:28:14+09:00",
-  "close_generated_kst": "2026-11-13T16:16:15+09:00",
-  "trading_date": "2026-11-13",
+  "close_generated_kst": "2026-11-14T00:10:02+09:00",
+  "trading_date": "2026-11-14",
   "morning_prediction_label": "상승 우세",
   "morning_prediction_bias": "bullish",
   "close_prediction_label": "상승 우세",
   "primary_market": "KOSPI",
   "primary_hit": false,
-  "feedback_eligible": true,
-  "feedback_reason": "동일 거래일 오전 예측과 마감 데이터를 비교했습니다.",
+  "feedback_eligible": false,
+  "feedback_reason": "오전 예측일(2026-11-13)과 마감 분석일(2026-11-14)이 달라 피드백 표본에 반영하지 않았습니다.",
   "markets": {
     "KOSPI": {
       "morning": 5302.3198,
-      "close": 5290.5298,
-      "change_pct": -0.22
+      "close": 5342.73,
+      "change_pct": 0.76
     },
     "KOSDAQ": {
       "morning": 704.8,
-      "close": 699.66,
-      "change_pct": -0.73
+      "close": 696.53,
+      "change_pct": -1.17
     }
   },
   "adjustment": {
-    "action": "수정 적용: 수급·환율·업종 가중치 재검토 플래그",
-    "reason": "오전 9시 예측과 KOSPI 당일 방향이 어긋났습니다. 오후 4시 데이터로 latest 모델을 재계산하고 다음 자동 갱신의 검토 플래그로 남깁니다.",
-    "applied": true
+    "action": "피드백 보류",
+    "reason": "오전 예측일(2026-11-13)과 마감 분석일(2026-11-14)이 달라 피드백 표본에 반영하지 않았습니다.",
+    "applied": false
   }
 }
