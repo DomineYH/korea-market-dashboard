@@ -5,17 +5,17 @@
     "KOSPI": {
       "samples": 220,
       "hit_rate": 0.5818,
-      "avg_forward_return": 0.7572,
+      "avg_forward_return": 0.7595,
       "suggested_weight": 0.1636,
       "best_signal_label": "모멘텀 롱",
       "lookback_days": 20,
       "horizon_days": 5
     },
     "KOSDAQ": {
-      "samples": 219,
-      "hit_rate": 0.5388,
-      "avg_forward_return": -0.5048,
-      "suggested_weight": 0.0776,
+      "samples": 220,
+      "hit_rate": 0.5409,
+      "avg_forward_return": -0.5107,
+      "suggested_weight": 0.0818,
       "best_signal_label": "모멘텀 숏",
       "lookback_days": 20,
       "horizon_days": 5
