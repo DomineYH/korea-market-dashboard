@@ -1,11 +1,11 @@
 {
   "phase": "close",
   "morning_generated_kst": "2026-11-26T09:15:13+09:00",
-  "close_generated_kst": "2026-11-26T16:19:04+09:00",
-  "trading_date": "2026-11-26",
+  "close_generated_kst": "2026-11-27T02:35:01+09:00",
+  "trading_date": "2026-11-27",
   "morning_prediction_label": "중립",
   "morning_prediction_bias": "neutral",
-  "close_prediction_label": "중립",
+  "close_prediction_label": "중립/상승 경계",
   "primary_market": "KOSPI",
   "primary_hit": false,
   "feedback_eligible": false,
@@ -13,13 +13,13 @@
   "markets": {
     "KOSPI": {
       "morning": 5006.0298,
-      "close": 4711.21,
-      "change_pct": -5.89
+      "close": 4697.5098,
+      "change_pct": -6.16
     },
     "KOSDAQ": {
       "morning": 665.88,
-      "close": 655.71,
-      "change_pct": -1.53
+      "close": 650.64,
+      "change_pct": -2.29
     }
   },
   "adjustment": {
