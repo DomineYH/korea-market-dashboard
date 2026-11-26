@@ -1,30 +1,30 @@
 {
   "phase": "close",
-  "morning_generated_kst": "2026-11-25T16:21:46+09:00",
-  "close_generated_kst": "2026-11-26T02:50:55+09:00",
+  "morning_generated_kst": "2026-11-26T09:15:13+09:00",
+  "close_generated_kst": "2026-11-26T16:19:04+09:00",
   "trading_date": "2026-11-26",
-  "morning_prediction_label": "중립/상승 경계",
-  "morning_prediction_bias": "mild_bullish",
+  "morning_prediction_label": "중립",
+  "morning_prediction_bias": "neutral",
   "close_prediction_label": "중립",
   "primary_market": "KOSPI",
   "primary_hit": false,
   "feedback_eligible": false,
-  "feedback_reason": "오전 예측일(2026-11-25)과 마감 분석일(2026-11-26)이 달라 피드백 표본에 반영하지 않았습니다.",
+  "feedback_reason": "오전 예측이 중립(방향 판정 보류)이어서 피드백 표본에서 제외했습니다.",
   "markets": {
     "KOSPI": {
-      "morning": 4697.5098,
-      "close": 5006.0298,
-      "change_pct": 6.57
+      "morning": 5006.0298,
+      "close": 4711.21,
+      "change_pct": -5.89
     },
     "KOSDAQ": {
-      "morning": 650.64,
-      "close": 665.88,
-      "change_pct": 2.34
+      "morning": 665.88,
+      "close": 655.71,
+      "change_pct": -1.53
     }
   },
   "adjustment": {
     "action": "피드백 보류",
-    "reason": "오전 예측일(2026-11-25)과 마감 분석일(2026-11-26)이 달라 피드백 표본에 반영하지 않았습니다.",
+    "reason": "오전 예측이 중립(방향 판정 보류)이어서 피드백 표본에서 제외했습니다.",
     "applied": false
   }
 }
